@@ -3,8 +3,9 @@
     @extend .wrapper;
   }
   h1{
-    background: url(../images/icon-speaker.png) -25px -14px no-repeat;
-    padding-left: 97px;
+    background: url(../images/icon-speaker.png) -7px -14px no-repeat;
+    padding-left: 128px;
+    margin-left: 63px;
     @media(max-width: $screen-xs-max){
       background: none;
       padding-left: 0;
@@ -14,8 +15,11 @@
   .speaker-ruler{
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 86%;
     display: block;
+    @media(max-width: $screen-xs-max){
+      width: 90%;
+    }
   }
 
   /*ALL SPEAKERS*/
@@ -82,10 +86,16 @@
 
     /*OTHER SPEAKERS*/
     &.other{
+      .speaker{
+      }
       .image{
         img{
-          position: relative;
-          left: 8px;
+          /* position: relative;
+          left: 8px; */
+        }
+        @media(max-width: $screen-xs-max){
+          padding-left: 8.3333%;
+          padding-right: 2%;
         }
       }
       .details{
@@ -94,6 +104,14 @@
       }
       .abstract{
         /*font-family: $headings-font-family;*/
+      }
+      .speaker:nth-child(2n+1){
+        padding-left: 0;
+        padding-right: 30px;
+          @media(max-width: $screen-xs-max){
+            padding-left: 15px;
+            padding-right: 15px;
+          }
       }
     }
 
@@ -108,7 +126,14 @@
         @extend .col-md-offset-1;
         @extend .col-md-3;
         @extend .col-xs-4;
-        text-align: right;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 3%;
+        @media(max-width: $screen-xs-max){
+          text-align: left;
+          padding-left: 8.3333%;
+          padding-right: 0;
+        }
         img{
           width: 100%;
           @media(max-width: $screen-xs-max){
@@ -141,7 +166,14 @@
           @extend .col-md-offset-1;
           @extend .col-xs-push-7;
           @extend .col-xs-offset-1;
-          text-align: left;
+          text-align: right;
+          padding-right: 0;
+          padding-left: 3%;
+          @media(max-width: $screen-xs-max){
+            text-align: right;
+            padding-left: 0%;
+            padding-right: 8.3333%;
+          }
         }
         .details{
           @extend .col-md-pull-3;
