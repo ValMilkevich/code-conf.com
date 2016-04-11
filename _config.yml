@@ -22,7 +22,12 @@ collections:
     output: true
 
 defaults:
- -
+  -
+    scope:
+      path: ""
+    values:
+      layout: page
+  -
     scope:
       type: events
     values:

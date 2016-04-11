@@ -35,6 +35,9 @@
     h1, h2, h3, h4{
       color: white;
     }
+    p{
+      color: #ddd;
+    }
     &.toprip{
       &:before{
         @include rip( before, black, white);

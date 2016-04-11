@@ -1,8 +1,7 @@
 ---
-layout: page
 title: About
 permalink: /about/
-nav_weight: 10
+nav_weight: 20
 ---
 
 ## Your go-to page for anything CoDe

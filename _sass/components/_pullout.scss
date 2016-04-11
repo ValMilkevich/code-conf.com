@@ -1,0 +1,21 @@
+.pullout{
+  @extend .wrapper;
+  @extend .colored;
+  @extend .botrip;
+  @extend .toprip;
+  @extend .clearfix;
+  .image{
+    @extend .col-md-2;
+    text-align: right;
+    img{
+      width: 100px;
+    }
+  }
+  .text{
+    @extend .col-md-10;
+    padding-right: 20px;
+    h1,h2,h3{
+      color: black;
+    }
+  }
+}
