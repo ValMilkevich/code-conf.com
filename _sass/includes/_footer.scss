@@ -4,7 +4,7 @@ footer.site-footer{
   color: white;
   font-family: $headings-font-family;
   letter-spacing: 0.05em;
-  font-size: 1.5em;
+  font-size: 1.2em;
   text-align: center;
   &>div{
     @extend .col-md-12;
@@ -13,7 +13,7 @@ footer.site-footer{
     @extend .toprip;
   }
   .footer-content{ // shifts footer's content up
-    margin: -70px 20px 0;
+    margin: -90px 0 0 100px;
     padding-bottom: 20px;
     vertical-align: baseline;
     position: relative;

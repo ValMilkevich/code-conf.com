@@ -7,7 +7,7 @@ markdown: kramdown
 footer: 
   - Brought to you by the folks at
   - /images/praqmalogo.png
-  - The continuous development people
+  - The Continuous Delivery and DevOps Company
 praqma:
   url: http://praqma.com
 
