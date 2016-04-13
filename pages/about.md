@@ -1,5 +1,5 @@
 ---
-title: About www.code-conf.com
+title: About
 permalink: /about/
 nav_weight: 20
 ---
