@@ -48,10 +48,7 @@ speakers:
       To Be Announced
 
 sponsors:
-  - container_solutions
-  - delphix
-  - serena
-  - xebia_labs
+
 
 ---
 
@@ -79,4 +76,3 @@ caption="The speakers" %}
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid
 css_classes="black toprip botrip" %}
-
