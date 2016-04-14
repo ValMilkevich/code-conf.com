@@ -1,20 +1,20 @@
 <section class="include-sponsors">
   <div class="{{ include.css_classes }}">
-      <h1>{{ include.caption }}</h1>
-      <h2>{{ include.subcaption }} </h2>
-      <div class="sponsors">
-        {% for page_sponsor in include.sponsors %}
-            {% for site_sponsor in site.sponsors %}
-              {% assign sponsor_fname = site_sponsor.path | split:"/" | last | split:"." | first %}
-              {% if sponsor_fname == page_sponsor %}
-                <div class="sponsor">
-                  <a href="{{ site_sponsor.link }}" target="_blank">
-                    <img src="/images/sponsors/{{ site_sponsor.img }}" alt="{{ site_sponsor.name }}">
-                  </a>
-                </div>
-              {% endif %}
-           {% endfor %}
-        {% endfor %}
-      </div>
+    <h1 id="{{ include.caption | slugify }}">{{ include.caption }}</h1>
+    <h2>{{ include.subcaption }} </h2>
+    <div class="sponsors">
+      {% for page_sponsor in include.sponsors %}
+          {% for site_sponsor in site.sponsors %}
+            {% assign sponsor_fname = site_sponsor.path | split:"/" | last | split:"." | first %}
+            {% if sponsor_fname == page_sponsor %}
+              <div class="sponsor">
+                <a href="{{ site_sponsor.link }}" target="_blank">
+                  <img src="/images/sponsors/{{ site_sponsor.img }}" alt="{{ site_sponsor.name }}">
+                </a>
+              </div>
+            {% endif %}
+         {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </section>
