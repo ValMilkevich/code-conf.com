@@ -1,5 +1,6 @@
 ---
-title: About
+title: About code-conf.com
+menu_title: About
 permalink: /about/
 nav_weight: 20
 ---
