@@ -1,28 +1,28 @@
 ---
 brand-txt: >
-    D*OC*-STHLM
-title: DOC-STHLM
-color: '#9d006e'
+    ACADEMY CPH
+title: ACADEMY CPH
+color: '#539184'
 subtitle: >
-  Day Of *Co*ntainers - Stockholm
+  A modern continuous delivery bootcamp for graduates
 dot-txt: Bring your laptop
 dot-txt-size: small
 
 # events header
 
 event_header:
-  img: /images/doc-sthlm-2016.jpg
-  ribbon: Join us for Day Of Containers
+  img: /images/doc-cph-2016.png
+  ribbon: A hands-on conference...
 
 # date & location
 
-date_: 2016-08-25
+date_: 2016-08-29
 time: 09—18:00
-city: Stockholm
-adress: Clarion Hotel Sign Östra Järnvägsgatan 35 101 26 Stockholm, Sweden
+city: Copenhagen
+adress: Dampfærgevej 10, 2100 København Ø, Denmark
 
 checkout:
-  eventbriteid: 20692623193
+  eventbriteid: 20856339874
 
 keynote-speakers:
   kelseyhightower:
@@ -45,7 +45,6 @@ speakers:
       Windows Containers in Windows Server 2016 is a new big thing – Get a solid introduction to the upcoming Windows and Hyper-V Containers that will be part of the next release of Windows Server.
 
 sponsors:
-
 
 ---
 

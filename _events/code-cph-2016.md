@@ -1,5 +1,4 @@
 ---
-
 brand-txt: >
   *CO*DE-CPH
 title: CODE-CPH

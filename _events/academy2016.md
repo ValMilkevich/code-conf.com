@@ -86,6 +86,11 @@ Each location will have five companies supporting the academy, Companies are loo
 
 <br>
 
+{% comment %}<a href="">Copenhagen</a>
+<a href="">Oslo</a>
+<a href="">Trondheim</a>
+<a href="">Aarhus</a>{% endcomment %}
+
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid
 css_classes="black toprip botrip" %}
