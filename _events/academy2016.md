@@ -7,6 +7,10 @@ brand-txt: >
 subtitle: >
   A modern continuous delivery bootcamp for graduates
 color: '#f58532'
+color_cph: '#006666'
+color_trd: '#f58532'
+color_aar: '#006f00'
+color_osl: '#8a66a0'
 event_header:
   img: ../images/pages/academy2016/event-main.jpg
   ribbon: Enroll today
@@ -53,18 +57,6 @@ Five days of intense hands-on continuous delivery training. A primer on Agile te
   </div>
 </div>
 
-<div class="pullout" style="background: {{ page.color }}">
-    <div class="image">
-      <img src="../images/icons/icon-place-big.png" alt="Location">
-    </div>
-<div class="text" markdown="1">
-## Where it’s happening
-Academies will take place from mid Aug to start Sept in **Copenhagen**, **Aarhus**, **Oslo** & **Trondheim**. Training will be in English, a full week 9—16 every day. You’re eligible to enroll if you are either a student or unemployed recent graduate in a field related to computer science.
-</div>
-</div>
-
-<br>
-
 <div class="columns2">
   <div markdown="1">
 <div class="image">
@@ -84,13 +76,45 @@ Each location will have five companies supporting the academy, Companies are loo
   </div>
 </div>
 
-<br>
+<div class="pullout" style="background: {{ page.color }}">
+    <div class="image">
+      <img src="../images/icons/icon-place-big.png" alt="Location">
+    </div>
+<div class="text" markdown="1">
+## Where it’s happening
+Academies will take place from end og June to start September in **Copenhagen**, **Aarhus**, **Oslo** & **Trondheim**. Training will be in English, a full week 9—16 every day. You’re eligible to enroll if you are either a student or unemployed recent graduate in a field related to computer science. Click on the dates below, to see the program for the individual academies.
+</div>
+</div>
 
-{% comment %}<a href="">Copenhagen</a>
-<a href="">Oslo</a>
-<a href="">Trondheim</a>
-<a href="">Aarhus</a>{% endcomment %}
 
-{% include eventbrite-ticket-form.html
-eventbriteid=page.checkout.eventbriteid
-css_classes="black toprip botrip" %}
+&nbsp;<br/>
+
+{% include date-location.html
+color=page.color_trd
+date="June 15th"
+city="Trondheim"
+url="trd" %}
+
+&nbsp;<br/>
+
+{% include date-location.html
+color=page.color_cph
+date="August 15th"
+city="Copenhagen"
+url="cph" %}
+
+&nbsp;<br/>
+
+{% include date-location.html
+color=page.color_aar
+date="August 22nd"
+city="Aarhus"
+url="aar" %}
+
+&nbsp;<br/>
+
+{% include date-location.html
+color=page.color_osl
+date="August 29th"
+city="Oslo"
+url="osl" %}

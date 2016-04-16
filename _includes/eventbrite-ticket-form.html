@@ -1,6 +1,10 @@
 <section class="include-eventbrite">
   <div class="{{ include.css_classes }}">
-    <h1 id="tickets">Tickets</h1>
+    {% if include.header %}
+      <h1>{{ include.header | markdownify }}</h1>
+     {% else %}
+      <h1 id="tickets">Tickets</h1>
+    {% endif %}
     <div class="eventbrite-ticket-widget eventbrite-desktop">
       {% if include.text %}
         {{ include.text | markdownify }}

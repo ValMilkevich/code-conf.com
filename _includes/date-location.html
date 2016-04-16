@@ -1,6 +1,10 @@
 <section class="include-date-location">
   <div class="{{ include.css_classes }}">
+    {% if include.url %}
+    <a href="{{ include.url }}" style="text-decoration: none; color: inherit;">
+    {% endif%}
     <div class="date-location">
+      {% if include.date %}
       <div class="date">
         <div class="image-canvas">
           <img class="icon" src="/images/icons/icon-date.png" style="background-color:{{ include.color }}" />
@@ -10,6 +14,8 @@
             {{ include.date | date: '%-d %b  %Y' }}
         </div>
       </div>
+      {% endif %}
+      {% if include.time %}
       <div class="time">
         <div class="image-canvas">
           <img class="icon" src="/images/icons/icon-time.png" style="background-color:{{ include.color }}" />
@@ -19,6 +25,8 @@
           {{ include.time }}
         </div>
       </div>
+      {% endif %}
+      {% if include.city %}
       <div class="location">
         <div class="image-canvas">
           <img class="icon" src="/images/icons/icon-place.png" style="background-color:{{ include.color }}" />
@@ -28,6 +36,10 @@
           {{ include.city }}
         </div>
       </div>
+      {% endif %}
     </div>
+    {% if include.url %}
+    </a>
+    {% endif %}
   </div>
 </section>
