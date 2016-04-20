@@ -6,8 +6,8 @@ brand-txt: >
 subtitle: >
   Continuous Delivery bootcamp Trondheim
 color: '#f58532'
-date_: June 15th - 20th
-time: 9:00 - 16:00
+date_: 2016-06-13
+time: 9 - 16:00
 city: Trondheim
 event_header:
   img: /images/pages/academy2016/trondheim.jpg

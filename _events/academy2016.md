@@ -91,7 +91,7 @@ Academies will take place from end og June to start September in **Copenhagen**,
 
 {% include date-location.html
 color=page.color_trd
-date="June 15th"
+date="2016-06-13"
 city="Trondheim"
 url="trd" %}
 
