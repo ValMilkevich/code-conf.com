@@ -23,7 +23,7 @@
       margin-right: 10px;
     }
 
-    .date, .location, .time{
+    .date, .date-span, .location, .time{
       @media(max-width: $screen-sm-max){
         margin-bottom: 40px;
         /*@extend .clearfix;*/
@@ -32,6 +32,10 @@
 
     .date, .location{
       @extend .col-md-4;
+    }
+
+    .date-span{
+      @extend .col-md-6;
     }
 
     .time{
