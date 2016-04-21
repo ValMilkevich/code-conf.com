@@ -11,7 +11,7 @@
           </div>
           <div class="label_" style="color: {{ include.color }}">Date</div>
           <div class="value">
-              {{ include.date | date: '%-d %b  %Y' }} — {{ include.date | date: '%-d %b  %Y' }}
+              {{ include.date | date: '%-d %b  %Y' }} — {{ include.date_end | date: '%-d %b  %Y' }}
           </div>
         </div>
       {% else %}

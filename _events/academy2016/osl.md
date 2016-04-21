@@ -4,8 +4,8 @@ nav_weight: 10
 brand-txt: >
     Aca*de*{: style="color: black; font-style: normal;"}my Oslo
 color: '#8a66a0'
-date_: 2016-08-29
-date_end: 2016-08-19
+date_:    2016-08-29
+date_end: 2016-09-02
 time: 9:00 - 16:00
 city: Oslo
 event_header:

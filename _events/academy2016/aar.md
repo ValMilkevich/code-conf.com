@@ -6,8 +6,8 @@ brand-txt: >
 subtitle: >
   Continuous Delivery bootcamp Aarhus
 color: '#006f00'
-date_: 2016-08-22
-date_end: 2016-08-19
+date_:    2016-08-22
+date_end: 2016-08-26
 time: 9:00 - 16:00
 city: Aarhus
 event_header:

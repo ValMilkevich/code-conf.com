@@ -6,7 +6,7 @@ brand-txt: >
 subtitle: >
   Continuous Delivery bootcamp Copenhagen
 color: '#006666'
-date_: 2016-08-15
+date_:    2016-08-15
 date_end: 2016-08-19
 time: 9:00 - 16:00
 city: Copenhagen

@@ -19,6 +19,7 @@ checkout:
 css_class: academy
 ---
 
+
 {% include event-main.html
 background-image=page.event_header.img
 brand-txt=page.brand-txt

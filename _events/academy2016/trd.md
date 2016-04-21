@@ -6,8 +6,8 @@ brand-txt: >
 subtitle: >
   Continuous Delivery bootcamp Trondheim
 color: '#f58532'
-date_: 2016-06-13
-date_end: 2016-08-19
+date_:    2016-06-13
+date_end: 2016-06-17
 time: 9 - 16:00
 city: Trondheim
 event_header:
