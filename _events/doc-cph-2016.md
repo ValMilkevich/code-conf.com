@@ -44,10 +44,10 @@ speakers:
     abstract: >
       Windows Containers in Windows Server 2016 is a new big thing – Get a solid introduction to the upcoming Windows and Hyper-V Containers that will be part of the next release of Windows Server.
   laurafrank:
-    title: Stop Being Lazy and Test Your Software
+    title: Stop being lazy and test your software
     abstract: >
       Testing software is necessary, no matter the size or status of your company. Introducing Docker to your development workflow can help you write and run your testing frameworks more efficiently, so that you can always deliver your best product to your customers and there are no excuses for not writing tests anymore.
-      
+
 sponsors:
 
 ---
