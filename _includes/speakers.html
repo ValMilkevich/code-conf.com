@@ -54,12 +54,22 @@
                     <!--div class="position">
                       {{ speaker.position }}
                     </div-->
-                    <div class="abstract">
-                      {{ event_speaker[1].title | markdownify }}
-                    </div>
-                    <div class="social">
-                      {{ speaker.social | markdownify }}
-                    </div>
+                    {% if event_speaker[1].title %}
+                      <div class="title">
+                        {{ event_speaker[1].title | markdownify }}
+                      </div>
+                    {% endif %}
+                    {% if event_speaker[1].abstract %}
+                      <div class="abstract">
+                        {{ event_speaker[1].abstract | markdownify }}
+                      </div>
+                    {% endif %}
+                    {% if speaker.social %}
+                      <div class="social">
+                        {{ speaker.social | markdownify }}
+                      </div>
+                    {% endif %}
+                    <a class="read-more">Read more</a>
                   </div>
                 </div>
               </div>
@@ -71,3 +81,9 @@
     <div class="clearfix"></div>
   </div>
 </section>
+<script>
+$( "a.read-more" ).click(function() {
+  $(this).closest('.speaker').toggleClass("expanded");
+  console.log("yo");
+});
+</script>
