@@ -45,6 +45,11 @@ speakers:
     title: To Be Announced
     abstract: >
       To Be Announced
+  kristofferlippert:
+        title: Elephant jiu jitsu - Throwing big things gracefully through the air
+        abstract: >
+          How deploying a relatively large and heavily integrated application in an elegant an speedy agile fashion turned out to not be quite as easy as it seemed. Following agile and continuous delivery principles when working with SAP hybris is a bit like practicing jiu jitsu with an elephant - the elephant has quite an impact on the end result. But it’s not impossible...
+
 
 sponsors:
 
