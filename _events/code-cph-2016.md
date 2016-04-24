@@ -49,6 +49,14 @@ speakers:
         title: Elephant jiu jitsu - Throwing big things gracefully through the air
         abstract: >
           How deploying a relatively large and heavily integrated application in an elegant an speedy agile fashion turned out to not be quite as easy as it seemed. Following agile and continuous delivery principles when working with SAP hybris is a bit like practicing jiu jitsu with an elephant - the elephant has quite an impact on the end result. But it’s not impossible...
+  sebrose:
+    title: Test automation is dead. Long live test automation!
+    abstract: >
+      For continuous delivery to work well we need more test automation (or to be precise, we need to do less manual testing) but each initiative seems to deliver another pile of incomprehensible, brittle, unmaintainable scripts that suck resources and deliver questionable returns. The more we chase test automation, the further away it seems to get.
+
+      Meanwhile, a growing band of organisations have found that wielding the power of examples in workshops (where the business, the developers and the testers collaborate) is helping promote early discovery of assumptions, risks and missing requirements. What’s more, these examples are powering the creation of a ubiquitous language, helping prevent future misunderstandings. And, if that isn’t enough already, these examples can then be automated, using tools like Cucumber, to become an executable specification.
+
+In this session, Seb asks: is this the test automation you were looking for?
 
 
 sponsors:
