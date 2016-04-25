@@ -49,7 +49,7 @@ speakers:
       Testing software is necessary, no matter the size or status of your company. Introducing Docker to your development workflow can help you write and run your testing frameworks more efficiently, so that you can always deliver your best product to your customers and there are no excuses for not writing tests anymore.
 
 sponsors:
-
+  docker
 ---
 
 {% include event-main.html
@@ -81,5 +81,5 @@ css_classes="black toprip botrip" %}
 {% include sponsors.html
 sponsors=page.sponsors
 caption="Sponsors"
-subcaption="A heart felt thank goes to our friends"
+subcaption="A heartfelt thank goes to our friends"
 css_classes="" %}
