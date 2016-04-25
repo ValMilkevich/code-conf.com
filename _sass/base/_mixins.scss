@@ -16,3 +16,24 @@
   width: 100%;
   z-index: 1;
 }
+
+
+@mixin columns($columns-number){
+  @extend .row;
+  >div{
+    @extend .col-md-#{12/$columns-number};
+    .image{
+      text-align: center;
+      padding-right: 30px;
+      img{
+        border-radius: 9999px;
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+    h1,h2,h3{
+      text-align: center;
+      padding-right: 30px;
+    }
+  }
+}

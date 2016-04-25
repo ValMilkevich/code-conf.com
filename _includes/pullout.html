@@ -1,0 +1,11 @@
+<div class="pullout" style="background: {{ include.color }}">
+  <div class="image">
+    <img src="{{ include.img }}" alt="{{ include.caption }}">
+  </div>
+  <div class="text">
+    {% if include.caption %}
+      <h2>{{ include.caption }}</h2>
+    {% endif %}
+    {{ include.content | markdownify }}
+  </div>
+</div>

@@ -1,0 +1,14 @@
+{% comment %}Outputs several columns styled by _sass/columnsN.scss where N is number of columns.
+column_number — number of columns.
+content — markdown formatted content for columns. Columns are separated by <!--col-->
+{% endcomment %}
+
+{% assign content_by_columns = include.content | split:"<!--col-->" %}
+<div class="columns{{ include.column_number }}">
+  {% for column in content_by_columns %}
+    {% if forloop.index0 == include.column_number %}
+      {% break %}
+    {% endif %}
+    <div>{{ column | markdownify }}</div>
+  {% endfor %}
+</div>

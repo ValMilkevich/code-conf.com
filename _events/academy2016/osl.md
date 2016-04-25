@@ -6,7 +6,7 @@ brand-txt: >
 color: '#8a66a0'
 date_:    2016-08-29
 date_end: 2016-09-02
-time: 9:00 - 16:00
+time: 9—16:00
 city: Oslo
 event_header:
   img: /images/pages/academy2016/oslo.jpg
@@ -32,28 +32,26 @@ date_end=page.date_end
 time=page.time
 city=page.city %}
 
-<div class="pullout" style="background: {{ page.color }}">
-    <div class="image">
-      <img src="/images/icons/icon-date.png" alt="Location">
-    </div>
-<div class="text" markdown="1">
-## Program
-<code>
-<b>Monday:</b>&nbsp;&nbsp;&nbsp; Agile task management and Test Driven Development <br/>
-<b>Tuesday:</b>&nbsp;&nbsp; Jenkins <br/>
-<b>Wednesday:</b> Git <br/>
-<b>Thursday:</b>&nbsp; Docker <br/>
-<b>Friday:</b>&nbsp;&nbsp;&nbsp; Synthesis - bring it all together in running code&nbsp;
-</code>
+{% include pullout.html 
+img="/images/icons/icon-date.png"
+caption="Program"
+color=page.color
+content="
+  | Monday: |    Agile task management and Test Driven Development  |
+  | Tuesday: |   Jenkins                                            |
+  | Wednesday: | Git                                                |
+  | Thursday: |  Docker                                             |
+  | Friday: |    Synthesis - bring it all together in running code  |
 
-### Extras:
-<code>
-<b>Monday evening:</b> Teach-the-teacher workshop (Academy staff only)<br/>
-<b>Friday evening:</b> Barbecue: Participants meets sponsors - get a job!!<br>
-<b>Each day at lunch time</b>: one of the sponsors will give a 20 minute pitch to the students; why they are interested in hiring.&nbsp;
-</code>
-</div>
-</div>
+<br>
+
+### Extras
+
+  | Monday evening: | Teach-the-teacher workshop (Academy staff only)|
+  | Friday evening: | Barbecue: Participants meets sponsors - get a job!|
+  | Each day at lunch time: | one of the sponsors will give a 20 minute pitch to the students; why they are interested in hiring.|
+"
+%}
 
 
 {% include eventbrite-ticket-form.html
