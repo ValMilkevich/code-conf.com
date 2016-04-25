@@ -17,11 +17,9 @@
       .value{
         font-size: 1.37em;
       }
-    }
-    @media(max-width: $screen-xs-max){
-      margin-bottom: -100px;
-      .include-date-location{
+      @media(max-width: $screen-xs-max){
         margin-top: 0;
+        margin-bottom: -100px;
       }
     }
   }
