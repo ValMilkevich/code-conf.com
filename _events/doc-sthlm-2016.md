@@ -45,7 +45,7 @@ speakers:
       Windows Containers in Windows Server 2016 is a new big thing – Get a solid introduction to the upcoming Windows and Hyper-V Containers that will be part of the next release of Windows Server.
 
 sponsors:
-
+  docker
 
 ---
 
