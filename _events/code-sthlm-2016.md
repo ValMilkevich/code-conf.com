@@ -2,7 +2,7 @@
 #permalink: /code-sthlm-2016.html
 published: false
 brand-txt: >
-  *CO*DE-STHLM
+  *CO*DE*-*STHLM
 title: CODE-STHLM
 color: '#660066'
 color-name: purple

@@ -1,6 +1,6 @@
 ---
 brand-txt: >
-  *CO*DE-CPH
+  *CO*DE*-*CPH
 title: CODE-CPH
 color: '#006666 '
 subtitle: >
