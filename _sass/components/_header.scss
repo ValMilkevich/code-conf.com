@@ -8,6 +8,7 @@ header.site-header{
   }
   a.logo{
     margin-left: 25px;
+    margin-right: -25px;
     @media(max-width: $screen-xs-max){
       margin-left: 0;
     }
@@ -23,7 +24,7 @@ header.site-header{
       font-family: $headings-font-family;
       color: white;
       font-size: 1.5em;
-      margin-right: 47px;
+      margin-right: 15px;
       padding-top: 28px;
       display: inline-block;
       &:last-child{

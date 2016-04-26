@@ -4,6 +4,7 @@
       <img src="/images/code-conf.png" alt="CoDe-Conf">
     </a>
     <nav class="site-nav">
+      <a href="mailto:{{ site.email }}?subject=Sponsor%20inquiry">Sponsor inquiries</a>
       {% assign site_pages = site.pages | sort:"nav_weight" %}
         {% for m in site_pages %}
           {% if m.nav_weight %}
