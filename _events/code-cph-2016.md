@@ -60,7 +60,7 @@ In this session, Seb asks: is this the test automation you were looking for?
 
 
 sponsors:
-
+- dotw
 
 ---
 
@@ -88,3 +88,9 @@ caption="The speakers" %}
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid
 css_classes="black toprip botrip" %}
+
+{% include sponsors.html
+sponsors=page.sponsors
+caption="Sponsors"
+subcaption="A heartfelt thank goes to our friends"
+css_classes="" %}
