@@ -23,15 +23,15 @@ adress: Guldgränd 8, 104 65 Stockholm, Hilton Slussen
 checkout:
   eventbriteid: 24850613855
 
-speakers:
-  danielstahl:
-    title: Enterprise Scale Continuous Integration and Delivery - A Bunch of Problems and a Few Solutions
-    abstract: >
-      TBA
-  fatihdegirmenci:
-    title: Release engineering OPNFV
-    abstract: >
-      TBA
+  speakers:
+    danielstahl:
+      title: Enterprise Scale Continuous Integration and Delivery - A Bunch of Problems and a Few Solutions
+      abstract: >
+        TBA
+    fatihdegirmenci:
+      title: Release engineering OPNFV
+      abstract: >
+        TBA
 
 sponsors:
 - dotw
