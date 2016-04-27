@@ -1,5 +1,6 @@
 name: Continuous Delivery Conferences and Events
 email: info@praqma.com
+email_sponsor_inquires: ah@praqma.net
 highlighter: rouge
 exclude: [README.md]
 timezone: Europe/Copenhagen
