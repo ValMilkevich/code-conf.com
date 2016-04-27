@@ -1,12 +1,9 @@
 ---
 #permalink: /code-sthlm-2016.html
-published: false
 brand-txt: >
-  *CO*DE*-*STHLM
+  *CO*DE-STHLM
 title: CODE-STHLM
 color: '#660066'
-color-name: purple
-price: Sold out!
 subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference
 
@@ -14,48 +11,32 @@ subtitle: >
 
 event_header:
   img: /images/code-sthlm-2016.jpg
-  ribbon: Join us for...
+  ribbon: Join us again for...
 
 # date & location
 
-date_: 2016-08-18
+date_: 2016-11-29
 time: 09—18:00
 city: Stockholm
-adress: Tordenskiolds gate 3, 0160 Oslo. Mesh
+adress: Guldgränd 8, 104 65 Stockholm, Hilton Slussen
 
 checkout:
-  price: 200
-  eventbriteid: 21382334137
-
-keynote-speakers:
-  markcoleman:
-    title: lkjawldjsalj lkj
-    abstract: >
-      In this talk we will assume that continuous delivery is the solution to your problem and will discover through various stories which character traits should be present in your team members if they are to build and deliver cutting edge software. We will conclude with suggestions on how to build such a team.This is a non-technical talk for anyone who is managing, or is a member of, a team who are trying to implement continuous delivery.
-  andimann:
-    title: blaha
-    abstract: >
-      By enabling new approaches to service delivery, cloud and DevOps together are delivering even greater speed, agility, and efficiency. No wonder leading innovators are adopting DevOps and cloud together! This presentation will explore the synergies in these two approaches, with practical tips, techniques, research data, war stories, case studies, and recommendations.
+  eventbriteid: 24850613855
 
 speakers:
-  allanebdrup:
-    title: Continuous Delivery War stories - deploying 10 times per day
+  danielstahl:
+    title: Enterprise Scale Continuous Integration and Delivery - A Bunch of Problems and a Few Solutions
     abstract: >
-      How to do Continuous Delivery and deploy to production 10 times a day or more. The techniques in the talk can be used no matter if you are on an Open Source technology stack or not.
-  lakruzz:
-    title: NoOps - beyond DevOps
+      TBA
+  fatihdegirmenci:
+    title: Release engineering OPNFV
     abstract: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-  meekrosoft:
-    title: Continuous Delivery War stories - deploying 10 times per day
-    abstract: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      TBA
 
 sponsors:
-  - container_solutions
-  - delphix
-  - serena
-  - xebia_labs
+- dotw
+
+
 
 ---
 
@@ -63,7 +44,7 @@ sponsors:
 background-image=page.event_header.img
 dot-text=page.price
 brand-lead=page.event_header.ribbon
-brand-txt=page.brand-txt 
+brand-txt=page.brand-txt
 subtitle=page.subtitle
 color=page.color %}
 
@@ -74,6 +55,7 @@ time=page.time
 city=page.city %}
 
 {% include speakers.html
+keynotes=page.keynote-speakers
 speakers=page.speakers
 color=page.color
 css_classes="colored toprip botrip"
@@ -86,5 +68,5 @@ css_classes="black toprip botrip" %}
 {% include sponsors.html
 sponsors=page.sponsors
 caption="Sponsors"
-subcaption="Sell to be added here for sponsors etc."
+subcaption="A heartfelt thank goes to our friends"
 css_classes="" %}
