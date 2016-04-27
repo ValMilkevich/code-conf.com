@@ -1,4 +1,5 @@
 ---
 name: Delivery Of Things World
-img: deliveryofthingsworld.png
+img: deliveryofthings.png
 link: http://www.deliveryofthingsworld.com
+---
