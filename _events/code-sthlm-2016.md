@@ -34,7 +34,9 @@ checkout:
         TBA
 
 sponsors:
-- dotw.md
+- dotw
+- trifork
+
 
 
 
