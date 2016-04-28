@@ -11,6 +11,16 @@
 h1{
 }
 
+.whitestrip{
+  margin-bottom: 3px;
+  background: white;
+  display: inline; 
+  width: auto;
+  padding: 0 0.2em;
+  font-size: 0.9em;
+  &:after { content:"\A"; white-space:pre; }
+}
+
 /*h1,h2,h3,h4,h5,h6{*/
   /*font-family: Abolition-Regular, ;*/
 /*}*/

@@ -1,9 +1,11 @@
-.pullout{
+.include-pullout{
   @extend .wrapper;
   @extend .colored;
-  @extend .botrip;
-  @extend .toprip;
   @extend .clearfix;
+  margin-bottom: -1px;
+  &>div{
+    padding-bottom: 20px;
+  }
   .image{
     @extend .col-md-2;
     text-align: right;

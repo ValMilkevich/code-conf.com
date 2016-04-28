@@ -35,26 +35,38 @@ time=page.time
 city=page.city %}
 
 {% include pullout.html 
-img="/images/icons/icon-date.png"
+img="/images/icons/icon-list.png"
 caption="Program"
 color=page.color
+no_botrip=true
 content="
-  | Monday: |    Agile task management and Test Driven Development  |
-  | Tuesday: |   Jenkins                                            |
-  | Wednesday: | Git                                                |
-  | Thursday: |  Docker                                             |
-  | Friday: |    Synthesis - bring it all together in running code  |
-
-<br>
-
-### Extras
-
-  | Monday evening: | Teach-the-teacher workshop (Academy staff only)|
-  | Friday evening: | Barbecue: Participants meets sponsors - get a job!|
-  | Each day at lunch time: | one of the sponsors will give a 20 minute pitch to the students; why they are interested in hiring.|
+**MONDAY:**    Agile task management and Test Driven Development
+{:.whitestrip}
+**TUESDAY:**   Jenkins
+{:.whitestrip}
+**WEDNESDAY:** Git
+{:.whitestrip}
+**THURSDAY:**  Docker
+{:.whitestrip}
+**FRIDAY:**    Synthesis - bring it all together in running code
+{:.whitestrip}
 "
 %}
 
+{% include pullout.html 
+img="/images/icons/icon-place-big.png"
+caption="Extras"
+no_toprip=true
+color=page.color
+content="
+**MONDAY EVENING:** Teach-the-teacher workshop (Academy staff only)
+{:.whitestrip}
+**FRIDAY EVENING:** Barbecue: Participants meets sponsors - get a job!
+{:.whitestrip}
+**EACH DAY AT LUNCH TIME:** one of the sponsors will give a 20 minute pitch to the students; why they are interested in hiring.
+{:.whitestrip}
+"
+%}
 
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid
