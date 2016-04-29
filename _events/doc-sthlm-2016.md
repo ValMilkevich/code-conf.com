@@ -43,6 +43,10 @@ speakers:
     title: Getting your hands dirty with Windows Containers
     abstract: >
       Windows Containers in Windows Server 2016 is a new big thing – Get a solid introduction to the upcoming Windows and Hyper-V Containers that will be part of the next release of Windows Server.
+  andreyd:
+    title: Docker 101
+    abstract: >
+      If you are new to docker, this session is for you! In this sessions you will learn all the basics of docker and its main components. We will go through the the concept of containers, writing your own docker files, connecting data volumes, and basic orchestration with compose and swarm. Bring your laptops!
 
 sponsors:
   docker
