@@ -47,6 +47,10 @@ speakers:
     title: Stop being lazy and test your software
     abstract: >
       Testing software is necessary, no matter the size or status of your company. Introducing Docker to your development workflow can help you write and run your testing frameworks more efficiently, so that you can always deliver your best product to your customers and there are no excuses for not writing tests anymore.
+  jankrag:
+    title: Docker 101
+    abstract: >
+      If you are new to docker, this session is for you! In this sessions you will learn all the basics of docker and its main components. We will go through the the concept of containers, writing your own docker files, connecting data volumes, and basic orchestration with compose and swarm. Bring your laptops!
 
 sponsors:
   docker
