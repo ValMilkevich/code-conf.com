@@ -62,13 +62,13 @@ content="
 {: .image}
 
 ## But why?
-Here’s the thing — demand for Continuous Delivery and DevOps skills is far outstripping what is available the in the job market. We at Praqma are feeling this most acutely. So we thought: “Why do we only train our new recruits? Why not train everyone looking for work! So that not only Praqma employees get these skills but all people entering the industry?”
+Here’s the thing — demand for Continuous Delivery and DevOps skills is far outstripping what is available in the job market. We at Praqma are feeling this most acutely. So we thought: “Why do we only train our new recruits? Why not train everyone looking for work! So that not only Praqma employees get these skills but all people entering the industry?”
 <!--col-->
 ![Supporters](../images/pages/academy2016/0022.jpg)
 {: .image}
 
 ## Supporters
-Each location will have five companies supporting the academy, Companies are looking to recruit in this field — you’ll be given a pitch by each one of them. Each Academy season has a set of technology sponsors as well. They are just happy to support the Continuous Delivery and DevOps revolution — and throw you swags.
+Each location will have five companies supporting the academy. Companies are looking to recruit in this field — you’ll be given a pitch by each one of them. Each Academy season has a set of technology sponsors as well. They are just happy to support the Continuous Delivery and DevOps revolution — and throw you swags.
 "
 %}
 
@@ -77,7 +77,7 @@ img="../images/icons/icon-place-big.png"
 caption="Where it’s happening"
 color=page.color
 content="
-Academies will take place from end og June to start September in **Copenhagen**, **Aarhus**, **Oslo** & **Trondheim**. Training will be in English, a full week 9—16 every day. You’re eligible to enroll if you are either a student or unemployed recent graduate in a field related to computer science. Click on the dates below, to see the program for the individual academies.
+Academies will take place from end of June to start September in **Copenhagen**, **Aarhus**, **Oslo** & **Trondheim**. Training will be in English, a full week 9—16 every day. You’re eligible to enroll if you are either a student or unemployed recent graduate in a field related to computer science. Click on the dates below to see the program for the individual academies.
 "
 %}
 
