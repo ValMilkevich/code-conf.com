@@ -32,7 +32,7 @@ date_end=page.date_end
 time=page.time
 city=page.city %}
 
-{% include pullout.html 
+{% include pullout.html
 img="/images/icons/icon-list.png"
 caption="Program"
 color=page.color
@@ -40,9 +40,9 @@ no_botrip=true
 content="
 **MONDAY:**    Agile task management and Test Driven Development
 {:.whitestrip}
-**TUESDAY:**   Jenkins
+**TUESDAY:**   Git
 {:.whitestrip}
-**WEDNESDAY:** Git
+**WEDNESDAY:** Jenkins
 {:.whitestrip}
 **THURSDAY:**  Docker
 {:.whitestrip}
@@ -51,7 +51,7 @@ content="
 "
 %}
 
-{% include pullout.html 
+{% include pullout.html
 img="/images/icons/icon-place-big.png"
 caption="Extras"
 no_toprip=true
