@@ -2,9 +2,12 @@
 title: CoDe Academy - Trondheim
 nav_weight: 10
 brand-txt: >
-    Aca*de*{: style="color: black; font-style: normal;"}my TRD
+    *Co*{: style='color: black; font-style: normal;'}De
+    Aca*de*{: style="color: black; font-style: normal;"}my
+dot-txt: Free <br> 5 Day course
+dot-txt-size: small
 subtitle: >
-  Continuous Delivery bootcamp Trondheim
+  ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
 color: '#f58532'
 date_:    2016-06-13
 date_end: 2016-06-17
@@ -43,15 +46,15 @@ caption="Program"
 color=page.color
 no_botrip=true
 content="
-**MONDAY:**    Agile task management and Test Driven Development
+**MONDAY:**&nbsp;&nbsp;&nbsp;&nbsp;Agile task management and Test Driven Development
 {:.whitestrip}
-**TUESDAY:**   Git
+**TUESDAY:**&nbsp;&nbsp;&nbsp;Git
 {:.whitestrip}
-**WEDNESDAY:** Jenkins
+**WEDNESDAY:**&nbsp;Jenkins
 {:.whitestrip}
-**THURSDAY:**  Docker
+**THURSDAY:**&nbsp;&nbsp;Docker
 {:.whitestrip}
-**FRIDAY:**    Synthesis - bring it all together in running code
+**FRIDAY:**&nbsp;&nbsp;&nbsp;&nbsp;Synthesis - bring it all together in running code
 {:.whitestrip}
 "
 %}

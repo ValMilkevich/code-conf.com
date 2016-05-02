@@ -2,9 +2,12 @@
 title: CoDe Academy - Copenhagen
 nav_weight: 10
 brand-txt: >
-    Aca*de*{: style="color: black; font-style: normal;"}my CPH
+    *Co*{: style='color: black; font-style: normal;'}De
+    Aca*de*{: style="color: black; font-style: normal;"}my
+dot-txt: Free <br> 5 Day course
+dot-txt-size: small
 subtitle: >
-  Continuous Delivery bootcamp Copenhagen
+  ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
 color: '#006666'
 date_:    2016-08-15
 date_end: 2016-08-19

@@ -14,10 +14,11 @@ h1{
 .whitestrip{
   margin-bottom: 3px;
   background: white;
-  display: inline; 
+  display: inline;
   width: auto;
   padding: 0 0.2em;
   font-size: 0.9em;
+  font-family: monospace;
   &:after { content:"\A"; white-space:pre; }
 }
 

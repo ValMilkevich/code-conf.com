@@ -2,7 +2,12 @@
 title: CoDe Academy - Oslo
 nav_weight: 10
 brand-txt: >
-    Aca*de*{: style="color: black; font-style: normal;"}my Oslo
+    *Co*{: style='color: black; font-style: normal;'}De
+    Aca*de*{: style="color: black; font-style: normal;"}my
+dot-txt: Free <br> 5 Day course
+dot-txt-size: small
+subtitle: >
+  ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
 color: '#8a66a0'
 date_:    2016-08-29
 date_end: 2016-09-02
