@@ -16,6 +16,8 @@ event_header:
 checkout:
   eventbriteid: 24617023179
 css_class: academy
+sponsors:
+  - github
 ---
 
 {% include event-main.html
@@ -72,3 +74,6 @@ content="
 eventbriteid=page.checkout.eventbriteid
 css_classes="black toprip botrip"
 header="Enroll"%}
+
+{% include sponsors.html
+sponsors=page.sponsors caption="Sponsors" subcaption="CoDe Academy is sponsored by:" css_classes="" %}

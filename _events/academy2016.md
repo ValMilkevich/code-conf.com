@@ -17,6 +17,8 @@ event_header:
 checkout:
   eventbriteid: 24573031599
 css_class: academy
+sponsors:
+  - github
 ---
 
 
@@ -31,7 +33,7 @@ color=page.color %}
 
 <br>
 
-{% include columns.html 
+{% include columns.html
 column_number=3
 content="
 ![Continuous Delivery Academy](../images/pages/academy2016/0015.jpg)
@@ -55,7 +57,7 @@ Five days of intense hands-on continuous delivery training. A primer on Agile te
 %}
 
 
-{% include columns.html 
+{% include columns.html
 column_number=2
 content="
 ![Learn the latest skills](../images/pages/academy2016/0013.jpg)
@@ -72,7 +74,7 @@ Each location will have five companies supporting the academy. Companies are loo
 "
 %}
 
-{% include pullout.html 
+{% include pullout.html
 img="../images/icons/icon-place-big.png"
 caption="Where it’s happening"
 color=page.color
@@ -113,3 +115,6 @@ color=page.color_osl
 date="August 29th"
 city="Oslo"
 url="osl" %}
+
+{% include sponsors.html
+sponsors=page.sponsors caption="Sponsors" subcaption="CoDe Academy is sponsored by:" css_classes="" %}
