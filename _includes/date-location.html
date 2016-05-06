@@ -12,7 +12,13 @@
           </div>
           <div class="label_" style="color: {{ include.color }}">Date</div>
           <div class="value">
-              {{ include.date | date: '%-d %b  %Y' }} — {{ include.date_end | date: '%-d %b  %Y' }}
+              {% assign month_start = include.date | date: '%b' %}
+              {% assign month_end = include.date_end | date: '%b' %}
+              {% if month_start == month_end %}
+                {{ include.date | date: '%-d' }} — {{ include.date_end | date: '%-d %b %Y' }}
+              {% else %}
+                {{ include.date | date: '%-d %b' }} — {{ include.date_end | date: '%-d %b %Y' }}
+              {% endif %}
           </div>
         </div>
       {% else %}
