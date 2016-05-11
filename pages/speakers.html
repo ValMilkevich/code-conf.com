@@ -1,0 +1,42 @@
+---
+title: Speakers
+layout: default
+permalink: /speakers/
+css_class: speakers
+color: '#f58532'
+---
+
+{% include event-main.html
+background-image="/images/code-cph-audience.png"
+brand-lead="The usual suspects"
+brand-txt="SPEAKER BIOS"
+color=page.color %}
+
+{% for speaker in site.speakers %}
+  <div class="speaker">
+      <div class="image">
+        <img src="{{ speaker.img }}" alt="{{ speaker.name }}">
+      </div>
+      <div class="details">
+        <div class="name" id={{ speaker.name | slugify }}>
+          {{ speaker.name }}
+        </div>
+        <div class="position">
+          {{ speaker.position }}
+        </div>
+        <div class="bio">
+          {{ speaker.bio | markdownify }}
+        </div>
+        <div class="social">
+          {{ speaker.social | markdownify }}
+        </div>
+      </div>
+  </div>
+{% endfor %}
+
+<!--<script>-->
+<!--$( "a.read-more" ).click(function() {-->
+  <!--$(this).closest('.speaker').toggleClass("expanded");-->
+  <!--console.log("yo");-->
+<!--});-->
+<!--</script>-->

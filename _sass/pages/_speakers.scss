@@ -1,0 +1,35 @@
+.page-speakers{
+  .include-event-main .image-canvas .ribbons .brand-tag h1{
+    font-size: 7.2em;
+  }
+  .speaker{
+    @extend .row;
+    margin-top: 30px;
+    .image{
+      @extend .col-md-2;
+      img{
+        border-radius: 9999px;
+        width: 140px;
+      }
+    }
+    .details{
+      @extend .col-md-9;
+    }
+    .name{
+      font-family: $headings-font-family;
+      font-size: 3.1em;
+      line-height: 1em;
+    }
+    .position{
+      font-family: $headings-font-family;
+      font-size: 1.3em;
+    }
+    .bio{
+      
+    }
+    .social{
+      font-family: $headings-font-family;
+      font-size: 1.1em;
+    }
+  }
+}
