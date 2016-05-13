@@ -6,13 +6,15 @@
   {% assign classes = classes | append:"toprip " %}
 {% endunless %}
 <div class="include-pullout {{ classes }}" style="background: {{ include.color }}">
-  <div class="image">
-    <img src="{{ include.img }}" alt="{{ include.caption }}">
-  </div>
-  <div class="text">
+  {% if include.img %}
+    <div class="image">
+      <img src="{{ include.img }}" alt="{{ include.caption }}">
+    </div>
+  {% endif %}
+  <div class="text text-{% if include.img %}with{% else %}no{% endif %}-image">
     {% if include.caption %}
       <h2>{{ include.caption }}</h2>
     {% endif %}
     {{ include.content | markdownify }}
   </div>
-</div>
+  </div>
