@@ -21,6 +21,7 @@ checkout:
 css_class: academy
 sponsors:
   - github
+  - napatech
 ---
 
 {% include event-main.html

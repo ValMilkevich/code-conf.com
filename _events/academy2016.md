@@ -19,6 +19,7 @@ checkout:
 css_class: academy
 sponsors:
   - github
+  - napatech
 ---
 
 
