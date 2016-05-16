@@ -26,15 +26,20 @@ checkout:
   eventbriteid: 24850613855
 
 speakers:
-  danielstahl:
-    title:
+  andreyd:
+    title: Buffer or suffer? Growth pain and what to do about it.
     abstract: >
-      TBA
+      You were a team of 5 and delivering incremental changes wasn't a problem - if something breaks you just fix it all together. But now you are ten teams. While you fix your colleagues wait. What can you do to avoid pressure and keep delivery pipeline green? I would like to share few ways that I used in different projects to overcome growth issues. Which one would work for you?
 
   fatihdegirmenci:
     title: OPNFV CI and Challenges - How we solved them - if we solved them at all!
     abstract: >
       OPNFV is a carrier-grade, integrated, open source platform to accelerate the introduction of new NFV products and services. It aims to build the platform by integrating components from different upstream projects such as OpenStack, OpenDaylight, OpenVswitch, KVM and so on. Apart from integrating different components, OPNFV aims to identify gaps in these components and fixes them directly in upstream. OPNFV sees CI/CD to be a solution to its challenges by providing a foundation for developing, integrating and testing OPNFV faster and more efficient through the release cycles. It is crucial for OPNFV and the ecosystem we are building the underlying upstream projects to find the best way to realize the principles and best practices of CI/CD methodologies to reduce the impacts caused by the integration work and be able to provide fast feedback to its own developers and other communities and a stable platform to our users release by release. During this session we will talk about the evolution of OPNFV CI/CD from the project's early days up till now and share our experiences.
+
+  danielstahl:
+    title:
+    abstract: >
+      TBA
 
 sponsors:
 - dotw
