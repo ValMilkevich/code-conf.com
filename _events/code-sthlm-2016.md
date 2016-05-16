@@ -1,16 +1,18 @@
 ---
 #permalink: /code-sthlm-2016.html
 brand-txt: >
-  *CO*DE-STHLM
+brand-txt: >
+    *Co*{: style="color: black; font-style: normal;"}De-STHLM
+#Co*De*{: style="color: black; font-style: normal;"}-STHLM
 title: CODE-STHLM
-color: '#660066'
+color: '#e89043'
 subtitle: >
-  *Co*ntinuous *De*livery and *DevOps* Conference
+  *Co*ntinuous *De*livery and *DevOps* Conference. *Embedded* edition
 
 # events header
 
 event_header:
-  img: /images/code-sthlm-2016.jpg
+  img: /images/Codestockholm.jpg
   ribbon: Join us again for...
 
 # date & location
@@ -52,6 +54,35 @@ brand-lead=page.event_header.ribbon
 brand-txt=page.brand-txt
 subtitle=page.subtitle
 color=page.color %}
+
+<br>
+
+{% include pullout.html
+img="../images/icons/icon-list.png"
+caption="Embedded edition"
+color=page.color
+no_botrip=true
+content="
+{:.whitestrip}
+This year we want to pivot conference focus and look more into the most challenging area when it comes to Continuous Delivery - embedded software. Join us and be inspired by the industry leaders who already advanced in their journey towards Continuous Delivery! Do you have a story to tell? *[CFP is still open](http://www.code-conf.com/cfp/)*
+"
+%}
+
+{% include pullout.html
+img="/images/icons/icon-place-big.png"
+caption="Extras"
+no_toprip=true
+color=page.color
+no_toprip=true
+content="
+**Day before conference:** Pre-conference meetup for everyone who can't make it for the main event!
+{:.whitestrip}
+**Day after the conference:** Continuous Delivery mastermind group! Engage with the speakers and your peers into facilitated open space discussion. More details are coming soon - stay tuned!
+{:.whitestrip}
+"
+%}
+
+<br/>
 
 {% include date-location.html
 color=page.color
