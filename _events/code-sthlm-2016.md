@@ -23,15 +23,16 @@ adress: Guldgränd 8, 104 65 Stockholm, Hilton Slussen
 checkout:
   eventbriteid: 24850613855
 
-  speakers:
-    danielstahl:
-      title: Enterprise Scale Continuous Integration and Delivery - A Bunch of Problems and a Few Solutions
-      abstract: >
-        TBA
-    fatihdegirmenci:
-      title: Release engineering OPNFV
-      abstract: >
-        TBA
+speakers:
+  danielstahl:
+    title:
+    abstract: >
+      TBA
+
+  fatihdegirmenci:
+    title: OPNFV CI and Challenges - How we solved them - if we solved them at all!
+    abstract: >
+      OPNFV is a carrier-grade, integrated, open source platform to accelerate the introduction of new NFV products and services. It aims to build the platform by integrating components from different upstream projects such as OpenStack, OpenDaylight, OpenVswitch, KVM and so on. Apart from integrating different components, OPNFV aims to identify gaps in these components and fixes them directly in upstream. OPNFV sees CI/CD to be a solution to its challenges by providing a foundation for developing, integrating and testing OPNFV faster and more efficient through the release cycles. It is crucial for OPNFV and the ecosystem we are building the underlying upstream projects to find the best way to realize the principles and best practices of CI/CD methodologies to reduce the impacts caused by the integration work and be able to provide fast feedback to its own developers and other communities and a stable platform to our users release by release. During this session we will talk about the evolution of OPNFV CI/CD from the project's early days up till now and share our experiences.
 
 sponsors:
 - dotw
