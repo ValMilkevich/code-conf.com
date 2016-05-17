@@ -2,7 +2,7 @@
 title: About code-conf.com
 menu_title: About
 permalink: /about/
-nav_weight: 20
+nav_weight: 100
 ---
 
 ## Your go-to page for anything CoDe
