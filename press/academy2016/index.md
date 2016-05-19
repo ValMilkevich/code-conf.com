@@ -2,6 +2,8 @@
 title: CoDe Academy 2016 - press material
 ---
 
+<br/>
+
 ## Press releases
 
 * [CoDe Academy 2016: Press release 1](press_release-1/)
