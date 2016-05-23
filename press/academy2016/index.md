@@ -9,6 +9,13 @@ title: CoDe Academy 2016 - press material
 * [CoDe Academy 2016: Press release 1](press_release-1/)
 
 
+## Photos
+
+* [CoDe Academy 2016: Headmaster Lars Kruse](lars_kruse.jpg)
+* [CoDe Academy 2016: Auditorium 1](docker_classroom.jpg)
+* [CoDe Academy 2016: Auditorium 2](taking_notes_auditorium.jpg)
+* [CoDe Academy 2016: Auditorium 3](audience_auditorium.jpg)
+
 ## Posters and flyers
 
 * [CoDe Academy 2016: Handout flyer - A6, print on both sides](code-academy-2016-flyer.pdf)
@@ -16,6 +23,12 @@ title: CoDe Academy 2016 - press material
 * [CoDe Academy 2016: Twitter sized graphics](code-academy-2016-twitter.jpg)
 * [CoDe Academy 2016: Front page graphics](code-academy-2016-front.jpg)
 * [CoDe Academy 2016: Sponsor - shout out - PDF](code-academy-2016-sponsor.pdf)
+
+## Sponsor logos
+
+* [Praqma](praqma_logo.eps)
+* [GitHub](octocat.png)
+* [Napatech](napatech.png)
 
 ## Trondheim
 
