@@ -4,6 +4,11 @@ title: CoDe Academy 2016 - press material
 
 <br/>
 
+
+## Factsheet
+* [CoDe Academy 2016: Who. What. Where](code_academy_16_factsheet.pdf)
+
+
 ## Press releases
 
 * [CoDe Academy 2016: Press release 1](press_release-1/)
