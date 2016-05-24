@@ -20,6 +20,7 @@ css_class: academy
 sponsors:
   - github
   - napatech
+  - danfoss
 ---
 
 

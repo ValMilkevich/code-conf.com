@@ -24,16 +24,17 @@ title: CoDe Academy 2016 - press material
 ## Posters and flyers
 
 * [CoDe Academy 2016: Handout flyer - A6, print on both sides](code-academy-2016-flyer.pdf)
-* [CoDe Academy 2016: Poster - A6](code-academy-2016-poster.pdf)
+* [CoDe Academy 2016: Poster - A1](code-academy-2016-poster.pdf)
 * [CoDe Academy 2016: Twitter sized graphics](code-academy-2016-twitter.jpg)
 * [CoDe Academy 2016: Front page graphics](code-academy-2016-front.jpg)
 * [CoDe Academy 2016: Sponsor - shout out - PDF](code-academy-2016-sponsor.pdf)
 
 ## Sponsor logos
 
-* [Praqma](praqma_logo.eps)
-* [GitHub](octocat.png)
-* [Napatech](napatech.png)
+* [Praqma](/images/sponsors/praqma.png)
+* [GitHub](/images/sponsors/octocat.png)
+* [Napatech](/images/sponsors/napatech.png)
+* [Danfoss](/images/sponsors/danfoss.png)
 
 ## Trondheim
 

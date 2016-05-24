@@ -21,6 +21,7 @@ checkout:
 css_class: academy
 sponsors:
   - github
+  - danfoss
 ---
 
 {% include event-main.html
