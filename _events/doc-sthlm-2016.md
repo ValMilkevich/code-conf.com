@@ -39,7 +39,7 @@ speakers:
     title: Microservices at Scale with Nomad and Consul on elastic infrastructure
     abstract: >
       Microservices architecture is becoming more common for writing scalable modern services targeted for public and private clouds. However, the architecture brings in with itself a lot of challenges with respect to availability, reliable inter-process communication across services, deployment orchestration and operations. In this talk, I will go into how to design and run Microservices at scale on Docker and elastic infrastructure.
-  rasmushald:
+  fredriknilsson:
     title: Getting your hands dirty with Windows Containers
     abstract: >
       Windows Containers in Windows Server 2016 is a new big thing – Get a solid introduction to the upcoming Windows and Hyper-V Containers that will be part of the next release of Windows Server.
