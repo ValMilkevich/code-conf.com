@@ -64,7 +64,7 @@ speakers:
 
 sponsors:
 - dotw
-
+- simcorp
 ---
 
 {% include event-main.html
