@@ -63,6 +63,7 @@ speakers:
 
 
 sponsors:
+- chef
 - dotw
 - simcorp
 ---
