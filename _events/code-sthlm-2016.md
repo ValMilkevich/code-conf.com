@@ -8,7 +8,9 @@ title: CODE-STHLM
 color: '#e89043'
 subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference. *Embedded* edition
-
+caption: >
+  CoDe - is the leading, conference in Scandinavia. Now in Stockholm for the second time.
+  
 # events header
 
 event_header:

@@ -8,6 +8,8 @@ dot-txt: Free <br> 5 Day course
 dot-txt-size: small
 subtitle: >
   ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
+caption: >
+  A Continuous Delivery Academy at the IT University in Copenhagen. Five intense days of workshops teaching all you need to know about CoDe.
 color: '#006666'
 date_:    2016-08-15
 date_end: 2016-08-19

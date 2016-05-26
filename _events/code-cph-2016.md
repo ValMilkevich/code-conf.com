@@ -5,7 +5,9 @@ title: CODE-CPH
 color: '#006666 '
 subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference - Copenhagen
-
+caption: >
+  CoDe - is the leading, conference in Scandinavia with sole focus on Continuous Delivery and DevOp for senior executives and C-levels in general.
+  
 # events header
 
 event_header:

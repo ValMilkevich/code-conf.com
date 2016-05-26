@@ -5,6 +5,8 @@ title: DOC-CPH
 color: '#539184'
 subtitle: >
   Day Of *Co*ntainers - Copenhagen
+caption: >
+  A different conference, more workshops than presentations. Don't just listen - work and learn. Bring your laptop; we'll be hacking containers all day
 dot-txt: Bring your laptop
 dot-txt-size: small
 

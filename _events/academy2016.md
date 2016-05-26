@@ -6,6 +6,8 @@ brand-txt: >
 #Co*De*{: style="color: black; font-style: normal;"} Academy
 subtitle: >
   A modern continuous delivery bootcamp for graduates
+caption: >
+  Four Continuous Delivery Bootcamps - throughout Scandinavia this summer. FREE to attend for Computer Science students. Enroll NOW!
 color: '#f58532'
 color_cph: '#006666'
 color_trd: '#f58532'
