@@ -7,7 +7,7 @@ subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference - Copenhagen
 caption: >
   CoDe - is the leading, conference in Scandinavia with sole focus on Continuous Delivery and DevOp for senior executives and C-levels in general.
-  
+
 # events header
 
 event_header:
@@ -59,9 +59,10 @@ speakers:
       Meanwhile, a growing band of organizations have found that wielding the power of examples in workshops (where the business, the developers and the testers collaborate) is helping promote early discovery of assumptions, risks and missing requirements. What’s more, these examples are powering the creation of a ubiquitous language, helping prevent future misunderstandings. And, if that isn’t enough already, these examples can then be automated, using tools like Cucumber, to become an executable specification.
       In this session, Seb asks: is this the test automation you were looking for?
   mandiwalls:
-    title: Building a DevOps Culture - DevOps is as much about culture as it is about tools
+    title: Successful Practices for Continuous Delivery
     abstract: >
-          To Be Announced
+      Infrastructure as Code and DevOps practices are necessary pre-requisites for safely adopting Continuous Delivery. With software becoming more and more crucial to business success in various parts of the market, speed of delivery becomes the game changer. This talk will explore some of the practices your team will need to adopt to safely move fast, continuously delivering value to your customers.
+
 
 
 sponsors:
