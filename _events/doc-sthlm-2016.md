@@ -2,6 +2,7 @@
 brand-txt: >
     D*OC*-STHLM
 title: DOC-STHLM
+weight: 3
 color: '#9d006e'
 subtitle: >
   Day Of *Co*ntainers - Stockholm

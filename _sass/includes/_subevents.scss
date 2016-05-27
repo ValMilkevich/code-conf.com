@@ -1,0 +1,18 @@
+.include-subevents{
+  @extend .row;
+  .subevent{
+    @extend .col-md-6;
+    position: relative;
+    img{
+      width: 100%;
+    }
+    .city{
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #000;
+      color: white;
+    }
+
+  }
+}

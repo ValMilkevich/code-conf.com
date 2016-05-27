@@ -1,7 +1,8 @@
 ---
+title: CODE-CPH
+weight: 2
 brand-txt: >
   *CO*DE*-*CPH
-title: CODE-CPH
 color: '#006666 '
 subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference - Copenhagen

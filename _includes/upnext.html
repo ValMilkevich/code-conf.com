@@ -1,0 +1,37 @@
+{% comment %}
+limit - how many output
+{% endcomment %}
+<div class="include-upnext">
+  <h2 class="title">UP NEXT…</h2>
+  {% assign site_events = site.events | sort: "weight" | reverse %}
+
+  {% assign site_events_filtered = "" | split:"" %}
+  {% for e in site_events %}
+    {% assign e_date = e.date_ | date: "%Y-%m-%d" %}
+    {% assign now_date = site.time | date: "%Y-%m-%d" %}
+    {% if e_date >= now_date %}
+      {% assign site_events_filtered = site_events_filtered | push: e %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign site_events_limited = "" | split:"" %}
+  {% for e in site_events_filtered limit:include.limit %}
+    {% assign site_events_limited = site_events_limited | push: e %}
+  {% endfor %}
+
+  {% assign site_events_sorted = site_events_limited | sort: "date_" %}
+  {% for e in site_events_sorted %}
+    {% if e.date_ %}
+      {% assign currentdate = e.date_ | date: "%b" %}
+      {% if currentdate != date %}
+        <h3 class="month" id="{{e.date_ | date: "%b"}}">{{ currentdate }}.</h3>
+        {% assign date = currentdate %}
+      {% endif %}
+      <a class="event" href="{{ e.url }}">{{ e.title }}
+        <span class="date">
+          {{ e.date_ | date: "%D" }}
+        </span>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -2,6 +2,7 @@
 brand-txt: >
     D*OC*-CPH
 title: DOC-CPH
+weight: 1
 color: '#539184'
 subtitle: >
   Day Of *Co*ntainers - Copenhagen

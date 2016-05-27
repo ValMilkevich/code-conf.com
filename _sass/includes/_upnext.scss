@@ -1,0 +1,36 @@
+.include-upnext{
+  $font-size-multiplier: 10px;
+  font-family: $headings-font-family;
+  color: white;
+  *{
+    letter-spacing: 0.02em;
+  }
+  &>*{
+    margin-left: 20px;
+  }
+  h2.title{
+    font-size: 6 * $font-size-multiplier;
+    margin-top: 20px;
+  }
+  h3.month{
+    color: $orange;
+    font-size: 3 * $font-size-multiplier;
+    margin-bottom: 0.7 * $font-size-multiplier;
+    margin-top: 2.5 * $font-size-multiplier;
+  }
+  .event{
+    color: white;
+    display: block;
+    &:hover{
+      text-decoration: none;
+      opacity: 0.5;
+    }
+    margin-bottom: 0.7 * $font-size-multiplier;
+    font-size: 3 * $font-size-multiplier;
+    line-height: 1;
+    .date{
+      font-size: 2 * $font-size-multiplier;
+      display: block;
+    }
+  }
+}

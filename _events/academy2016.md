@@ -1,6 +1,7 @@
 ---
 title: CoDe Academy
 nav_weight: 10
+weight: 1
 brand-txt: >
     *Co*{: style="color: black; font-style: normal;"}De Academy
 #Co*De*{: style="color: black; font-style: normal;"} Academy

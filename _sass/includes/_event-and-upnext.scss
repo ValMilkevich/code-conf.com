@@ -1,0 +1,14 @@
+.include-event-and-upnext{
+  @extend .row;
+  .include-conferences.main{
+    @extend .col-md-8;
+    @extend .col-md-pull-4;
+  }
+  .include-upnext{
+    @extend .col-md-4;
+    @extend .col-md-push-8;
+    @extend .wrapper;
+    @extend .black;
+    @extend .botrip;
+  }
+}

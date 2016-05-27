@@ -1,0 +1,20 @@
+<div class="include-subevents">
+  {% for e in site.events %}
+    {% assign e_parent_dir = e.path | split:"/" | pop | last %}
+    {% assign this_page_basename = include.this_page.path | split:"/" | last | split:"." | first %}
+    {% if e_parent_dir == this_page_basename %}
+      <div class="subevent">
+        <a href="{{ e.url }}">
+          <div class="city">
+            {{ e.city }}
+          </div>
+          <img src="{{ e.event_header.img }}" alt="{{ e.title }}">
+          {{ e.date_ }}
+          <div>
+            See programe
+          </div>
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

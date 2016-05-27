@@ -1,25 +1,20 @@
 .include-conferences{
-  @extend .row;
-  margin-top: 40px;
+  font-size: 0.6em; // scales all text and images inside
   .conference{
-    @extend .col-md-12;
-    clear: both;
     margin-bottom: 20px;
     .include-date-location{
-      padding-left: 45px;
-      margin-top: 10px;
       .date-location{
+        margin-top: 0.7em;
         padding-left: 0;
-        transform: scale(0.6);
-        -moz-transform: scale(0.6);
-        transform-origin: 0% 0%;
       }
-      .value{
-        font-size: 1.37em;
-      }
-      @media(max-width: $screen-xs-max){
-        margin-top: 0;
-        margin-bottom: -100px;
+    }
+    a.event-link{
+      display: block;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      img{
+        width: 100%;
       }
     }
   }
@@ -27,10 +22,12 @@
     color: white !important;
   }
   .brand-tag{
-    font-family: $headings-font-family;
+    bottom: 0;
     display: inline-block;
-    font-size: 7.2em;
-    margin-left: 41px;
+    font-family: $headings-font-family;
+    font-size: 10em;
+    left: 0;
+    position: absolute;
     @media(max-width: $screen-xs-max){
       font-size: 15vw;
     }
@@ -39,9 +36,18 @@
     }
     p{
       line-height: 1em;
-      padding-left: 40px;
-      padding-right: 40px;
       margin: 0;
+      padding-left: 0.25em;
+      padding-right: 0.2em;
+      &:after{
+        display: inline-block;
+        margin-left: 0.08em;
+        content: "";
+        background: url(/images/icons/on-symbol-cropped.png) no-repeat 0 0;
+        background-size: 100%;
+        width: 0.265em;
+        height: 0.3em;
+      }
     }
     em{
       color: $orange;
@@ -52,6 +58,13 @@
       @media(max-width: $screen-xs-max){
         width: 3vw;
       }
+    }
+  }
+  .caption{
+    font-size: $font-size-base;
+    margin-top: 1em;
+    @media(max-width: $screen-sm-max){
+      margin-top: 0px;
     }
   }
 }

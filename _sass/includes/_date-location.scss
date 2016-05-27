@@ -1,7 +1,8 @@
 .include-date-location{
   @extend .row;
   &>div{
-    @extend .wrapper;
+    /*@extend .wrapper;*/
+    @extend .col-md-12;
   }
   .date-location{
     font-family: $headings-font-family;
@@ -18,28 +19,38 @@
       display: block;
       position: relative;
       float: left;
-      width: 78px;
+      width: 2.3em;
       text-align: right;
-      margin-right: 10px;
+      margin-right: 0.4em;
+      img{
+        width: 100%;
+      }
     }
 
     .date, .date-span, .location, .time{
+      float: left;
       @media(max-width: $screen-sm-max){
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         /*@extend .clearfix;*/
       }
     }
 
     .date, .location{
-      @extend .col-md-4;
+      /*@extend .col-md-4;*/
+      /*width: 270px;*/
+      width: 10em;
     }
 
     .date-span{
-      @extend .col-md-6;
+      /*@extend .col-md-6;*/
+      /*width: 200px;*/
+      width: 11em;
     }
 
     .time{
-      @extend .col-md-3;
+      /*@extend .col-md-3;*/
+      /*width: 200px;*/
+      width: 9em;
     }
 
     /*.label, .value{*/

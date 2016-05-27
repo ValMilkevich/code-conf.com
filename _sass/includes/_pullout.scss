@@ -19,8 +19,8 @@
     }
   }
   .text-with-image{
-    padding-right: 20px;
     @extend .col-md-10;
+    padding-right: 20px;
   }
   .text-no-image{
     @extend .col-md-12;

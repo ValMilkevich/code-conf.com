@@ -12,4 +12,5 @@ brand-txt="*Co*ntinuous *de*livery"
 subtitle="CONFERENCES * EVENTS * TRAINING *& MORE*"
 color='#3c890f' %}
 
-{% include conferences.html %}
+{% include event-and-upnext.html %}
+{% include conferences.html limit=3 offset=1 class="small" %}

@@ -1,7 +1,22 @@
-<div class="include-conferences">
-  {% for e in site.events %}
+{% comment %}
+offset - from what index to start
+limit - how many output
+class
+{% endcomment %}
+<div class="include-conferences{% if include.class %} {{ include.class }}{% endif %}">
+  {% assign site_events = site.events | sort: "weight" | reverse %}
+  {% assign site_events_filtered = "" | split:"" %}
+  {% for e in site_events %}
+    {% assign e_date = e.date_ | date: "%Y-%m-%d" %}
+    {% assign now_date = site.time | date: "%Y-%m-%d" %}
+    {% if e_date >= now_date %}
+      {% assign site_events_filtered = site_events_filtered | push: e %}
+    {% endif %}
+  {% endfor %}
+  {% for e in site_events_filtered limit:include.limit offset:include.offset %}
     <div class="conference">
-      <a href="{{ e.url }}">
+      <a class="event-link" href="{{ e.url }}">
+        <img src="{{ e.event_header.img }}" alt="{{ e.title }}">
         <span class="brand-tag" style="background: {{ e.color }}">
             {{ e.brand-txt | markdownify }}
         </span>
@@ -12,6 +27,11 @@
       date_end=e.date_end
       time=e.time
       city=e.city %}
+      {% if e.caption %}
+        <div class="caption">
+          {{ e.caption | markdownify }}
+        </div>
+      {% endif %}
     </div>
   {% endfor %}
 </div>
