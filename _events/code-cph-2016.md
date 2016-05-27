@@ -69,6 +69,7 @@ sponsors:
 - chef
 - dotw
 - simcorp
+- milestone
 ---
 
 {% include event-main.html
