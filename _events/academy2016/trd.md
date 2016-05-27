@@ -8,7 +8,7 @@ brand-txt: >
 dot-txt: Free <br> 5 Day course
 dot-txt-size: small
 subtitle: >
-  ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
+  Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
 caption: >
   A Continuous Delivery Academy in Norway's No. 1 tech city; Trondheim. Five intense days of workshops - all you need to know about CoDe.
 color: '#f58532'
