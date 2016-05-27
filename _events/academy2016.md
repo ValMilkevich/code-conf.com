@@ -83,43 +83,21 @@ Each location will have five companies supporting the academy. Companies are loo
 img="../images/icons/icon-place-big.png"
 caption="Where it’s happening"
 color=page.color
+no_botrip=true
 content="
 Academies will take place from end of June to start September in **Copenhagen**, **Aarhus**, **Oslo** & **Trondheim**. Training will be in English, a full week 9—16 every day. You’re eligible to enroll if you are either a student or unemployed recent graduate in a field related to computer science. Click on the dates below to see the program for the individual academies.
 "
 %}
 
 
-<br/>
+{% capture subevents %}{% include subevents.html this_page=page %}{% endcapture %}
 
-{% include date-location.html
-color=page.color_trd
-date="2016-06-13"
-city="Trondheim"
-url="trd" %}
+{% include pullout.html
+no_toprip=true
+color=page.color
+content=subevents
+%}
 
-<br/>
-
-{% include date-location.html
-color=page.color_cph
-date="August 15th"
-city="Copenhagen"
-url="cph" %}
-
-<br/>
-
-{% include date-location.html
-color=page.color_aar
-date="August 22nd"
-city="Aarhus"
-url="aar" %}
-
-<br/>
-
-{% include date-location.html
-color=page.color_osl
-date="August 29th"
-city="Oslo"
-url="osl" %}
 
 {% include sponsors.html
 sponsors=page.sponsors caption="Sponsors" subcaption="CoDe Academy is sponsored by:" css_classes="" %}

@@ -10,8 +10,8 @@
           </div>
           <img src="{{ e.event_header.img }}" alt="{{ e.title }}">
           <div class="details">
-            <div class="date">{{ e.date_ | date:"%-d %b %Y" }}</div>
-            <div class="programme">See programme</div>
+            <div class="date">{{ e.date_| date:"%d %b %Y" }}</div>
+            <div class="programe">See programe</div>
           </div>
         </a>
       </div>
