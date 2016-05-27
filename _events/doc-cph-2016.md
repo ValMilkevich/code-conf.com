@@ -55,7 +55,8 @@ speakers:
       If you are new to docker, this session is for you! In this sessions you will learn all the basics of docker and its main components. We will go through the the concept of containers, writing your own docker files, connecting data volumes, and basic orchestration with compose and swarm. Bring your laptops!
 
 sponsors:
-  docker
+  - docker
+  - dockercph
 ---
 
 {% include event-main.html
