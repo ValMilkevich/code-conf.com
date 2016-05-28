@@ -106,7 +106,8 @@ caption="The speakers" %}
 
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid
-css_classes="black toprip botrip" %}
+css_classes="black toprip botrip"
+height="350" %}
 
 {% include sponsors.html
 sponsors=page.sponsors

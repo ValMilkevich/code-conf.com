@@ -80,7 +80,8 @@ content="
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid
 css_classes="black toprip botrip"
-header="Enroll"%}
+header="Enroll"
+height="310"%}
 
 {% include sponsors.html
 sponsors=page.sponsors caption="Sponsors" subcaption="CoDe Academy is sponsored by:" css_classes="" %}
