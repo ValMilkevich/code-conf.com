@@ -71,6 +71,7 @@ sponsors:
 - dotw
 - simcorp
 - milestone
+- itforum
 ---
 
 {% include event-main.html
