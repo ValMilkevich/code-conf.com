@@ -5,5 +5,5 @@ bio:  >
 position: Coding Architect, Neuda Riga
 img: /images/speakers/dmitrybuzdin.jpg
 social: >
-  Twitter: [buzdin](https://twitter.com/buzdin) Blog: [buzdin.lv](#)
+  Twitter: [buzdin](https://twitter.com/buzdin) Blog: [buzdin.lv](http://www.buzdin.lv)
 ---

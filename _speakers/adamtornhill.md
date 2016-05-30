@@ -5,5 +5,5 @@ bio:  >
 position: Founder and CTO, Empear
 img: /images/speakers/adamtornhill.jpg
 social: >
-  Twitter: [AdamTornhill](#) Blog: [adamtornhill.com](#)
+  Twitter: [AdamTornhill](https://twitter.com/AdamTornhill) Blog: [adamtornhill.com](http://adamtornhill.com)
 ---
