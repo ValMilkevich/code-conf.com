@@ -54,6 +54,12 @@ speakers:
     title: Self-Healing Systems
     abstract:
       We'll explore practices and tools required to set up fully autonomous self-healing systems capable of both reactive recuperation from failures and proactive predictions of steps that should be taken to prevent failures before they happen.   We'll use tools like Docker, Docker Swarm, Docker Compose, Consul, Consul Template, Registrator and Jenkins to design and develop a system that is continuously deploying services packed as containers and performs actions that will recuperate it from failures and scale or de-scale depending on historical records.
+  maximguenis:
+    title: CI and Dev-Test Environment on Dockers
+    abstract:
+      Developers and testers struggle every day to have a working local development environment ready when developing, debugging and going through the continuous integration cycle (CI).
+      We can test our software either on production or using Virtualisation solutions or solve that by using docker based dev testing environment.
+      As well we can test our software without creating tests with Diffy. Diffy finds potential bugs in your service using running instances of your new code and your old code side by side.
 
 sponsors:
   - docker
