@@ -28,6 +28,11 @@ checkout:
   eventbriteid: 24850613855
 
 speakers:
+  adamtornhill:
+    title: Seven Secrets of Maintainable Codebases
+    abstract: >
+      In this session you'll learn novel techniques that help you make sense of large codebases. You'll learn to identify the code that really matters for your ability to maintain a system, how to prioritize improvements and even evaluate your architecture based on how you actually work with the code. We'll also cover the people side of programming as you learn to mine social information such as communication paths, developer knowledge and hotspots. All techniques are based on software evolution. They use data from the most underused informational source that we have in our industry: our version-control system. Each point is illustrated with a case study from a real-world project.
+
   dmitrybuzdin:
     title: Continuous Testing at Scale
     abstract: >
