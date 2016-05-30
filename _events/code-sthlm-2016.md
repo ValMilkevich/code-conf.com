@@ -1,7 +1,6 @@
 ---
 #permalink: /code-sthlm-2016.html
 title: CODE-STHLM
-weight: 3
 brand-txt: >
     *Co*{: style="color: black; font-style: normal;"}De-STHLM
 #Co*De*{: style="color: black; font-style: normal;"}-STHLM

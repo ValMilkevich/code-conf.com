@@ -1,6 +1,6 @@
 ---
 title: CODE-CPH
-weight: 2
+weight: 30
 brand-txt: >
   *CO*DE*-*CPH
 color: '#006666 '

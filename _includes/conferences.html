@@ -4,12 +4,12 @@ limit - how many output
 class
 {% endcomment %}
 <div class="include-conferences{% if include.class %} {{ include.class }}{% endif %}">
-  {% assign site_events = site.events | sort: "weight" | reverse %}
+  {% assign site_events = site.events | sort: "weight" %}
   {% assign site_events_filtered = "" | split:"" %}
   {% for e in site_events %}
-    {% assign e_date = e.date_ | date: "%Y-%m-%d" %}
-    {% assign now_date = site.time | date: "%Y-%m-%d" %}
-    {% if e_date >= now_date %}
+    {% capture is_outdated %}{% include func/is_outdated.html event=e %}{% endcapture %}
+    {% assign is_outdated = is_outdated | strip_newlines %}
+    {% if is_outdated == "false" %}
       {% assign site_events_filtered = site_events_filtered | push: e %}
     {% endif %}
   {% endfor %}

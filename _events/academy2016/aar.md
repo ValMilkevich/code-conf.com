@@ -1,6 +1,5 @@
 ---
 title: CoDe Academy - Aarhus
-weight: 1
 nav_weight: 10
 brand-txt: >
     *Co*{: style='color: black; font-style: normal;'}De

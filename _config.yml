@@ -34,3 +34,4 @@ defaults:
       type: events
     values:
       layout: event
+      weight: 9999999

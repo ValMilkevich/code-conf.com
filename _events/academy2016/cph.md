@@ -1,6 +1,6 @@
 ---
 title: CoDe Academy - Copenhagen
-weight: 1
+weight: 11
 nav_weight: 10
 brand-txt: >
     *Co*{: style='color: black; font-style: normal;'}De

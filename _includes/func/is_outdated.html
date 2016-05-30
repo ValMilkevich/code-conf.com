@@ -1,0 +1,23 @@
+{% comment %}
+takes 
+event
+
+returns 
+"true" if event is outdated and "false" if not
+{% endcomment %}
+{% assign e_date = include.event.date_ | date: "%Y-%m-%d" %}
+{% assign e_date_end = include.event.date_end | date: "%Y-%m-%d" %}
+{% assign now_date = site.time | date: "%Y-%m-%d" %}
+{% if e_date_end %}
+{% if e_date_end >= now_date %}
+false
+{% else %}
+true
+{% endif %}
+{% else %}
+{% if e_date >= now_date %}
+false
+{% else %}
+true
+{% endif %}
+{% endif %}

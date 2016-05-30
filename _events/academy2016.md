@@ -1,7 +1,7 @@
 ---
 title: CoDe Academy
 nav_weight: 10
-weight: 1
+weight: 10
 brand-txt: >
     *Co*{: style="color: black; font-style: normal;"}De Academy
 #Co*De*{: style="color: black; font-style: normal;"} Academy
@@ -10,10 +10,7 @@ subtitle: >
 caption: >
   Four Continuous Delivery Bootcamps - throughout Scandinavia this summer. FREE to attend for Computer Science students. Enroll NOW!
 color: '#f58532'
-color_cph: '#006666'
-color_trd: '#f58532'
-color_aar: '#006f00'
-color_osl: '#8a66a0'
+date_end: 2016-09-02
 event_header:
   img: ../images/pages/academy2016/event-main.jpg
   ribbon: Enroll today

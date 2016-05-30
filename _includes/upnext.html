@@ -1,15 +1,15 @@
 {% comment %}
-limit - how many output
+limit - how many events to output
 {% endcomment %}
 <div class="include-upnext">
   <h2 class="title">UP NEXT…</h2>
-  {% assign site_events = site.events | sort: "weight" | reverse %}
+  {% assign site_events = site.events | sort: "weight" %}
 
   {% assign site_events_filtered = "" | split:"" %}
   {% for e in site_events %}
-    {% assign e_date = e.date_ | date: "%Y-%m-%d" %}
-    {% assign now_date = site.time | date: "%Y-%m-%d" %}
-    {% if e_date >= now_date %}
+  {% capture is_outdated %}{% include func/is_outdated.html event=e %}{% endcapture %}
+  {% assign is_outdated = is_outdated | strip_newlines %}
+    {% if is_outdated == "false" %}
       {% assign site_events_filtered = site_events_filtered | push: e %}
     {% endif %}
   {% endfor %}
@@ -21,8 +21,13 @@ limit - how many output
 
   {% assign site_events_sorted = site_events_limited | sort: "date_" %}
   {% for e in site_events_sorted %}
-    {% if e.date_ %}
-      {% assign currentdate = e.date_ | date: "%b" %}
+    {% assign event_date = e.date_ %}
+    {% unless event_date %}
+      {% comment %}parent events has no date, but have date_end{% endcomment %}
+      {% assign event_date = e.date_end %}
+    {% endunless %}
+    {% if event_date %}
+      {% assign currentdate = event_date | date: "%b" %}
       {% if currentdate != date %}
         <h3 class="month" id="{{e.date_ | date: "%b"}}">{{ currentdate }}.</h3>
         {% assign date = currentdate %}
