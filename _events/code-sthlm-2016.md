@@ -28,6 +28,11 @@ checkout:
   eventbriteid: 24850613855
 
 speakers:
+  dmitrybuzdin:
+    title: Continuous Testing at Scale
+    abstract: >
+      With the rise of Continuous Delivery test automation isn’t a luxury anymore — it’s the norm. However, when dealing with highly complex and modular projects you would be disappointed to learn that it is a challenge to set-up a fully automated continuous testing pipeline. The typical problems are tool incompatibility and general lack of suitable solutions to scale out test automation processes. Imagine tens of thousands of automated test cases, which are required to be run for a product to be fully tested. During this talk Dmitry will answer the following questions: How do you run your automated tests in the shortest time frame possible? How can you tell if your functional test coverage is improving? How do you select and run the most appropriate test cases? How do you get actionable insights from the results of your testing process? How to be sure that it’s safe to release a software package to production? This presentation will guide you through a journey of building and improving a test automation pipeline based on Jenkins in a large telco organisation with hundreds of thousands of test executions performed on daily basis. By looking at this example it would be possible to see what tools are currently missing on the market and where the test automation industry should focus its efforts. The talk will outline examples of microservices developed to fill the functional gaps. This experience would be beneficial and applicable to your next large-scale CD project.
+
   andreyd:
     title: Buffer or suffer? Growth pain and what to do about it.
     abstract: >
