@@ -1,4 +1,8 @@
+{% if include.speaker-icon %}
+<section class="include-event-main include-speakers">
+{% else %}
 <section class="include-event-main">
+{% endif %}
   <div>
     <div class="event-main">
       <div class="image-canvas">
@@ -18,7 +22,16 @@
 
           {% if include.brand-txt %}
           <div class="brand-tag" style="background-color: {{ include.color }}">
-            <h1>{{ include.brand-txt | markdownify | strip | remove: '<p>' | remove: '</p>' }}<img   class="on-btn" src="/images/icons/on-symbol-cropped.png"></h1>
+            {% if include.speaker-icon %}
+            <h1 style="margin-left:20px">
+            {% else %}
+            <h1>
+            {% endif %}
+            {{ include.brand-txt | markdownify | strip | remove: '<p>' | remove: '</p>' }}
+            {% if include.speaker-icon %}
+            {% else %}
+              <img   class="on-btn" src="/images/icons/on-symbol-cropped.png"></h1>
+            {% endif %}
           </div>
           {% endif %}
         </div>
