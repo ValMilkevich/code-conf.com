@@ -10,7 +10,7 @@ background-image="/images/doc-cph-2016.png"
 brand-lead="Welcome to the home of..."
 brand-txt="*Co*ntinuous *de*livery"
 subtitle="CONFERENCES * EVENTS * TRAINING *& MORE*"
-color='#3c890f' %}
+color='#664418' %}
 
-{% include event-and-upnext.html limit_upnext=4 %}
+{% include event-and-upnext.html %}
 {% include conferences.html limit=3 offset=1 class="small" %}

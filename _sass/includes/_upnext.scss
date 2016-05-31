@@ -2,6 +2,8 @@
   $font-size-multiplier: 10px;
   font-family: $headings-font-family;
   color: white;
+  overflow: scroll;
+  max-height: 535px;
   *{
     letter-spacing: 0.02em;
   }

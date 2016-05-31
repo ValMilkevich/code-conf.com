@@ -1,0 +1,25 @@
+{% assign true  = "true"  %}
+{% assign false = "false" %}
+
+{% assign is_container = include.event.is_container | lstrip | rstrip %}
+
+
+{% if is_container == "true" and include.container == "exclude" %}
+  {{false}}
+{% else %}
+
+  {% assign e_date     = include.event.date_    | date: "%Y-%m-%d" %}
+  {% assign e_date_end = include.event.date_end | date: "%Y-%m-%d" %}
+  {% assign now        = site.time              | date: "%Y-%m-%d" %}
+
+  {% if e_date  >= now  %}
+    {{true}}
+  {% else %}
+    {% if e_date_end >= now %}
+      {{true}}
+    {% else %}
+      {{false}}
+    {% endif%}
+  {% endif %}
+
+{% endif %}

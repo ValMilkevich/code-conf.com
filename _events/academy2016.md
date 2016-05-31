@@ -8,9 +8,12 @@ brand-txt: >
 subtitle: >
   A modern continuous delivery bootcamp for graduates
 caption: >
-  Four Continuous Delivery Bootcamps - throughout Scandinavia this summer. FREE to attend for Computer Science students. Enroll NOW!
+  Four Continuous Delivery Bootcamps - in Denmark and Norway. Each is 5 intense days. Bring your laptop! FREE to attend for Computer Science students and unemployed IT professionals. Enroll NOW!
 color: '#f58532'
-date_end: 2016-09-02
+is_container: true
+date_:      2016-06-13
+date_end:   2016-09-02
+city:       Throughout Scandinavia
 event_header:
   img: ../images/pages/academy2016/event-main.jpg
   ribbon: Enroll today

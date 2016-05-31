@@ -3,40 +3,30 @@ limit - how many events to output
 {% endcomment %}
 <div class="include-upnext">
   <h2 class="title">UP NEXT…</h2>
-  {% assign site_events = site.events | sort: "weight" %}
-
+  {% assign events_sorted = site.events | sort: "date_" %}
   {% assign site_events_filtered = "" | split:"" %}
-  {% for e in site_events %}
-  {% capture is_outdated %}{% include func/is_outdated.html event=e %}{% endcapture %}
-  {% assign is_outdated = is_outdated | strip_newlines %}
-    {% if is_outdated == "false" %}
-      {% assign site_events_filtered = site_events_filtered | push: e %}
-    {% endif %}
-  {% endfor %}
+  {% for e in events_sorted  %}
+    {% capture is_live %}
+      {% include func/is_live.html event=e container="exclude"  %}
+    {% endcapture %}
+    {% assign is_live = is_live | lstrip | rstrip %}
+    {% if is_live == "true" %}
 
-  {% assign site_events_limited = "" | split:"" %}
-  {% for e in site_events_filtered limit:include.limit %}
-    {% assign site_events_limited = site_events_limited | push: e %}
-  {% endfor %}
+      {% assign event_date = e.date_ %}
+      {% assign event_month = event_date | date: "%b" %}
 
-  {% assign site_events_sorted = site_events_limited | sort: "date_" %}
-  {% for e in site_events_sorted %}
-    {% assign event_date = e.date_ %}
-    {% unless event_date %}
-      {% comment %}parent events has no date, but have date_end{% endcomment %}
-      {% assign event_date = e.date_end %}
-    {% endunless %}
-    {% if event_date %}
-      {% assign currentdate = event_date | date: "%b" %}
-      {% if currentdate != date %}
-        <h3 class="month" id="{{e.date_ | date: "%b"}}">{{ currentdate }}.</h3>
-        {% assign date = currentdate %}
+      {% if event_month != month %}
+        <h3 class="month" id="{{e.date_ | date: "%b"}}">{{ event_month }}.</h3>
+        {% assign month = event_month %}
       {% endif %}
+
       <a class="event" href="{{ e.url }}">{{ e.title }}
         <span class="date">
           {{ e.date_ | date: "%D" }}
         </span>
       </a>
+
     {% endif %}
   {% endfor %}
+
 </div>

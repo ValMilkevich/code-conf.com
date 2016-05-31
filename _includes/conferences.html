@@ -7,12 +7,16 @@ class
   {% assign site_events = site.events | sort: "weight" %}
   {% assign site_events_filtered = "" | split:"" %}
   {% for e in site_events %}
-    {% capture is_outdated %}{% include func/is_outdated.html event=e %}{% endcapture %}
-    {% assign is_outdated = is_outdated | strip_newlines %}
-    {% if is_outdated == "false" %}
+    {% capture is_live %}
+      {% include func/is_live.html event=e %}
+    {% endcapture %}
+    {% assign is_live = is_live | lstrip | rstrip %}
+    {% if is_live == "true" %}
       {% assign site_events_filtered = site_events_filtered | push: e %}
     {% endif %}
   {% endfor %}
+
+
   {% for e in site_events_filtered limit:include.limit offset:include.offset %}
     <div class="conference">
       <a class="event-link" href="{{ e.url }}">
