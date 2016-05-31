@@ -16,7 +16,7 @@ date_end: 2016-08-26
 time: 9—16:00
 city: Aarhus
 event_header:
-  img: /images/pages/academy2016/aarhus.jpg
+  img: /images/pages/academy2016/aarhus2.jpg
   ribbon: Aarhus
 checkout:
   eventbriteid: 24617023179
