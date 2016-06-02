@@ -60,10 +60,16 @@ speakers:
       Developers and testers struggle every day to have a working local development environment ready when developing, debugging and going through the continuous integration cycle (CI).
       We can test our software either on production or using Virtualisation solutions or solve that by using docker based dev testing environment.
       As well we can test our software without creating tests with Diffy. Diffy finds potential bugs in your service using running instances of your new code and your old code side by side.
+  joakimohman:
+    title: Build your own private CaaS
+    abstract:
+      When you have decided that containers is the way to go and you want to take it in to production then this session is for you. We will explore on how to build and manage a scalable and fault tolerant private Container as a Service (CaaS) platform on top of IaaS using Terraform and Rancher.
+      With this setup you can manage any of your favorit Kubernetes, Mesos or Swarm container cluster.
 
 sponsors:
   - docker
   - dockersthlm
+  - elastx
 
 ---
 
