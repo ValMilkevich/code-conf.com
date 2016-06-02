@@ -27,7 +27,7 @@ title: CoDe Academy 2016 - press material
 * [CoDe Academy 2016: Poster - A1](code-academy-2016-poster.pdf)
 * [CoDe Academy 2016: Twitter sized graphics](code-academy-2016-twitter.jpg)
 * [CoDe Academy 2016: Front page graphics](code-academy-2016-front.jpg)
-* [CoDe Academy 2016: Sponsor - shout out - PDF](code-academy-2016-sponsor.pdf)
+* [CoDe Academy 2016: Sponsor - shout out - PDF](code-academy-sponsor-2016.pdf)
 
 ## Sponsor logos
 
