@@ -20,7 +20,7 @@ css_class: academy
 sponsors:
   - github
   - napatech
-  caption: >
+caption: >
   A twitter sized caption, that briefly describes the conference, the purpose and the audience
 ---
 
