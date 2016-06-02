@@ -58,6 +58,8 @@ speakers:
       TBA
 
 sponsors:
+- praqma
+- t2data
 - dotw
 - trifork
 
@@ -84,7 +86,7 @@ caption="Embedded edition"
 color=page.color
 no_botrip=true
 content="
-{:.whitestrip}
+{: .whitestrip }
 This year we want to pivot conference focus and look more into the most challenging area when it comes to Continuous Delivery - embedded software. Join us and be inspired by the industry leaders who already advanced in their journey towards Continuous Delivery! Do you have a story to tell? *[CFP is still open](http://www.code-conf.com/cfp/)*
 "
 %}
@@ -97,9 +99,9 @@ color=page.color
 no_toprip=true
 content="
 **Day before conference:** Pre-conference meetup for everyone who can't make it for the main event!
-{:.whitestrip}
+{: .whitestrip }
 **Day after the conference:** Continuous Delivery mastermind group! Engage with the speakers and your peers into facilitated open space discussion. More details are coming soon - stay tuned!
-{:.whitestrip}
+{: .whitestrip }
 "
 %}
 

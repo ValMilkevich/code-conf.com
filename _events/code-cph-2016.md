@@ -67,7 +67,9 @@ speakers:
 
 
 sponsors:
+- praqma
 - chef
+- t2data
 - dotw
 - simcorp
 - milestone
