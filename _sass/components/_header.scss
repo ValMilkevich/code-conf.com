@@ -7,8 +7,10 @@ header.site-header{
     background-clip: content-box;
   }
   a.logo{
+    float: left;
     margin-left: 25px;
-    margin-right: -25px;
+    /*margin-right: -25px;*/
+    margin-right: 10px;
     @media(max-width: $screen-xs-max){
       margin-left: 0;
     }
@@ -22,10 +24,11 @@ header.site-header{
     a{
       margin-right: 20px;
       font-family: $headings-font-family;
+      letter-spacing: 0.02em;
       color: white;
-      font-size: 1.5em;
+      font-size: 1.1em;
       margin-right: 15px;
-      padding-top: 28px;
+      padding-top: 35px;
       display: inline-block;
       &:last-child{
         margin-right: 40px;
@@ -47,6 +50,9 @@ header.site-header{
           margin-right: 0px;
         }
       }
+    }
+    &.event-nav{
+      float: left;
     }
   }
 }

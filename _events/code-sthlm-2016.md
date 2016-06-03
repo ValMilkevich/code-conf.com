@@ -1,4 +1,5 @@
 ---
+type: conferences
 #permalink: /code-sthlm-2016.html
 title: CODE-STHLM
 brand-txt: >

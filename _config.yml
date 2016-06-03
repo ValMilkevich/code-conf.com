@@ -6,6 +6,18 @@ exclude: [README.md]
 timezone: Europe/Copenhagen
 url: new.code-conf.com
 markdown: kramdown
+
+event_types: 
+  - all: All events
+  - conferences: Conferences
+  - meetups: Meetups
+  - hackathones: Hackathones
+filter_event:
+  filter_any_item_tag: all
+  event_page_url: /events/
+  event_page_css_selector: .page-events
+  event_page_all_events_header: "All events"
+
 footer: 
   - Brought to you by the folks at
   - /images/praqmalogo.png

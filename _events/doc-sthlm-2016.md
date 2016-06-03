@@ -1,4 +1,5 @@
 ---
+type: conferences
 brand-txt: >
     D*OC*-STHLM
 title: DOC-STHLM

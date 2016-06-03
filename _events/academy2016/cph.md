@@ -1,4 +1,5 @@
 ---
+type: conferences
 title: CoDe Academy - Copenhagen
 weight: 11
 nav_weight: 10

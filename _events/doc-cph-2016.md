@@ -1,4 +1,5 @@
 ---
+type: conferences
 brand-txt: >
     D*OC*-CPH
 title: DOC-CPH

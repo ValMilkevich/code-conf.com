@@ -3,9 +3,18 @@
     <a href="/" class="logo">
       <img src="/images/code-conf.png" alt="CoDe-Conf">
     </a>
+    <nav class="event-nav">
+        {% for event_type_hash in site.event_types %}
+          {% for event_type in event_type_hash %}
+            <a href="{{ site.filter_event.event_page_url }}#{{ event_type[0] }}">
+              {{ event_type[1] }}
+            </a>
+          {% endfor %}
+        {% endfor %}
+    </nav>
     <nav class="site-nav">
-      <a href="mailto:{{ site.email_sponsor_inquires }}?subject=Sponsor%20inquiry">Sponsor inquiries</a>
       {% assign site_pages = site.pages | sort:"nav_weight" %}
+        <a href="mailto:{{ site.email_sponsor_inquires }}?subject=Sponsor%20inquiry">Sponsor inquiries</a>
         {% for m in site_pages %}
           {% if m.nav_weight %}
             {% assign menu_item_name = m.title %}

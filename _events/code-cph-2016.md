@@ -1,4 +1,5 @@
 ---
+type: conferences
 title: CODE-CPH
 weight: 30
 brand-txt: >

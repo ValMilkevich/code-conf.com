@@ -1,0 +1,12 @@
+.page-events{
+  .include-conferences{
+    @extend .row;
+    font-size: 0.33em;
+    .conference{
+      @extend .col-md-4;
+      height: 400px;
+      overflow: hidden;
+      clear: none;
+    }
+  }
+}
