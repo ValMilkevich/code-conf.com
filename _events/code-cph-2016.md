@@ -71,6 +71,7 @@ sponsors:
 - praqma
 - chef
 - t2data
+- github
 - dotw
 - simcorp
 - milestone
