@@ -1,17 +1,19 @@
 ---
-type: conferences
 title: CoDe Academy
 nav_weight: 10
+weight: 10
 brand-txt: >
     *Co*{: style="color: black; font-style: normal;"}De Academy
 #Co*De*{: style="color: black; font-style: normal;"} Academy
 subtitle: >
   A modern continuous delivery bootcamp for graduates
+caption: >
+  Four Continuous Delivery Bootcamps - in Denmark and Norway. Each is 5 intense days. Bring your laptop! FREE to attend for Computer Science students and unemployed IT professionals. Enroll NOW!
 color: '#f58532'
-color_cph: '#006666'
-color_trd: '#f58532'
-color_aar: '#006f00'
-color_osl: '#8a66a0'
+is_container: true
+date_:      2016-06-13
+date_end:   2016-09-02
+city:       Throughout Scandinavia
 event_header:
   img: ../images/pages/academy2016/event-main.jpg
   ribbon: Enroll today
@@ -21,8 +23,7 @@ css_class: academy
 sponsors:
   - github
   - napatech
-caption: >
-  A twitter sized caption, that briefly describes the conference, the purpose and the audience
+  - danfoss
 ---
 
 
@@ -82,43 +83,21 @@ Each location will have five companies supporting the academy. Companies are loo
 img="../images/icons/icon-place-big.png"
 caption="Where it’s happening"
 color=page.color
+no_botrip=true
 content="
 Academies will take place from end of June to start September in **Copenhagen**, **Aarhus**, **Oslo** & **Trondheim**. Training will be in English, a full week 9—16 every day. You’re eligible to enroll if you are either a student or unemployed recent graduate in a field related to computer science. Click on the dates below to see the program for the individual academies.
 "
 %}
 
 
-<br/>
+{% capture subevents %}{% include subevents.html this_page=page %}{% endcapture %}
 
-{% include date-location.html
-color=page.color_trd
-date="2016-06-13"
-city="Trondheim"
-url="trd" %}
+{% include pullout.html
+no_toprip=true
+color=page.color
+content=subevents
+%}
 
-<br/>
-
-{% include date-location.html
-color=page.color_cph
-date="August 15th"
-city="Copenhagen"
-url="cph" %}
-
-<br/>
-
-{% include date-location.html
-color=page.color_aar
-date="August 22nd"
-city="Aarhus"
-url="aar" %}
-
-<br/>
-
-{% include date-location.html
-color=page.color_osl
-date="August 29th"
-city="Oslo"
-url="osl" %}
 
 {% include sponsors.html
 sponsors=page.sponsors caption="Sponsors" subcaption="CoDe Academy is sponsored by:" css_classes="" %}
