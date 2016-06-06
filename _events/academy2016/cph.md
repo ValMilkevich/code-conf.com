@@ -26,6 +26,7 @@ css_class: academy
 sponsors:
   - github
   - napatech
+  - bkultrasound
 ---
 
 {% include event-main.html
