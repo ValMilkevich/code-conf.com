@@ -1,0 +1,23 @@
+{% comment %}
+takes
+speaker_id
+required_event_field - can be "title" or "basename"
+
+returns
+required fields from speaker's events, separated with `|`
+{% endcomment %}
+{% for event in site.events %}
+  {% for speaker in event.speakers %}
+    {% if speaker[0] == include.speaker_id %}
+      {% assign basename = event.path | 
+         split:"/" | 
+         last | 
+         split:"." | 
+         first %}
+      {{ basename }} 
+      {{ include.separator }}
+      {{ event.title }} 
+      {{ include.separator }}{{ include.separator }}
+    {% endif %}
+  {% endfor %}
+{% endfor %}

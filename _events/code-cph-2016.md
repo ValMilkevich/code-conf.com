@@ -97,7 +97,9 @@ keynotes=page.keynote-speakers
 speakers=page.speakers
 color=page.color
 css_classes="colored toprip botrip"
-caption="The speakers" %}
+caption="The speakers" 
+event_path=page.path
+%}
 
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid

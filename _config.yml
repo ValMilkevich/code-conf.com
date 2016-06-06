@@ -17,6 +17,11 @@ filter_event:
   event_page_url: /events/
   event_page_css_selector: .page-events
   event_page_all_events_header: "All events"
+filter_speaker:
+  filter_any_item_tag: all
+  page_url: /speakers/
+  page_css_selector: .page-speakers
+  all_header: "All events"
 
 footer: 
   - Brought to you by the folks at

@@ -14,6 +14,7 @@
     if( !headerText || headerText == "{{ include.default_tag }}" ){
       headerText = "{{ include.all_header }}";
     }
+    //console.log("{{ include.css_selector }}");
     $("{{ include.css_selector }} h1").text(headerText);
     $("{{ include.css_selector }} .filter-item").filter(function( index ) {
       return !$( this ).data("tags").indexOf(currentTag) > -1;

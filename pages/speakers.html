@@ -8,13 +8,30 @@ color: '#f58532'
 
 {% include event-main.html
 background-image="/images/code-cph-audience.png"
-brand-lead="The usual suspects"
+brand-lead="Speaking at"
 brand-txt="SPEAKER BIOS"
 speaker-icon="on"
 color=page.color %}
 
 {% for speaker in site.speakers %}
-  <div class="speaker">
+  {% assign basename = speaker.path | split:"/" | last | split:"." | first %}
+  {% capture events_raw %}
+    {% include events_by_speaker.html speaker_id=basename required_event_field="basename" separator="|" %}
+  {% endcapture %}
+  {% assign events_raw = events_raw | split:"||" | pop %}
+  {% assign events = "" | split:"" %}
+  {% assign event_basenames = "" | split:"" %}
+  {% for event_raw in events_raw %}
+    {% assign event = event_raw | split:"|" %}
+    {% assign event_item_basename = event[0] | strip_newlines | lstrip | rstrip %}
+    {% assign event_item_title    = event[1] | strip_newlines | lstrip | rstrip %}
+    {% assign event_item = "" | split:"" %}
+    {% assign event_item = event_item | push:event_item_basename %}
+    {% assign event_item = event_item | push:event_item_title %}
+    {% assign event_basenames = event_basenames | push:event_item_basename %}
+    {% assign events = events | push:event_item %}
+  {% endfor %}
+  <div class="speaker filter-item" data-tags='{{ event_basenames | jsonify }}'>
       <div class="image">
         <img src="{{ speaker.img }}" alt="{{ speaker.name }}">
       </div>
@@ -31,13 +48,24 @@ color=page.color %}
         <div class="social">
           {{ speaker.social | markdownify }}
         </div>
+        {% include events_by_speaker.html speaker_id=basename required_event_field="title" separator="|" %}
+        {% assign events_size = events | size %}
+        {% if events_size > 0 %}
+          <div class="events">
+            Speaking at: 
+            {% for event in events %}
+              <a href="/{{ event[0] }}/">{{ event[1] }}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
   </div>
 {% endfor %}
 
-<!--<script>-->
-<!--$( "a.read-more" ).click(function() {-->
-  <!--$(this).closest('.speaker').toggleClass("expanded");-->
-  <!--console.log("yo");-->
-<!--});-->
-<!--</script>-->
+
+{% include javascript/filtering.js 
+url=         site.filter_speaker.page_url
+default_tag= site.filter_speaker.filter_any_item_tag
+css_selector=site.filter_speaker.page_css_selector
+all_header=  site.filter_speaker.page_all_header
+%}
