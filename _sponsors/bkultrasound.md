@@ -1,5 +1,5 @@
 ---
 name: BK Ultrasound
-img:  bkultrasound.jpg
+img:  bkultrasound.png
 link: http://bkultrasound.com/
 ---
