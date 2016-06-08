@@ -103,7 +103,9 @@ event_path=page.path
 
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid
-css_classes="black toprip botrip" %}
+css_classes="black toprip botrip"
+header="Enroll"
+height="330" %}
 
 {% include sponsors.html
 sponsors=page.sponsors
