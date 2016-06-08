@@ -1,6 +1,7 @@
 ---
 type: conferences
 title: CoDe Academy - Trondheim
+weight: 10
 nav_weight: 10
 brand-txt: >
     *Co*{: style='color: black; font-style: normal;'}De
