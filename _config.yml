@@ -11,7 +11,7 @@ event_types:
   - all: All events
   - conferences: Conferences
   - meetups: Meetups
-  - hackathones: Hackathones
+  - hackathons: Hackathons
 filter_event:
   filter_any_item_tag: all
   event_page_url: /events/
