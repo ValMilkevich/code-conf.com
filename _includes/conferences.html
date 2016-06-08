@@ -1,10 +1,18 @@
 {% comment %}
 offset - from what index to start
 limit - how many output
+sort
 class
 {% endcomment %}
+
 <div class="include-conferences{% if include.class %} {{ include.class }}{% endif %}">
-  {% assign site_events = site.events | sort: "weight" %}
+  {% case include.sort %}
+  {% when "date_" %}
+    {% assign site_events = site.events | sort:"date_" %}
+  {% else %}
+    {% assign site_events = site.events | sort:"weight" %}
+  {% endcase %}
+
   {% assign site_events_filtered = "" | split:"" %}
   {% for e in site_events %}
     {% capture is_live %}
