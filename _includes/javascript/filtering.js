@@ -27,21 +27,21 @@
   
     // Highlighting links
     //
-    $( "#search a" ).filter(function( index ) {
-      return $( this ).text() != currentTag;
+    $( "nav.event-nav a" ).filter(function( index ) {
+      return $( this ).attr('href') != window.location.href.slice(window.location.origin.length);
     })
     .removeClass("active");
-    $( "#search a" ).filter(function( index ) {
-      return $( this ).text() == currentTag;
+    $( "nav.event-nav a" ).filter(function( index ) {
+      return $( this ).attr('href') == window.location.href.slice(window.location.origin.length);
     })
     .addClass("active");
   
     // Wrong hash
     //
-    if(itemsToShow.length == 0 && window.location.pathname == "{{ include.url }}"){
+    //if(itemsToShow.length == 0 && window.location.pathname == "{{ include.url }}"){
       //Output `nothing found` html here
       //window.location.replace("/404.html");
-    }
+    //}
   }
   
   $(window).on('hashchange', function() {
