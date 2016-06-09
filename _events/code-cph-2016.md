@@ -3,7 +3,7 @@ type: conferences
 title: CODE-CPH
 weight: 30
 brand-txt: >
-  *CO*DE*-*CPH
+  *CO*DE*-*CPH<!--power-icon-->
 color: '#006666 '
 subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference - Copenhagen

@@ -1,7 +1,7 @@
 ---
 type: conferences
 brand-txt: >
-    D*OC*-CPH
+    D*OC*-CPH<!--power-icon-->
 title: DOC-CPH
 color: '#539184'
 subtitle: >

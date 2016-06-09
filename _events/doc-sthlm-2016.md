@@ -1,7 +1,7 @@
 ---
 type: conferences
 brand-txt: >
-    D*OC*-STHLM
+    D*OC*-STHLM<!--power-icon-->
 title: DOC-STHLM
 weight: 20
 color: '#9d006e'

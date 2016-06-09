@@ -4,7 +4,7 @@ title: CoDe Academy - Oslo
 nav_weight: 10
 brand-txt: >
     *Co*{: style='color: black; font-style: normal;'}De
-    Aca*de*{: style="color: black; font-style: normal;"}my
+    Aca*de*{: style="color: black; font-style: normal;"}my<!--power-icon-->
 dot-txt: Free <br> 5 Day course
 dot-txt-size: small
 subtitle: >

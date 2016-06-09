@@ -21,18 +21,16 @@
           {% endif %}
 
           {% if include.brand-txt %}
-          <div class="brand-tag" style="background-color: {{ include.color }}">
-            {% if include.speaker-icon %}
-            <h1 style="margin-left:20px">
-            {% else %}
-            <h1>
-            {% endif %}
-            {{ include.brand-txt | markdownify | strip | remove: '<p>' | remove: '</p>' }}
-            {% if include.speaker-icon %}
-            {% else %}
-              <img   class="on-btn" src="/images/icons/on-symbol-cropped.png"></h1>
-            {% endif %}
-          </div>
+            <div class="brand-tag" style="background-color: {{ include.color }}">
+              <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}{% if include.brand-txt-size %}font-size: {{ include.brand-txt-size }}em; {% endif %}">
+                {{ include.brand-txt | 
+                    replace: '<!--power-icon-->', '<img class="on-btn" src="/images/icons/on-symbol-cropped.png">' |
+                    markdownify | 
+                    strip | 
+                    remove: '<p>' | 
+                    remove: '</p>' }}
+              </h1>
+            </div>
           {% endif %}
         </div>
       </div>

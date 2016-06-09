@@ -3,8 +3,7 @@ type: conferences
 #permalink: /code-sthlm-2016.html
 title: CODE-STHLM
 brand-txt: >
-    *Co*{: style="color: black; font-style: normal;"}De-STHLM
-#Co*De*{: style="color: black; font-style: normal;"}-STHLM
+    *Co*{: style="color: black; font-style: normal;"}De-STHLM<!--power-icon-->
 color: '#e89043'
 subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference. *Embedded* edition

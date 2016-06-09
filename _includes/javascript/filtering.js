@@ -1,6 +1,6 @@
 <script>
   function filter(currentTag){
-    console.log("currentTag = " + currentTag);
+    //console.log("currentTag = " + currentTag);
     // if tag is empty
     //
     if (currentTag == "" && window.location.pathname == "{{ include.url }}") {
