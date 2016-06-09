@@ -9,7 +9,7 @@ title: Continuous Delivery events
 background-image="/images/doc-cph-2016.png"
 brand-lead="Welcome to the home of..."
 brand-txt="*Co*ntinuous *de*livery"
-subtitle="CONFERENCES * EVENTS * TRAINING *& MORE*"
+subtitle="...We're building the community of CoDe'ers and DevOps"
 color='#664418' %}
 
 {% include event-and-upnext.html %}
