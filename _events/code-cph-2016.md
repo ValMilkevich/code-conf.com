@@ -48,7 +48,7 @@ speakers:
   ethomson:
     title: Stop Breaking Things - Continuous Delivery at GitHub
     abstract: >
-      To Be Announced
+       You've probably heard the famous quote: "move fast and break things". Of course we all want to move fast, but our customers expect reliable and working services. Can you move quickly, deliver continuously, but not break things?  Learn about the tools and processes that GitHub uses to deploy continuously, while breaking as few things as possible, and how we detect and fix the problems that arise.
   kristofferlippert:
         title: Elephant jiu jitsu - Throwing big things gracefully through the air
         abstract: >
@@ -97,7 +97,7 @@ keynotes=page.keynote-speakers
 speakers=page.speakers
 color=page.color
 css_classes="colored toprip botrip"
-caption="The speakers" 
+caption="The speakers"
 event_path=page.path
 %}
 
