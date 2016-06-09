@@ -19,7 +19,7 @@ title: CoDe Academy 2016 - press material
 * [CoDe Academy 2016: Headmaster Lars Kruse](lars_kruse.jpg)
 * [CoDe Academy 2016: Auditorium 1](docker_classroom.jpg)
 * [CoDe Academy 2016: Auditorium 2](taking_notes_auditorium.jpg)
-* [CoDe Academy 2016: Auditorium 3](audience_auditorium.jpg)
+* [CoDe Academy 2016: Auditorium 3](auditorium_audience.jpg)
 
 ## Posters and flyers
 
