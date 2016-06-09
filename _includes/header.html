@@ -6,7 +6,7 @@
     <nav class="event-nav">
         {% for event_type_hash in site.event_types %}
           {% for event_type in event_type_hash %}
-            <a href="{{ site.filter_event.event_page_url }}#{{ event_type[0] }}">
+            <a href="{{ site.filter_event.event_page_url }}?tag={{ event_type[0] }}">
               {{ event_type[1] }}
             </a>
           {% endfor %}

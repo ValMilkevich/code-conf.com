@@ -115,7 +115,6 @@ time=page.time
 city=page.city %}
 
 {% include speakers.html
-keynotes=page.keynote-speakers
 speakers=page.speakers
 color=page.color
 css_classes="colored toprip botrip"

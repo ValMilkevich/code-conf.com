@@ -28,13 +28,13 @@ adress: Clarion Hotel Sign Östra Järnvägsgatan 35 101 26 Stockholm, Sweden
 checkout:
   eventbriteid: 20692623193
 
-keynote-speakers:
+
+speakers:
   kelseyhightower:
+    keynote: true
     title: Docker and the Future of Operating Systems
     abstract: >
       Kelsey will take a dive into the future of the operating system and how containers have the potential to destroy the Linux distro as we know it.
-
-speakers:
   mhausenblas:
     title: Building hybrid microservices with Docker
     abstract: >
@@ -90,7 +90,6 @@ time=page.time
 city=page.city %}
 
 {% include speakers.html
-keynotes=page.keynote-speakers
 speakers=page.speakers
 color=page.color
 css_classes="colored toprip botrip"

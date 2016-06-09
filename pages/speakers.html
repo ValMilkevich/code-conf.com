@@ -14,9 +14,9 @@ speaker-icon="on"
 color=page.color %}
 
 {% for speaker in site.speakers %}
-  {% assign basename = speaker.path | split:"/" | last | split:"." | first %}
+  {% assign speaker_basename = speaker.path | split:"/" | last | split:"." | first %}
   {% capture events_raw %}
-    {% include events_by_speaker.html speaker_id=basename required_event_field="basename" separator="|" %}
+    {% include events_by_speaker.html speaker_id=speaker_basename required_event_field="basename" separator="|" %}
   {% endcapture %}
   {% assign events_raw = events_raw | split:"||" | pop %}
   {% assign events = "" | split:"" %}
@@ -31,12 +31,13 @@ color=page.color %}
     {% assign event_basenames = event_basenames | push:event_item_basename %}
     {% assign events = events | push:event_item %}
   {% endfor %}
+  {% assign event_basenames = event_basenames | push:"{{ site.filter_speaker.filter_any_item_tag }}" %}
   <div class="speaker filter-item" data-tags='{{ event_basenames | jsonify }}'>
       <div class="image">
         <img src="{{ speaker.img }}" alt="{{ speaker.name }}">
       </div>
       <div class="details">
-        <div class="name" id={{ speaker.name | slugify }}>
+        <div class="name" id={{ speaker_basename }}>
           {{ speaker.name }}
         </div>
         <div class="position">
@@ -48,7 +49,6 @@ color=page.color %}
         <div class="social">
           {{ speaker.social | markdownify }}
         </div>
-        {% include events_by_speaker.html speaker_id=basename required_event_field="title" separator="|" %}
         {% assign events_size = events | size %}
         {% if events_size > 0 %}
           <div class="events">

@@ -27,16 +27,18 @@ checkout:
   eventbriteid: 23441015709
 
 keynote-speakers:
+
+speakers:
   januhagen:
+    keynote: true
     title: Continuous Delivery - Lessons from the Aviation Industry
     abstract: >
       Assuming that Continuous Delivery is the solution to your problems Jan will explore - through various stories - which character traits should be present in your team members if they are to build and deliver cutting edge software. He will touch on how to build such a team. A non-technical keynote for anyone who is managing, or is a member of, a team who are trying to implement continuous delivery.
   jejensen:
+    keynote: true
     title: Continuous Delivery and DevOps at Lego
     abstract: >
       For the past 4 years Jørn Erik has focused on implementing Continuous Delivery and DevOps processes and practices in development, quality and operations at Lego.
-
-speakers:
   lakruzzmeekrosoft:
     title: CoDe - The Metaphors We Live By
     abstract: >
@@ -93,7 +95,6 @@ time=page.time
 city=page.city %}
 
 {% include speakers.html
-keynotes=page.keynote-speakers
 speakers=page.speakers
 color=page.color
 css_classes="colored toprip botrip"

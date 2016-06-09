@@ -1,11 +1,10 @@
 <script>
   function filter(currentTag){
-  
-    // if hash is empty
+    console.log("currentTag = " + currentTag);
+    // if tag is empty
     //
     if (currentTag == "" && window.location.pathname == "{{ include.url }}") {
       currentTag = "{{ include.event_default_tag }}";
-      //console.log("currentTag = " + currentTag);
     }
   
     // Setting visibility
@@ -23,7 +22,9 @@
     var itemsToShow = $("{{ include.css_selector }} .filter-item").filter(function( index ) {
       return $( this ).data("tags").indexOf(currentTag) > -1;
     });
-    itemsToShow.show("fast");
+    itemsToShow.show("fast", function(){
+      scrollToId();
+    });
   
     // Highlighting links
     //
@@ -36,7 +37,7 @@
     })
     .addClass("active");
   
-    // Wrong hash
+    // Wrong tag
     //
     //if(itemsToShow.length == 0 && window.location.pathname == "{{ include.url }}"){
       //Output `nothing found` html here
@@ -44,18 +45,20 @@
     //}
   }
   
-  $(window).on('hashchange', function() {
-    currentTag = unescape(window.location.hash.slice(1));
-    filter(currentTag);
-  
-    //scroll to h1
-    //var body = $("html, body");
-    //var scrollTo = $("{{ include.css_selector }} h1").offset().top;
-    //body.stop().animate({scrollTop: scrollTo }, '200', 'swing');
-  });
-  
   $(function() {
-    currentTag = unescape(window.location.hash.slice(1));
+    currentTag = getParam('tag');
     filter(currentTag);
   });
+
+  function scrollToId(){
+    var scrollto = getParam('scrollto');
+    if(scrollto){
+      var body = $("html, body");
+      if(body.find("#"+scrollto)){
+        var scrollTo = $("#"+scrollto).offset().top;
+        body.stop().animate({scrollTop: scrollTo }, '200', 'swing');
+      }
+    }
+  }
+
 </script>
