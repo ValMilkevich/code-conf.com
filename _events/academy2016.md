@@ -3,8 +3,8 @@ title: CoDe Academy
 nav_weight: 10
 weight: 10
 brand-txt: >
-    *Co*{: style="color: black; font-style: normal;"}De Academy
-#Co*De*{: style="color: black; font-style: normal;"} Academy
+    *Co*{: style='color: black; font-style: normal;'}De
+    Aca*de*{: style="color: black; font-style: normal;"}my
 subtitle: >
   A modern continuous delivery bootcamp for graduates
 caption: >
