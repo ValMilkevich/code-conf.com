@@ -1,0 +1,28 @@
+<div class="include-meetup-summary">
+<div class="content">
+  {{ include.content | markdownify }}
+</div>
+
+<div class="details">
+  <div class="date-location-button">
+    {% include date-location.html
+    color=include.color
+    date=include.date
+    date_end=include.date_end
+    time=include.time
+    city=include.city %}
+    
+    <a href="https://ti.to/github-events/copenhagen-breakfast-seminar" 
+      class="button" 
+      style="background: {{ page.color }}; border-color: {{ page.color }};"
+      target="_blank">
+      {{ include.button_text }}
+    </a>
+  </div>
+  
+  <div class="image">
+    <img src="{{ include.image }}" alt="{{ include.image_alt }}">
+  </div>
+</div>
+
+</div>

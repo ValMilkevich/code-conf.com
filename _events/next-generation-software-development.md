@@ -18,6 +18,7 @@ city: Copenhagen
 event_header:
   img: /images/pages/meetups/event_main.jpg
   ribbon: Meet-up
+button_link: https://ti.to/github-events/copenhagen-breakfast-seminar
 
 ---
 
@@ -31,19 +32,27 @@ dot-txt-size=page.dot-txt-size
 brand-lead=page.event_header.ribbon
 color=page.color %}
 
+{% include meetup/summary.html 
+content="
 GitHub and Praqma have entered into partnership in Scandinavia - we believe it’s a perfect
 match, come and hear why! We’re jointly inviting you to a breakfast-to-lunch seminar of
 three short workshops that will give you insight on how businesses are transforming by
 building methodologies and practices that will drive software development into the future.
-The event will be held in Copenhagen on June 22nd with the doors opening at 8.45am.
-Location Lysthuset, Islands Brygge 18, 2300 København S.
 
-{% include date-location.html
+The event will be held in Copenhagen on June 22nd with the doors opening at 8.45am.
+Location Lysthuset, Islands Brygge 18, 2300 København S."
+button_link=page.button_link
+button_text="Join us now!"
+image="/images/pages/meetups/summary.jpg"
+image_alt=page.title
+
 color=page.color
 date=page.date_
 date_end=page.date_end
 time=page.time
-city=page.city %}
+city=page.city
+%}
+
 
 <br>
 
