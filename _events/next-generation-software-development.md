@@ -16,7 +16,7 @@ date_:    2016-06-22
 time: 8:45—13:00
 city: Copenhagen
 event_header:
-  img: /images/audience_auditorium.jpg
+  img: /images/pages/meetups/event_main.jpg
   ribbon: Meet-up
 
 ---
@@ -76,19 +76,19 @@ Workshops
 {% include columns.html
 column_number=3
 content="
-![Continuous Delivery Academy](../images/pages/academy2016/0015.jpg)
+![Continuous Delivery Academy](../images/pages/meetups/workshop_git.jpg)
 {: .image}
 
 ## GitHub Enterprise<br>Power of Community
 Power of Code. On Premises
 <!--col-->
-![It’s free. Honestly](../images/pages/academy2016/0040.jpg)
+![It’s free. Honestly](../images/pages/meetups/workshop_workflow.jpg)
 {: .image}
 
 ## Praqmatic<br>Workflow
 And agile task approach. Powered by GitHub Issues
 <!--col-->
-![Learn the latest skills](../images/pages/academy2016/0020.jpg)
+![Learn the latest skills](../images/pages/meetups/workshop_roadmap.jpg)
 {: .image}
 
 ## Your road<br>to the future
