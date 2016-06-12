@@ -1,3 +1,8 @@
+[![Stories in Ready](https://badge.waffle.io/Praqma/praqma.com.svg?label=Action%20-%20needs%20grooming&title=Needs%20grooming)](https://waffle.io/Praqma/code-conf.com?label=Action%20-%20needs%20grooming){: target="_blank"}
+
+
+----
+
 # code-conf.com
 www.code-conf.com
 
