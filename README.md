@@ -1,5 +1,6 @@
-[![Stories in Ready](https://badge.waffle.io/Praqma/praqma.com.svg?label=Action%20-%20needs%20grooming&title=Needs%20grooming)](https://waffle.io/Praqma/code-conf.com?label=Action%20-%20needs%20grooming){: target="_blank"}
+[![Stories in Ready](https://badge.waffle.io/Praqma/praqma.com.svg?label=Action%20-%20needs%20grooming&title=Needs%20grooming)](https://waffle.io/Praqma/code-conf.com?label=Action%20-%20needs%20grooming)
 
+[![Stories in Ready](https://badge.waffle.io/Praqma/praqma.com.svg?label=Action%20-%20awaiting%20feedback&title=Awaiting%20feedback)](https://waffle.io/Praqma/code-conf.com?label=Action%20-%20awaiting%20feedback)
 
 ----
 
