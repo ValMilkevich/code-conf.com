@@ -25,6 +25,7 @@ css_class: academy
 sponsors:
   - github
   - danfoss
+  - danskecommodities
 ---
 
 {% include event-main.html
