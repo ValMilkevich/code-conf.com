@@ -15,13 +15,36 @@ city: Copenhagen
 event_header:
   img: /images/pages/meetups/event_main.jpg
   ribbon: VIP meet-up
+agenda-picture: /images/pages/meetups/agenda.jpg
+agenda-brand-lead: >
+    Agenda
+agenda-maker: on
+agenda-label: on
+agenda:
+ - time: 8.45 – 9.15
+   title: Breakfast & Networking
+ - time: 9.15 – 9.25
+   title: Welcome by Praqma
+ - time: 9.25 – 9.45
+   title: Next Gen Software Development by GitHub
+ - time: 9.45 – 11.15
+   title: Three Workshops to Engage & Learn
+   comment: Each workshop is 30 mins - and we will rotate - so you’ll get to attend all three of them
+ - time: 11.15
+   title: Lunch is served
+button_link: https://ti.to/github-events/copenhagen-breakfast-seminar
+benefit-text: Having attended this seminar, you’ll have more insight on how your company can
+benefits:
+ - Attract and retain new talent
+ - Ship code faster
+ - Compete smarter  
 button_link: https://ti.to/github-events/copenhagen-breakfast-seminar
 redirect_from:
   -  /next-generation-software-development/
-
 ---
 
 {% include event-main.html
+no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt
 brand-txt-size=4.0
@@ -29,6 +52,7 @@ subtitle=page.subtitle
 dot-text=page.dot-txt
 dot-txt-size=page.dot-txt-size
 brand-lead=page.event_header.ribbon
+no_toprip=true
 color=page.color %}
 
 {% include meetup/summary.html
@@ -55,25 +79,19 @@ city=page.city
 
 <br>
 
-AGENDA
----
+{% include event-main.html
+agenda-label=page.agenda-label
+background-image=page.agenda-picture
+brand-lead= page.agenda-brand-lead
+brand-text-as-marker=page.agenda-maker %}
 
-**8.45 – 9.15**  Breakfast & Networking
+{% include agenda.html
+agenda=page.agenda
+agenda-title=page.title %}
 
-**9.15 – 9.25**  Welcome by Praqma
-
-**9.25 – 9.45**  Next Gen Software Development by GitHub
-
-**9.45 – 11.15** Three Workshops to Engage & Learn
-
-Each workshop is 30 mins - and we will rotate - so you’ll get to attend all three of them
-**11.15** Lunch is served
-
-Having attended this seminar, you’ll have more insight on how your company can:
-
-* Attract and retain new talent
-* Ship code faster
-* Compete smarter
+{% include benefit.html
+text=page.benefit-text
+benefits = page.benefits %}
 
 <br>
 

@@ -81,6 +81,7 @@ sponsors:
 ---
 
 {% include event-main.html
+no_toprip=true
 background-image=page.event_header.img
 dot-text=page.price
 brand-lead=page.event_header.ribbon

@@ -6,6 +6,7 @@ title: Continuous Delivery events
 ---
 
 {% include event-main.html
+no_toprip=true
 background-image="/images/doc-cph-2016.png"
 brand-lead="Welcome to the home of..."
 brand-txt="*Co*ntinuous *de*livery"

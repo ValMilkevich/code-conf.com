@@ -30,6 +30,7 @@ sponsors:
 ---
 
 {% include event-main.html
+no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt
 subtitle=page.subtitle

@@ -3,6 +3,7 @@
   margin-top: 30px;
   .content{
     @extend .col-md-6;
+    padding-left: 55px;
     /*padding-top: 40px;*/
   }
   .details{
@@ -20,13 +21,14 @@
     }
     .image img{
       width: 100%;
+      padding-right: 50px;
     }
     .button{
       @extend .btn;
       @extend .btn-default;
       @extend .btn-xs;
       color: white;
-      float: right;
+      float: left;
       font-family: $headings-font-family;
       padding: 0 10px;
       font-size: 1.2em;

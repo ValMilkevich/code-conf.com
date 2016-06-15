@@ -15,6 +15,13 @@
   position: relative;
   width: 100%;
   z-index: 1;
+  /*position: absolute;*/
+  /*@if $placement == after {*/
+    /*bottom: 0;*/
+  /*}*/
+  /*@else {*/
+    /*top: 0;*/
+  /*}*/
 }
 
 

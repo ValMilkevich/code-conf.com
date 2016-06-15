@@ -1,0 +1,10 @@
+<div class="margin45">
+	<p style="text-transform: uppercase;"><strong> {{ include.agenda-title }} </strong></p>
+	{% for item in include.agenda %}
+		<p>
+			<span><strong>{{ item.time }}</strong></span>
+			<span class="agenda-text">{{ item.title }}</span>
+			{% if item.comment %}<p>{{ item.comment }}</p> {% endif %}
+		</p>
+	{% endfor %}
+</div>

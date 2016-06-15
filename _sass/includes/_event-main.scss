@@ -1,25 +1,30 @@
 .include-event-main{
-  &>div{
+  .image-canvas{
     @extend .wrapper;
-  }
-  & .image-canvas{
+    @extend .colored;
     z-index: 1;
     display: block;
     position: relative;
     width: 100%;
-    &:after{
-      @include rip( after, white);
+    &.toprip:before{
+      position: absolute;
+      top: 0px;
+      @media(max-width: $screen-xs-max){
+        display: none;
+      }
+    }
+    &.botrip:after{
       position: absolute;
       bottom: 0px;
       @media(max-width: $screen-xs-max){
         display: none;
       }
     }
-    & .the-image{
+    .the-image{
       width: 100%;
     }
 
-    & .dot{
+    .dot{
       background: yellow;
       border-radius: 1000px;
       font-family: Permanent Marker;
@@ -50,11 +55,11 @@
       }
     }
 
-    & .ribbons{
+    .ribbons{
       position: absolute;
       bottom: 0;
 
-      & .brand-tag{
+      .brand-tag{
         display: block;
         position: relative;
         z-index: 3;
@@ -73,7 +78,7 @@
             font-style: normal;
           }
         }
-        & .on-btn{
+        .on-btn{
           vertical-align: baseline;
           @media(max-width: $screen-xs-max){
             width: 3vw;
@@ -81,7 +86,7 @@
         }
       }
 
-      & .brand-lead{
+      .brand-lead{
         background: black;
         color: white;
         display: inline-block;
@@ -100,7 +105,7 @@
   }
 
 
-  & .caption{
+  .caption{
     position: relative;
     font-family: $marker-font-family;
     font-size: 1.6em;

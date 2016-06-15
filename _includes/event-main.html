@@ -1,11 +1,22 @@
-{% if include.speaker-icon %}
-<section class="include-event-main include-speakers">
-{% else %}
-<section class="include-event-main">
+{% assign classes = "" %}
+{% unless include.no_botrip %}
+  {% assign classes = classes | append:"botrip " %}
+{% endunless %}
+{% unless include.no_toprip %}
+  {% assign classes = classes | append:"toprip " %}
+{% endunless %}
+{% assign marker = "" %}
+{% if include.brand-text-as-marker %}
+  {% assign marker = marker | append:"marker " %}
 {% endif %}
+{% assign agenda-label = "" %}
+{% if include.agenda-label %}
+  {% assign agenda-label = agenda-label | append:"agenda-label " %}
+{% endif %}
+<section class="include-event-main{% if include.speaker-icon %} include-speakers{% endif %}">
   <div>
     <div class="event-main">
-      <div class="image-canvas">
+      <div class="image-canvas {{ classes }}">
         <img class="the-image" src="{{ include.background-image }}" alt="">
 
         {% if include.dot-text %}
@@ -15,7 +26,7 @@
 
         <div class="ribbons">
           {% if include.brand-lead %}
-          <div class="brand-lead">
+          <div class="brand-lead {{ marker }} {{ agenda-label }}" >
             {{ include.brand-lead }}
           </div>
           {% endif %}
