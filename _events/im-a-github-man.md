@@ -135,4 +135,4 @@ content=workshops
 
 
 
-What are you waiting for? [Join us now!](https://ti.to/github-events/copenhagen-breakfast-seminar){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
+What are you waiting for? [Join us now!]({{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
