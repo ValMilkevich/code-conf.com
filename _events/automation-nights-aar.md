@@ -1,11 +1,12 @@
 ---
+published: false
 type: meetups
 title: Automation Night
 weight: 100
 brand-txt: >
     Automation Night
 subtitle: >
-  
+
 caption: >
   Join us for another evening of insightful talks from the industry and some networking with likeminded people.
 color: '#669933'
@@ -26,12 +27,12 @@ agenda:
    comment: "Switching to CD requires a different mind-set, not just for developers. Notice: This talk will be in Danish."
  - time: "17.15"
    title: Automation at GoMore  by Jacob Poulsgaard-Tjørnholm
-   comment: How GoMore puts code into production to hundreds of thousands of users. 
+   comment: How GoMore puts code into production to hundreds of thousands of users.
  - time: "18.00"
    title: Sandwiches and networking
    comment: There will be sandwiches for everyone signing up before Tuesday the 7th of June.
 button_link: http://www.meetup.com/CoDe-U-AROS/events/230864013/
-benefit-text: Having attended this seminar, you’ll have more insight on how your company can 
+benefit-text: Having attended this seminar, you’ll have more insight on how your company can
 ---
 
 {% include event-main.html
@@ -49,7 +50,7 @@ color=page.color %}
 content="
 Join us for another evening of insightful talks from the industry and some networking with likeminded people.
 
-Systematic A/S has been so kind to host this Automation Night, which takes place on Søren Frichs Vej 39, 8000 Aarhus C. 
+Systematic A/S has been so kind to host this Automation Night, which takes place on Søren Frichs Vej 39, 8000 Aarhus C.
 
 The program will again contain two talks about automation and continuous delivery."
 button_link=page.button_link

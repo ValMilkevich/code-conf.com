@@ -1,4 +1,5 @@
 ---
+published: false
 type: meetups
 title: Docker Meetup
 weight: 100
@@ -21,16 +22,16 @@ agenda-maker: on
 agenda-label: on
 agenda:
  - time: "16.30"
-   title: Doors open 
+   title: Doors open
  - time: "17.00"
-   title: Using Docker at Rohde & Schwarz 
+   title: Using Docker at Rohde & Schwarz
  - time: "17.45"
-   title: break 
+   title: break
  - time: "18.00"
    title: "Talk two: Something other about Docker"
-   comment: This might be you! 
+   comment: This might be you!
  - time: "19.00"
-   title: Networking, and goodbyes 
+   title: Networking, and goodbyes
 
 button_link: http://www.meetup.com/Docker-Aarhus/events/231441979/
 ---
@@ -55,7 +56,7 @@ Last time it was the Docker Birthday party and it was a blast - We were really h
 
 This time the format will be a bit different, we will aim to have two talks - If you have something burning that you want to share, please contact us, otherwise we'll do our best to provide talks and interesting speakers :D
 
-INCUBA, Åbogade 15, Århus N  
+INCUBA, Åbogade 15, Århus N
 We'll be in the downstairs cantina!
 "
 button_link=page.button_link
@@ -82,9 +83,9 @@ brand-text-as-marker=page.agenda-maker %}
 agenda=page.agenda
 agenda-title=page.agenda-brand-lead %}
 
-If there is something you'd like to have covered, then let us know and we'll do our best to satiate your hunger for cool Docker things! 
+If there is something you'd like to have covered, then let us know and we'll do our best to satiate your hunger for cool Docker things!
 
 <br>
 
-What are you waiting for?  
+What are you waiting for?
 [Join us now!]({{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}

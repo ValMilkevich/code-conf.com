@@ -1,4 +1,5 @@
 ---
+published: false
 type: meetups
 title: DevOpsDays
 button_link: "http://www.devopsdays.org/events/2016-oslo/registration/"
@@ -6,7 +7,7 @@ weight: 100
 brand-txt: >
     Dev Ops Days Oslo
 subtitle: >
-  
+
 caption: >
   For the first time, DevOpsDays is coming to Oslo!
 color: '#064C70'
