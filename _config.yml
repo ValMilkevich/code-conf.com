@@ -1,3 +1,10 @@
+# Only use gems that are supported by github
+# the gems must be installed on your local system to support jekyll build/serve
+# Example
+#    $ gem install jekyll-redirect-from
+gems:
+  - jekyll-redirect-from
+
 name: Continuous Delivery Conferences and Events
 email: info@praqma.com
 email_sponsor_inquires: ah@praqma.net
@@ -7,7 +14,7 @@ timezone: Europe/Copenhagen
 url: new.code-conf.com
 markdown: kramdown
 
-event_types: 
+event_types:
   - all: All events
   - conferences: Conferences
   - meetups: Meetups
@@ -23,7 +30,7 @@ filter_speaker:
   page_css_selector: .page-speakers
   all_header: "All events"
 
-footer: 
+footer:
   - Brought to you by the folks at
   - /images/praqmalogo.png
   - The Continuous Delivery and DevOps Company

@@ -3,22 +3,21 @@ type: meetups
 title: Next Generation Software Development
 weight: 100
 brand-txt: >
-    Next Generation Software Development
+    I'm a GitHub man
 subtitle: >
     For forward-thinking software executives
 caption: >
-  GitHub and Praqma have entered into partnership in Scandinavia - we believe it’s a perfect
-  match, come and hear why! We’re jointly inviting you to a breakfast-to-lunch seminar of
-  three short workshops that will give you insight on how businesses are transforming by
-  building methodologies and practices that will drive software development into the future.
+  GitHub and Praqma are jointly inviting you to a half-day seminar for VIPs on how businesses are disruptively transforming and changing software practices.
 color: '#34b3ee'
 date_:    2016-06-22
 time: 8:45—13:00
 city: Copenhagen
 event_header:
   img: /images/pages/meetups/event_main.jpg
-  ribbon: Meet-up
+  ribbon: VIP meet-up
 button_link: https://ti.to/github-events/copenhagen-breakfast-seminar
+redirect_from:
+  -  /next-generation-software-development/
 
 ---
 
@@ -32,7 +31,7 @@ dot-txt-size=page.dot-txt-size
 brand-lead=page.event_header.ribbon
 color=page.color %}
 
-{% include meetup/summary.html 
+{% include meetup/summary.html
 content="
 GitHub and Praqma have entered into partnership in Scandinavia - we believe it’s a perfect
 match, come and hear why! We’re jointly inviting you to a breakfast-to-lunch seminar of
