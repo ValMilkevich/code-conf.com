@@ -1,5 +1,4 @@
 ---
-published: false
 type: meetups
 title: Docker Meetup
 weight: 100
@@ -8,14 +7,14 @@ brand-txt: >
 # subtitle: >
 caption: >
   Last time it was the Docker Birthday party and it was a blast - We were really happy to see so many of you, both beginners and experts alike!
-color: '#2ba2c9'
+color: '#38A0D5'
 date_:  2016-08-31
 time: 4:30PM
 city: "Århus"
 event_header:
-  img: /images/pages/meetups/event_main.jpg
-  ribbon: ""
-agenda-picture: /images/pages/meetups/agenda.jpg
+  img: /images/pages/meetups/event_main docker.jpg
+summary_picture: /images/pages/meetups/event_dropin docker.jpg
+agenda-picture: /images/pages/meetups/event_mid docker.jpg
 agenda-brand-lead: >
     Tentative Agenda
 agenda-maker: on
@@ -32,7 +31,6 @@ agenda:
    comment: This might be you!
  - time: "19.00"
    title: Networking, and goodbyes
-
 button_link: http://www.meetup.com/Docker-Aarhus/events/231441979/
 ---
 
@@ -45,7 +43,6 @@ subtitle=page.subtitle
 dot-text=page.dot-txt
 dot-txt-size=page.dot-txt-size
 brand-lead=page.event_header.ribbon
-no_toprip=true
 color=page.color %}
 
 {% include meetup/summary.html
@@ -61,15 +58,14 @@ We'll be in the downstairs cantina!
 "
 button_link=page.button_link
 button_text="Join us now!"
-image="/images/pages/meetups/summary.jpg"
+image=page.summary_picture
 image_alt=page.title
 
 color=page.color
 date=page.date_
 date_end=page.date_end
 time=page.time
-city=page.city
-%}
+city=page.city%}
 
 <br>
 
@@ -87,5 +83,4 @@ If there is something you'd like to have covered, then let us know and we'll do 
 
 <br>
 
-What are you waiting for?
-[Join us now!]({{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
+What are you waiting for? [Join us now!]({{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
