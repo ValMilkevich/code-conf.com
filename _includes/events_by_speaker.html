@@ -4,7 +4,10 @@ speaker_id
 required_event_field - can be "title" or "basename"
 
 returns
-required fields from speaker's events, separated with `|`
+required fields from speaker's events, separated with `|`:
+- basename `aar`
+- title `CoDe Academy - Aarhus`
+- url `/academy2016/aar/`
 {% endcomment %}
 {% for event in site.events %}
   {% for speaker in event.speakers %}
@@ -17,6 +20,8 @@ required fields from speaker's events, separated with `|`
       {{ basename }} 
       {{ include.separator }}
       {{ event.title }} 
+      {{ include.separator }}
+      {{ event.url }} 
       {{ include.separator }}{{ include.separator }}
     {% endif %}
   {% endfor %}

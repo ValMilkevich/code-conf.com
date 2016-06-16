@@ -26,9 +26,11 @@ color=page.color %}
     {% assign event = event_raw | split:"|" %}
     {% assign event_item_basename = event[0] | strip_newlines | lstrip | rstrip %}
     {% assign event_item_title    = event[1] | strip_newlines | lstrip | rstrip %}
+    {% assign event_item_url      = event[2] | strip_newlines | lstrip | rstrip %}
     {% assign event_item = "" | split:"" %}
     {% assign event_item = event_item | push:event_item_basename %}
     {% assign event_item = event_item | push:event_item_title %}
+    {% assign event_item = event_item | push:event_item_url %}
     {% assign event_basenames = event_basenames | push:event_item_basename %}
     {% assign events = events | push:event_item %}
   {% endfor %}
@@ -55,7 +57,7 @@ color=page.color %}
           <div class="events">
             Speaking at: 
             {% for event in events %}
-              <a href="/{{ event[0] }}/">{{ event[1] }}</a>{% unless forloop.last %}, {% endunless %}
+              <a href="{{ event[2] }}">{{ event[1] }}</a>{% unless forloop.last %}, {% endunless %}
             {% endfor %}
           </div>
         {% endif %}
