@@ -14,7 +14,7 @@ event_header:
   img: /images/pages/meetups/event_main dev.jpg
   ribbon: Meet-up
 button_link: "http://www.devopsdays.org/events/2016-oslo/registration/"
-summary_link: "/images/pages/meetups/event_dropin dev.jpg"
+summary_picture: "/images/pages/meetups/event_dropin dev.jpg"
 ---
 
 {% include event-main.html
@@ -35,7 +35,7 @@ DevOpsDays is a self-organizing conference for DevOps practitioners. It brings t
 At a high-level, each day will consist of a mix of presentations, ignite presentations, and open spaces. There will be an evening party for all participants scheduled for the evening of September 5th. A great opportunity for networking, mingling and having a good time."
 button_link=page.button_link
 button_text="Join us now!"
-image=page.summary_link
+image=page.summary_picture
 image_alt=page.title
 
 color=page.color
@@ -46,4 +46,4 @@ city=page.city%}
 
 <br>
 
-What are you waiting for? [Join us now!](http://www.devopsdays.org/events/2016-oslo/registration/){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
+What are you waiting for? [Join us now!]( {{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}

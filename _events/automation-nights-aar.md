@@ -1,26 +1,24 @@
 ---
-published: false
 type: meetups
 title: Automation Night
 weight: 100
 brand-txt: >
     Automation Night
-subtitle: >
-
 caption: >
   Join us for another evening of insightful talks from the industry and some networking with likeminded people.
-color: '#669933'
+color: '#1E3365'
 date_:    2016-06-21
 time: 16:30—19:00
 city: Aarhus
 event_header:
-  img: /images/pages/meetups/event_main.jpg
+  img: /images/pages/meetups/event_main autonight.jpg
   ribbon: Meet-up
+summary_picture: "/images/pages/meetups/event_dropin autonight.jpg"
 agenda-brand-lead: >
     Agenda
 agenda-maker: on
 agenda-label: on
-agenda-picture: /images/pages/meetups/agenda.jpg
+agenda-picture: /images/pages/meetups/event_mid autonight.jpg
 agenda:
  - time: "16.30"
    title: Continuous Delivery in the Enterprise by Systematic
@@ -55,7 +53,7 @@ Systematic A/S has been so kind to host this Automation Night, which takes place
 The program will again contain two talks about automation and continuous delivery."
 button_link=page.button_link
 button_text="Join us now!"
-image="/images/pages/meetups/summary.jpg"
+image=page.summary_picture
 image_alt=page.title
 
 color=page.color
@@ -64,7 +62,6 @@ date_end=page.date_end
 time=page.time
 city=page.city
 %}
-
 
 <br>
 
@@ -78,9 +75,6 @@ brand-text-as-marker=page.agenda-maker %}
 agenda=page.agenda
 agenda-title=page.title %}
 
-
 <br>
 
-
-
-What are you waiting for? [Join us now!](http://www.meetup.com/CoDe-U-AROS/events/230864013/){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
+What are you waiting for? [Join us now!]({{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
