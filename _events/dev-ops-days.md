@@ -1,22 +1,20 @@
 ---
-published: false
 type: meetups
 title: DevOpsDays
-button_link: "http://www.devopsdays.org/events/2016-oslo/registration/"
 weight: 100
 brand-txt: >
     Dev Ops Days Oslo
-subtitle: >
-
 caption: >
   For the first time, DevOpsDays is coming to Oslo!
-color: '#064C70'
+color: '#187F9E'
 date_:    2016-09-06
 date_end: 2016-09-07
 city: Oslo
 event_header:
-  img: /images/pages/meetups/event_main.jpg
+  img: /images/pages/meetups/event_main dev.jpg
   ribbon: Meet-up
+button_link: "http://www.devopsdays.org/events/2016-oslo/registration/"
+summary_link: "/images/pages/meetups/event_dropin dev.jpg"
 ---
 
 {% include event-main.html
@@ -37,20 +35,15 @@ DevOpsDays is a self-organizing conference for DevOps practitioners. It brings t
 At a high-level, each day will consist of a mix of presentations, ignite presentations, and open spaces. There will be an evening party for all participants scheduled for the evening of September 5th. A great opportunity for networking, mingling and having a good time."
 button_link=page.button_link
 button_text="Join us now!"
-image="/images/pages/meetups/summary.jpg"
+image=page.summary_link
 image_alt=page.title
 
 color=page.color
 date=page.date_
 date_end=page.date_end
 time=page.time
-city=page.city
-%}
-
-
+city=page.city%}
 
 <br>
-
-
 
 What are you waiting for? [Join us now!](http://www.devopsdays.org/events/2016-oslo/registration/){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
