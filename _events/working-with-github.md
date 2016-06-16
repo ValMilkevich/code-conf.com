@@ -7,14 +7,14 @@ brand-txt: >
 # subtitle: >
 caption: >
   We'll touch upon development best practices focusing on collaboration, Continuous Delivery and Continuous Improvement.
-color: '#569c1b'
+color: '#02AA78'
 date_:  2016-06-15
 time: 5—8:00PM
 city: Copenhagen
 event_header:
-  img: /images/pages/meetups/event_main.jpg
-  ribbon: ""
-agenda-picture: /images/pages/meetups/agenda.jpg
+  img: /images/pages/meetups/event_main git 2.jpg
+summary_picture: "/images/pages/meetups/event_dropin git 2.jpg"
+agenda-picture: /images/pages/meetups/event_mid git2.jpg
 agenda-brand-lead: >
     Agenda
 agenda-maker: on
@@ -47,20 +47,17 @@ no_toprip=true
 color=page.color %}
 
 {% include meetup/summary.html
-content="
-Enter through Borgergade 24B and use the buzzer for Trifork.
-"
+content="Enter through Borgergade 24B and use the buzzer for Trifork."
 button_link=page.button_link
 button_text="Join us now!"
-image="/images/pages/meetups/summary.jpg"
+image=page.summary_picture
 image_alt=page.title
 
 color=page.color
 date=page.date_
 date_end=page.date_end
 time=page.time
-city=page.city
-%}
+city=page.city%}
 
 <br>
 
@@ -102,5 +99,4 @@ Lars Kruse is Continuous Delivery Coach at Praqma. He has throughout his entire 
 
 <br>
 
-What are you waiting for?  
-[Join us now!]({{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
+What are you waiting for?  [Join us now!]({{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
