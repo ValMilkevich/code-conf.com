@@ -99,4 +99,4 @@ Lars Kruse is Continuous Delivery Coach at Praqma. He has throughout his entire 
 
 <br>
 
-What are you waiting for?  [Join us now!]({{ page.button_link }}){:.btn .btn-primary style="background: {{ page.color }}; border-color: {{ page.color }};" target="_blank"}
+{% include meetup/join-us.html link=page.button_link color=page.color %}
