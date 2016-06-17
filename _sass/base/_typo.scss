@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+@import 'https://fonts.googleapis.com/css?family=Anonymous+Pro';
+@import 'https://fonts.googleapis.com/css?family=Permanent+Marker';
 @import url("//hello.myfonts.net/count/30833c");
 @font-face {
   font-family: 'Abolition-Regular';
@@ -22,9 +22,9 @@ h1{
   &:after { content:"\A"; white-space:pre; }
 }
 
-.monospace{
-  font-family: "Roboto Mono", $font-family-base;
-}
+/*.monospace{*/
+  /*font-family: "Roboto Mono", $font-family-base;*/
+/*}*/
 
 /*h1,h2,h3,h4,h5,h6{*/
   /*font-family: Abolition-Regular, ;*/
