@@ -31,7 +31,7 @@
     @extend .col-md-#{12/$columns-number};
     .image{
       text-align: center;
-      padding-right: 30px;
+      /*padding-right: 30px;*/
       img{
         border-radius: 9999px;
         width: 100%;
@@ -40,7 +40,7 @@
     }
     h1,h2,h3{
       text-align: center;
-      padding-right: 30px;
+      /*padding-right: 30px;*/
     }
   }
 }

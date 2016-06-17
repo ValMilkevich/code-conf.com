@@ -98,39 +98,40 @@ benefits = page.benefits %}
 Workshops
 ---
 
-{% capture workshops %}
-{% include columns.html
-column_number=3
-content="
+{% capture workshops_content %}
 ![Continuous Delivery Academy](../images/pages/meetups/workshop_git.jpg)
 {: .image}
 
 ## GitHub Enterprise<br>Power of Community
 Power of Code. On Premises
 <!--col-->
+
 ![It’s free. Honestly](../images/pages/meetups/workshop_workflow.jpg)
 {: .image}
 
 ## Praqmatic<br>Workflow
 And agile task approach. Powered by GitHub Issues
 <!--col-->
+
 ![Learn the latest skills](../images/pages/meetups/workshop_roadmap.jpg)
 {: .image}
 
 ## Your road<br>to the future
 Create a roadmap for DevOps transformation with Praqma’s CoDe Assessment
-"
+{% endcapture %}
+
+{% capture workshops %}
+{% include columns.html
+column_number=3
+content=workshops_content
 %}
 {% endcapture %}
-{{ workshops }}
 
-{% comment %}
 {% include pullout.html
 caption="WORKSHOPS"
 color=page.color
 content=workshops
 %}
-{% endcomment %}
 
 
 
