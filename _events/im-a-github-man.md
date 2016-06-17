@@ -4,8 +4,7 @@ title: Next Generation Software Development
 weight: 100
 brand-txt: >
     I'm a GitHub man
-subtitle: >
-    For forward-thinking software executives
+#subtitle: >
 caption: >
   GitHub and Praqma are jointly inviting you to a half-day seminar for VIPs on how businesses are disruptively transforming and changing software practices.
 color: '#34b3ee'
@@ -57,6 +56,8 @@ color=page.color %}
 
 {% include meetup/summary.html
 content="
+## For forward-thinking software executives
+
 GitHub and Praqma have entered into partnership in Scandinavia - we believe it’s a perfect
 match, come and hear why! We’re jointly inviting you to a breakfast-to-lunch seminar of
 three short workshops that will give you insight on how businesses are transforming by

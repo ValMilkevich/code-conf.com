@@ -4,7 +4,7 @@ css_class: events
 permalink: /events/
 ---
 
-{% include conferences.html sort="date_" %}
+{% include events.html sort="date_" %}
 
 
 {% include javascript/filtering.js 

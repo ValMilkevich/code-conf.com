@@ -7,10 +7,10 @@
       }
     }
   }
-  .include-conferences.small{
+  .include-events.small{
     @extend .row;
     font-size: 0.33em;
-    .conference{
+    .event{
       @extend .col-md-4;
     }
   }

@@ -17,4 +17,4 @@ subtitle="...We're building the community of CoDe'ers and DevOps"
 color='#F58126' %}
 
 {% include event-and-upnext.html %}
-{% include conferences.html limit=3 offset=1 class="small" %}
+{% include events.html limit=3 offset=1 class="small" %}
