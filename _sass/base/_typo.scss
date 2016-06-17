@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700);
-/*@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic);*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 @import url("//hello.myfonts.net/count/30833c");
 @font-face {
@@ -20,6 +20,10 @@ h1{
   font-size: 0.9em;
   font-family: monospace;
   &:after { content:"\A"; white-space:pre; }
+}
+
+.monospace{
+  font-family: "Roboto Mono", $font-family-base;
 }
 
 /*h1,h2,h3,h4,h5,h6{*/
