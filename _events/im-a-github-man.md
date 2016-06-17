@@ -95,9 +95,6 @@ benefits = page.benefits %}
 
 <br>
 
-Workshops
----
-
 {% capture workshops_content %}
 ![Continuous Delivery Academy](../images/pages/meetups/workshop_git.jpg)
 {: .image}
