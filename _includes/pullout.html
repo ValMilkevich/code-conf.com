@@ -13,8 +13,9 @@
   {% endif %}
   <div class="text text-{% if include.img %}with{% else %}no{% endif %}-image">
     {% if include.caption %}
-      <h2>{{ include.caption }}</h2>
+      <h2 class="{{ include.css_classes }}" >{{ include.caption }}</h2>
     {% endif %}
+    </br>
     {{ include.content | markdownify }}
   </div>
   </div>

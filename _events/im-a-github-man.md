@@ -101,27 +101,34 @@ benefits = page.benefits %}
 {: .image}
 
 ## GitHub Enterprise<br>Power of Community
+{: .marker .workshop-header}
 Power of Code. On Premises
-<!--col-->
+{: .workshop-text}
 
+<!--col-->
 ![It’s free. Honestly](../images/pages/meetups/workshop_workflow.jpg)
 {: .image}
 
 ## Praqmatic<br>Workflow
+{: .marker .workshop-header}
 And agile task approach. Powered by GitHub Issues
+{: .workshop-text}
 <!--col-->
 
 ![Learn the latest skills](../images/pages/meetups/workshop_roadmap.jpg)
 {: .image}
 
 ## Your road<br>to the future
+{: .marker .workshop-header}
 Create a roadmap for DevOps transformation with Praqma’s CoDe Assessment
+{: .workshop-text}
 {% endcapture %}
 
 {% capture workshops %}
 {% include columns.html
 column_number=3
 content=workshops_content
+css_classes="centered" 
 %}
 {% endcapture %}
 
@@ -129,6 +136,7 @@ content=workshops_content
 caption="WORKSHOPS"
 color=page.color
 content=workshops
+css_classes="marker white-font big space-under" 
 %}
 
 

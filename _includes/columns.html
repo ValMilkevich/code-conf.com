@@ -4,7 +4,7 @@ content — markdown formatted content for columns. Columns are separated by <!-
 {% endcomment %}
 
 {% assign content_by_columns = include.content | split:"<!--col-->" %}
-<div class="include-columns columns{{ include.column_number }}">
+<div class="include-columns columns{{ include.column_number}} {{ include.css_classes }}">
   {% for column in content_by_columns %}
     {% if forloop.index0 == include.column_number %}
       {% break %}
