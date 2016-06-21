@@ -36,7 +36,7 @@ benefit-text: Having attended this seminar, you’ll have more insight on how yo
 benefits:
  - Attract and retain new talent
  - Ship code faster
- - Compete smarter  
+ - Compete smarter
 button_link: https://ti.to/github-events/copenhagen-breakfast-seminar
 redirect_from:
   -  /next-generation-software-development/
@@ -111,7 +111,7 @@ Power of Code. On Premises
 
 ## Praqmatic<br>Workflow
 {: .marker .workshop-header}
-And agile task approach. Powered by GitHub Issues
+An agile task approach. Powered by GitHub Issues
 {: .workshop-text}
 <!--col-->
 
@@ -128,7 +128,7 @@ Create a roadmap for DevOps transformation with Praqma’s CoDe Assessment
 {% include columns.html
 column_number=3
 content=workshops_content
-css_classes="centered" 
+css_classes="centered"
 %}
 {% endcapture %}
 
@@ -136,7 +136,7 @@ css_classes="centered"
 caption="WORKSHOPS"
 color=page.color
 content=workshops
-css_classes="marker white-font big space-under" 
+css_classes="marker white-font big space-under"
 %}
 
 
