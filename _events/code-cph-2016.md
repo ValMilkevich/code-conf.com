@@ -79,6 +79,7 @@ sponsors:
 - simcorp
 - milestone
 - itforum
+- nykredit
 ---
 
 {% include event-main.html
