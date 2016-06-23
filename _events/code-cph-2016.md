@@ -71,6 +71,7 @@ speakers:
 
 sponsors:
 - praqma
+- atlassian
 - chef
 - t2data
 - github
