@@ -25,6 +25,7 @@ sponsors:
   - napatech
   - danfoss
   - bkultrasound
+  - danskecommodities
 ---
 
 
