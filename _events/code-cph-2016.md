@@ -66,7 +66,9 @@ speakers:
     title: Successful Practices for Continuous Delivery
     abstract: >
       Infrastructure as Code and DevOps practices are necessary pre-requisites for safely adopting Continuous Delivery. With software becoming more and more crucial to business success in various parts of the market, speed of delivery becomes the game changer. This talk will explore some of the practices your team will need to adopt to safely move fast, continuously delivering value to your customers.
-
+  svenpeters:
+    title: TBA
+    abstract: TBA
 
 
 sponsors:
