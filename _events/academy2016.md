@@ -103,4 +103,8 @@ content=subevents
 
 
 {% include sponsors.html
-sponsors=page.sponsors caption="Sponsors" subcaption="CoDe Academy is sponsored by:" css_classes="" %}
+sponsors=page.sponsors
+caption="Sponsors"
+subcaption="CoDe Academy is sponsored by:"
+css_classes=""
+%}

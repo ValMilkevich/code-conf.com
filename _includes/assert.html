@@ -1,0 +1,14 @@
+{% comment %}
+if `is_true` is false — raises an error. If true, does nothing.
+`error` parameter is not used by now, but good to output it in the future.
+
+tried 
+```
+{% Error %}
+```
+as alternative, but it rise the error even if this code is unreached.
+{% endcomment %}
+
+{% unless include.is_true %}
+  {% include __error__ %}
+{% endunless %}

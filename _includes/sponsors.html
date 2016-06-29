@@ -1,8 +1,12 @@
 <section class="include-sponsors">
   <div class="{{ include.css_classes }}">
+    {% include assert.html is_true=include.caption error="Caption is not set" %}
     <h1 id="{{ include.caption | slugify }}">{{ include.caption }}</h1>
-    <h2>{{ include.subcaption }} </h2>
+    {% if include.subcaption %}
+      <h2>{{ include.subcaption }} </h2>
+    {% endif %}
     <div class="sponsors">
+      {% include assert.html is_true=include.sponsors error="Sponsor list can't be empty" %}
       {% for page_sponsor in include.sponsors %}
           {% for site_sponsor in site.sponsors %}
             {% assign sponsor_fname = site_sponsor.path | split:"/" | last | split:"." | first %}

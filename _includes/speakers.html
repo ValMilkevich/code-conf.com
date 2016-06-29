@@ -2,6 +2,7 @@
   <div class="{{ include.css_classes }}" style="background-color: {{ include.color }}">
     <h1 id="{{ include.caption | slugify }}">{{ include.caption }}</h1>
 
+      {% include assert.html is_true=include.speakers error="Speakers list can't be empty" %}
       <div class="speakers keynote">
         {% for event_speaker in include.speakers %}
           {% if event_speaker[1].keynote %}
@@ -16,7 +17,9 @@
                     </div>
                     <div class="details">
                       <div class="name">
-                        <a href="/speakers/?tag={{ include.event_path | split:"/" | last | split:"." | first }}&scrollto={{ id }}">{{ speaker.name }}</a>
+                        {% assign tag = include.event_path | split:"/" | last | split:"." | first %}
+                        {% include assert.html is_true=tag error="Can't calculate the tag for speaker's page url" %}
+                        <a href="/speakers/?tag={{ tag }}&scrollto={{ id }}">{{ speaker.name }}</a>
                       </div>
                       <div class="position">
                         {{ speaker.position }}
@@ -52,7 +55,9 @@
                     </div>
                     <div class="details">
                       <div class="name">
-                          <a href="/speakers/?tag={{ include.event_path | split:"/" | last | split:"." | first }}&scrollto={{ id }}">{{ speaker.name }}</a>
+                        {% assign tag = include.event_path | split:"/" | last | split:"." | first %}
+                        {% include assert.html is_true=tag error="Can't calculate the tag for speaker's page url" %}
+                        <a href="/speakers/?tag={{ tag }}&scrollto={{ id }}">{{ speaker.name }}</a>
                       </div>
                       <!--div class="position">
                         {{ speaker.position }}
@@ -80,7 +85,6 @@
            {% endfor %}
         {% endunless %}
       {% endfor %}
-
     </div>
     <div class="clearfix"></div>
   </div>
@@ -88,6 +92,5 @@
 <script>
 $( "a.read-more" ).click(function() {
   $(this).closest('.speaker').toggleClass("expanded");
-  console.log("yo");
 });
 </script>
