@@ -67,8 +67,10 @@ speakers:
     abstract: >
       Infrastructure as Code and DevOps practices are necessary pre-requisites for safely adopting Continuous Delivery. With software becoming more and more crucial to business success in various parts of the market, speed of delivery becomes the game changer. This talk will explore some of the practices your team will need to adopt to safely move fast, continuously delivering value to your customers.
   svenpeters:
-    title: TBA
-    abstract: TBA
+    title: Coding Culture
+    abstract: >
+      Imagine a culture where the input of the whole organization turns an individual idea into a user story in just a couple of hours, where everybody's goal is to make the customers job easier and more effective, and where you work on projects you love instead of projects you loathe. A great coding culture concentrates on making developers productive and happy by removing unnecessary overhead, bringing autonomous teams together, helping the individual programmer to innovate, and raising awareness among developers about how to create better code.
+      I will talk about how to establish and foster a strong engineering-focused culture that scales from a small team to a huge organization with hundreds of developers. I'll give lots of examples from our experience at Atlassian to show that once you're working in a great coding culture, you won't want to work anywhere else.
 
 
 sponsors:
