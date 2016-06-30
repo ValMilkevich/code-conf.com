@@ -1,3 +1,7 @@
+{% assign color=site.page_color %}
+{% if include.color %}
+  {% assign color=include.color %}
+{% endif %}
 <div class="include-meetup-summary">
 <div class="content">
   {{ include.content | markdownify }}
@@ -6,7 +10,7 @@
 <div class="details">
   <div class="date-location-button">
     {% include date-location.html
-    color=include.color
+    color=color
     date=include.date
     date_end=include.date_end
     time=include.time
@@ -14,7 +18,7 @@
     
     <a href="{{ include.button_link }}" 
       class="button" 
-      style="background: {{ page.color }}; border-color: {{ page.color }};"
+      style="background: {{ color }}; border-color: {{ color }};"
       target="_blank">
       {{ include.button_text }}
     </a>

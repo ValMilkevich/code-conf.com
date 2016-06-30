@@ -9,6 +9,9 @@ required fields from speaker's events, separated with `|`:
 - title `CoDe Academy - Aarhus`
 - url `/academy2016/aar/`
 {% endcomment %}
+
+{% include assert.html is_true=include.speaker_id error="Speaker's id should be set" %}
+{% include assert.html is_true=include.separator  error="Spearer list separator symbol should be set" %}
 {% for event in site.events %}
   {% for speaker in event.speakers %}
     {% if speaker[0] == include.speaker_id %}

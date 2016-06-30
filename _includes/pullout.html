@@ -5,7 +5,11 @@
 {% unless include.no_toprip %}
   {% assign classes = classes | append:"toprip " %}
 {% endunless %}
-<div class="include-pullout {{ classes }}" style="background: {{ include.color }}">
+{% assign color=site.page_color %}
+{% if include.color %}
+  {% assign color=include.color %}
+{% endif %}
+<div class="include-pullout {{ classes }}" style="background: {{ color }}">
   {% if include.img %}
     <div class="icon">
       <img src="{{ include.img }}" alt="{{ include.caption }}">
@@ -15,6 +19,7 @@
     {% if include.caption %}
       <h2 class="{{ include.css_classes }}" >{{ include.caption }}</h2>
     {% endif %}
+    {% include assert.html is_true=include.content error="Pullout content can't be empty" %}
     {{ include.content | markdownify }}
   </div>
   </div>

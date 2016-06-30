@@ -1,6 +1,10 @@
+{% assign color=site.page_color %}
+{% if include.color %}
+  {% assign color=include.color %}
+{% endif %}
 <span class="marker" style="font-size:2.7em;">
 	What are you waiting for?
 </span>
 <span>
-[Join us now!]({{ include.link }}){: .button-join .btn-primary style="background: {{ include.color }}; border-color: {{ include.color }};" target="_blank"}
+[Join us now!]({{ include.link }}){: .button-join .btn-primary style="background: {{ color }}; border-color: {{ color }};" target="_blank"}
 </span>

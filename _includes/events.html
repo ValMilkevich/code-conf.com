@@ -29,12 +29,16 @@ class
   <div class="event filter-item" data-tags='["{{ site.filter_event.filter_any_item_tag }}","{{ e.type }}"]'>
       <a class="event-link" href="{{ e.url }}">
         <img src="{{ e.event_header.img }}" alt="{{ e.title }}">
-        <span class="brand-tag" style="background: {{ e.color }}">
+        {% assign color=site.page_color %}
+        {% if e.color %}
+          {% assign color=e.color %}
+        {% endif %}
+        <span class="brand-tag" style="background: {{ color }}">
             {{ e.brand-txt | markdownify }}
         </span>
       </a>
       {% include date-location.html
-      color=e.color
+      color=color
       date=e.date_
       date_end=e.date_end
       time=e.time

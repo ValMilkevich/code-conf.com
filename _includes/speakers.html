@@ -1,5 +1,9 @@
+{% assign color=site.page_color %}
+{% if include.color %}
+  {% assign color=include.color %}
+{% endif %}
 <section class="include-speakers">
-  <div class="{{ include.css_classes }}" style="background-color: {{ include.color }}">
+  <div class="{{ include.css_classes }}" style="background-color: {{ color }}">
     <h1 id="{{ include.caption | slugify }}">{{ include.caption }}</h1>
 
       {% include assert.html is_true=include.speakers error="Speakers list can't be empty" %}

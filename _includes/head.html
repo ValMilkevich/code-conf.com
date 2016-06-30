@@ -9,11 +9,13 @@
   <script src="/javascripts/googleanalytics.js"></script>
   <script src="/javascripts/praqmajsutils.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  {% assign color=site.page_color %}
   {% if page.color %}
+    {% assign color=page.color %}
+  {% endif %}
   <style>
   a, a:hover, a:focus{
-    color: {{ page.color }};
+    color: {{ color }};
   }
   </style>
-  {% endif %}
 </head>

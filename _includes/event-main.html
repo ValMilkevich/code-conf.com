@@ -13,10 +13,15 @@
 {% if include.agenda-label %}
   {% assign agenda-label = agenda-label | append:"agenda-label " %}
 {% endif %}
+{% assign color=site.page_color %}
+{% if include.color %}
+  {% assign color=include.color %}
+{% endif %}
 <section class="include-event-main{% if include.speaker-icon %} include-speakers{% endif %}">
   <div>
     <div class="event-main">
       <div class="image-canvas {{ classes }}">
+        {% include assert.html is_true=include.background-image error="Image should be set" %}
         <img class="the-image" src="{{ include.background-image }}" alt="">
 
         {% if include.dot-text %}
@@ -32,7 +37,7 @@
           {% endif %}
 
           {% if include.brand-txt %}
-            <div class="brand-tag" style="background-color: {{ include.color }}">
+            <div class="brand-tag" style="background-color: {{ color }}">
               <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}{% if include.brand-txt-size %}font-size: {{ include.brand-txt-size }}em; {% endif %}">
                 {{ include.brand-txt | 
                     replace: '<!--power-icon-->', '<img class="on-btn" src="/images/icons/on-symbol-cropped.png">' |

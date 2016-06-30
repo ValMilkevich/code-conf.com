@@ -1,16 +1,21 @@
+{% assign color=site.page_color %}
+{% if include.color %}
+  {% assign color=include.color %}
+{% endif %}
 {% if include.date %}
 <section class="include-date-location">
   <div class="{{ include.css_classes }}">
     {% if include.url %}
-    <a href="{{ include.url }}" style="text-decoration: none; color: inherit;">
+      <!-- this a is closed below -->
+      <a href="{{ include.url }}" style="text-decoration: none; color: inherit;">
     {% endif%}
     <div class="date-location">
       {% if include.date_end %}
         <div class="date-span">
           <div class="image-canvas">
-            <img class="icon" src="/images/icons/icon-date.png" style="background-color:{{ include.color }}" />
+            <img class="icon" src="/images/icons/icon-date.png" style="background-color:{{ color }}" />
           </div>
-          <div class="label_" style="color: {{ include.color }}">Date</div>
+          <div class="label_" style="color: {{ color }}">Date</div>
           <div class="value">
               {% assign month_start = include.date | date: '%b' %}
               {% assign month_end = include.date_end | date: '%b' %}
@@ -25,9 +30,9 @@
         {% if include.date %}
         <div class="date">
           <div class="image-canvas">
-            <img class="icon" src="/images/icons/icon-date.png" style="background-color:{{ include.color }}" />
+            <img class="icon" src="/images/icons/icon-date.png" style="background-color:{{ color }}" />
           </div>
-          <div class="label_" style="color: {{ include.color }}">Date</div>
+          <div class="label_" style="color: {{ color }}">Date</div>
           <div class="value">
               {{ include.date | date: '%-d %b  %Y' }}
           </div>
@@ -36,9 +41,9 @@
         {% if include.time %}
         <div class="time">
           <div class="image-canvas">
-            <img class="icon" src="/images/icons/icon-time.png" style="background-color:{{ include.color }}" />
+            <img class="icon" src="/images/icons/icon-time.png" style="background-color:{{ color }}" />
           </div>
-          <div class="label_" style="color: {{ include.color }}">Time</div>
+          <div class="label_" style="color: {{ color }}">Time</div>
           <div class="value">
             {{ include.time }}
           </div>
@@ -48,9 +53,9 @@
       {% if include.city %}
       <div class="location">
         <div class="image-canvas">
-          <img class="icon" src="/images/icons/icon-place.png" style="background-color:{{ include.color }}" />
+          <img class="icon" src="/images/icons/icon-place.png" style="background-color:{{ color }}" />
         </div>
-        <div class="label_" style="color: {{ include.color }}">Where</div>
+        <div class="label_" style="color: {{ color }}">Where</div>
         <div class="value">
           {{ include.city }}
         </div>
@@ -58,7 +63,7 @@
       {% endif %}
     </div>
     {% if include.url %}
-    </a>
+      </a>
     {% endif %}
   </div>
 </section>
