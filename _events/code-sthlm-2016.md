@@ -88,7 +88,7 @@ color=page.color
 no_botrip=true
 content="
 {: .whitestrip }
-This year we want to pivot conference focus and look more into the most challenging area when it comes to Continuous Delivery - embedded software. Join us and be inspired by the industry leaders who already advanced in their journey towards Continuous Delivery! Do you have a story to tell? *[CFP is still open](http://www.code-conf.com/cfp/)*
+This year we want to pivot conference focus and look more into the most challenging area when it comes to Continuous Delivery - embedded software. Join us and be inspired by the industry leaders who already advanced in their journey towards Continuous Delivery! Do you have a story to tell?
 "
 %}
 
