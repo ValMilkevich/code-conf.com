@@ -18,7 +18,7 @@ date_end: 2016-06-17
 time: 9—16:00
 city: Trondheim
 event_header:
-  img: /images/pages/academy2016/trondheim.jpg
+  img: /images/pages/academy2016/graduated_trondheim.jpg
   ribbon: Trondheim
 checkout:
   eventbriteid: 24573031599
