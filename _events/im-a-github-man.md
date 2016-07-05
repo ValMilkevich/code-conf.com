@@ -1,5 +1,5 @@
 ---
-type: meetups
+type: meet-ups
 title: Next Generation Software Development
 weight: 100
 brand-txt: >

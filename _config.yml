@@ -19,7 +19,7 @@ page_color: black;
 event_types:
   - all: All events
   - conferences: Conferences
-  - meetups: Meetups
+  - meetups: Meet-ups
   - hackathons: Hackathons
 filter_event:
   filter_any_item_tag: all

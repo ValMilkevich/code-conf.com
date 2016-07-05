@@ -1,5 +1,5 @@
 ---
-type: meetups
+type: meet-ups
 title: Working smarter with GitHub
 weight: 100
 brand-txt: >

@@ -1,5 +1,5 @@
 ---
-type: meetups
+type: meet-ups
 title: Docker Meetup
 weight: 100
 brand-txt: >

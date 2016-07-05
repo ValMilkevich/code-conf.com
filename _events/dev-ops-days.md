@@ -1,5 +1,5 @@
 ---
-type: meetups
+type: meet-ups
 title: DevOpsDays
 weight: 100
 brand-txt: >
