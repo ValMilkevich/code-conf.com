@@ -20,7 +20,7 @@ event_header:
 
 date_: 2016-09-13
 time: 09—17:00
-city: Copenhagen
+city: Marriott, Copenhagen
 adress: Copenhagen Marriott Hotel, Kalvebod Brygge 5, 1560 Copenhagen V, Denmark
 
 checkout:
