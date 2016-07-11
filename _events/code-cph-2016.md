@@ -80,6 +80,7 @@ sponsors:
 - praqma
 - atlassian
 - ibm
+- automic
 - chef
 - t2data
 - github
