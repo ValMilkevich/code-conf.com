@@ -22,8 +22,8 @@ event_header:
 
 date_: 2016-08-25
 time: 09—18:00
-city: Stockholm
-adress: Clarion Hotel Sign Östra Järnvägsgatan 35 101 26 Stockholm, Sweden
+city: Citykonferensen, Stockholm
+adress: Citykonferensen Malmskillnadsgatan 111 84 Stockholm, Sweden
 
 checkout:
   eventbriteid: 20692623193
