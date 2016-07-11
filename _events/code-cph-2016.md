@@ -130,5 +130,5 @@ height="330" %}
 {% include sponsors.html
 sponsors=page.sponsors
 caption="Sponsors"
-subcaption="A heartfelt thank goes to our friends"
+subcaption="A heartfelt thank you goes to our friends"
 css_classes="" %}
