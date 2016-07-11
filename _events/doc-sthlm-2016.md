@@ -133,5 +133,5 @@ css_classes="black toprip botrip" %}
 {% include sponsors.html
 sponsors=page.sponsors
 caption="Sponsors"
-subcaption="A heart felt thank goes to our friends"
+subcaption="A heart felt thank you goes to our friends"
 css_classes="" %}
