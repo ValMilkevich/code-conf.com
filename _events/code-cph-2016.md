@@ -71,7 +71,10 @@ speakers:
     abstract: >
       Imagine a culture where the input of the whole organization turns an individual idea into a user story in just a couple of hours, where everybody's goal is to make the customers job easier and more effective, and where you work on projects you love instead of projects you loathe. A great coding culture concentrates on making developers productive and happy by removing unnecessary overhead, bringing autonomous teams together, helping the individual programmer to innovate, and raising awareness among developers about how to create better code.
       I will talk about how to establish and foster a strong engineering-focused culture that scales from a small team to a huge organization with hundreds of developers. I'll give lots of examples from our experience at Atlassian to show that once you're working in a great coding culture, you won't want to work anywhere else.
-
+  shardisty:
+    title: Screwing Up For Less
+    abstract: >
+      Traditionally, a lot of emphasis on building a quality product is focussed on prevention of bad things happening. Some of the mechanisms to such outcomes aren‘t always easily compatible with continuous deployment. This talk will cover why that‘s ok
 
 sponsors:
 - praqma
