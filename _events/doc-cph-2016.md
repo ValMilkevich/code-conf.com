@@ -21,8 +21,8 @@ event_header:
 
 date_: 2016-08-29
 time: 09—18:00
-city: Copenhagen
-adress: Dampfærgevej 10, 2100 København Ø, Denmark
+city: Symbion, Copenhagen
+adress: Fruebjergvej 3,2100 København Ø, Denmark
 
 checkout:
   eventbriteid: 20856339874
@@ -73,6 +73,35 @@ brand-txt=page.brand-txt
 subtitle=page.subtitle
 color=page.color %}
 
+{% include pullout.html
+img="../images/icons/icon-list.png"
+caption="DAY OF CONTAINERS"
+color=page.color
+no_botrip=true
+content="
+A full day festival focused on hands-on workshops and demos of the Docker ecosystem and the newest trends of containerization in general. Developers of all experience levels will learn about and get hands-on with all different aspects of Docker from introductory sessions on creating and running Docker containers to advanced composition and orchestration in cloud environments.
+{: .whitestrip }  
+ <br />
+
+**Bring Your Own Laptop (B.Y.O.L.)** at Day Of Containers takes conferences to the next level. The interactive sessions provide a unique opportunity to learn hands-on, following along with an instructor step-by-step.
+{: .whitestrip }
+"
+%}
+
+{% include pullout.html
+img="/images/icons/icon-place-big.png"
+caption="Extra"
+no_toprip=true
+color=page.color
+no_toprip=true
+content="
+**Day before conference:** Pre-conference meetup for everyone who can't make it for the main event [Pre-Conference Meetup](http://www.meetup.com/Docker-Copenhagen/events/231588987/)!
+{: .whitestrip }
+"
+%}
+
+<br/>
+
 {% include date-location.html
 color=page.color
 date=page.date_
@@ -93,5 +122,5 @@ css_classes="black toprip botrip" %}
 {% include sponsors.html
 sponsors=page.sponsors
 caption="Sponsors"
-subcaption="A heartfelt thank goes to our friends"
+subcaption="A heartfelt thank you goes to our friends"
 css_classes="" %}
