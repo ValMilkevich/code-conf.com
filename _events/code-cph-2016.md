@@ -96,6 +96,17 @@ brand-txt=page.brand-txt
 subtitle=page.subtitle
 color=page.color %}
 
+{% include pullout.html
+color=page.color
+no_botrip=true
+content="
+{: .whitestrip }
+The CoDe conference brings together technologists and industry leaders and focuses on innovation through Continuous Delivery and DevOps. This full day conference explores the multi-faceted area of CoDe, how IT influences the triple bottom line and what Continuous Delivery and DevOps really mean to businesses and how it can be achieved. Together we’ll be exploring the area of CoDe covering the entire Continuous Delivery Storyline and the many changes that impact how to produce and deliver quality software today.
+"
+%}
+
+<br/>
+
 {% include date-location.html
 color=page.color
 date=page.date_
