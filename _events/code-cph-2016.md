@@ -33,7 +33,7 @@ speakers:
     keynote: true
     title: Continuous Delivery - Lessons from the Aviation Industry
     abstract: >
-      Assuming that Continuous Delivery is the solution to your problems Jan will explore - through various stories - which character traits should be present in your team members if they are to build and deliver cutting edge software. He will touch on how to build such a team. A non-technical keynote for anyone who is managing, or is a member of, a team who are trying to implement continuous delivery.
+      Assuming that Continuous Delivery is the solution to your problems, Jan will explore - through various stories - which character traits should be present in your team members if they are to build and deliver cutting edge software. He will touch on how to build such a team. A non-technical keynote for anyone who is managing, or is a member of, a team who are trying to implement continuous delivery.
   jejensen:
     keynote: true
     title: Continuous Delivery and DevOps at Lego
