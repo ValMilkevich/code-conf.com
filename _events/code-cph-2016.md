@@ -74,7 +74,7 @@ speakers:
   shardisty:
     title: Screwing Up For Less
     abstract: >
-      Traditionally, a lot of emphasis on building a quality product is focussed on prevention of bad things happening. Some of the mechanisms to such outcomes aren‘t always easily compatible with continuous deployment. This talk will cover why that‘s ok
+      Traditionally, a lot of emphasis on building a quality product is focussed on prevention of bad things happening. Some of the mechanisms to create such positive outcomes aren't always easily compatible with continuous deployment. This talk will cover alternative methods for ensuring quality.
 
 sponsors:
 - praqma
