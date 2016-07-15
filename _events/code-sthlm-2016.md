@@ -59,6 +59,7 @@ speakers:
 
 sponsors:
 - praqma
+- automic
 - t2data
 - dotw
 - trifork
