@@ -35,6 +35,7 @@ title: CoDe Academy 2016 - press material
 * [GitHub](/images/sponsors/octocat.png)
 * [Napatech](/images/sponsors/napatech.png)
 * [Danfoss](/images/sponsors/danfoss.png)
+* [Danske Commodities](/images/sponsors/dc.png)
 
 ## Trondheim
 
