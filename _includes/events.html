@@ -1,9 +1,15 @@
 {% comment %}
-offset - from what index to start
-limit - how many output
+offset    - from what index to start
+limit     - how many output
+past=true - to show past events only
 sort
 class
 {% endcomment %}
+
+{% assign desirable_live_state = "true" %}
+{% if include.past %}
+  {% assign desirable_live_state = "false" %}
+{% endif %}
 
 <div class="include-events{% if include.class %} {{ include.class }}{% endif %}">
   {% case include.sort %}
@@ -19,11 +25,10 @@ class
       {% include func/is_live.html event=e %}
     {% endcapture %}
     {% assign is_live = is_live | lstrip | rstrip %}
-    {% if is_live == "true" %}
+    {% if is_live == desirable_live_state %}
       {% assign site_events_filtered = site_events_filtered | push: e %}
     {% endif %}
   {% endfor %}
-
 
   {% for e in site_events_filtered limit:include.limit offset:include.offset %}
   <div class="event filter-item" data-tags='["{{ site.filter_event.filter_any_item_tag }}","{{ e.type }}"]'>
