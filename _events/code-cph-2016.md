@@ -36,9 +36,9 @@ speakers:
       Assuming that Continuous Delivery is the solution to your problems, Jan will explore - through various stories - which character traits should be present in your team members if they are to build and deliver cutting edge software. He will touch on how to build such a team. A non-technical keynote for anyone who is managing, or is a member of, a team who are trying to implement continuous delivery.
   jejensen:
     keynote: true
-    title: Continuous Delivery and DevOps at Lego
+    title: Automation’s Awesome! Everything is Cool on an Agile Team!
     abstract: >
-      For the past 4 years Jørn Erik has focused on implementing Continuous Delivery and DevOps processes and practices in development, quality and operations at Lego.
+      LEGO is a well-known toy manufacturing company. Its web portal, LEGO.com, experiences significant web traffic each month and has gone through a number of iterations since its inception in 1996. It currently is comprised of hundreds of individual products. Leveraging automation for all aspects of the software delivery process, LEGO has gone from one deployment twice a month to multiple deployments every day! Join this session to learn how the LEGO.com team navigated challenges and how they approached transitioning a traditional software delivery process to an agile lean DevOps process.
   lakruzzmeekrosoft:
     title: CoDe - The Metaphors We Live By
     abstract: >
