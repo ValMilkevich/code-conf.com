@@ -1,6 +1,6 @@
 ---
 title: Past events
-css_class: events
+css_class: events events-past
 permalink: /events-past/
 ---
 

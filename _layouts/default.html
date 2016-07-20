@@ -2,8 +2,8 @@
 <html>
 
   {% include head.html %}
-
-  <body {% if page.css_class %} class="page-{{ page.css_class }}"{% endif %}>
+  {% assign css_classes = page.css_class | split:" " %}
+  <body {% if page.css_class %} class="{% for c in css_classes %}page-{{ c }} {% endfor %}"{% endif %}>
 
     {% include header.html %}
 
