@@ -1,0 +1,15 @@
+.layout-sponsor{
+  @extend .row;
+  .logo{
+    @extend .col-md-3;
+    @extend .col-md-push-9;
+    padding-top: 85px;
+    img{
+      width: 100%;
+    }
+  }
+  .content{
+    @extend .col-md-9;
+    @extend .col-md-pull-3;
+  }
+}

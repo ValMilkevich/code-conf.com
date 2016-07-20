@@ -56,6 +56,7 @@ collections:
     output: true
   sponsors:
     output: true
+    permalink: /sponsors/:path/
 
 defaults:
   -
@@ -69,3 +70,8 @@ defaults:
     values:
       layout: event
       weight: 9999999
+  -
+    scope:
+      type: sponsors
+    values:
+      layout: sponsor
