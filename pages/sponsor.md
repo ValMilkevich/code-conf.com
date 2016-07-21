@@ -1,7 +1,6 @@
 ---
-published: false
 permalink: /sponsor/
-nav_weight: 1
+nav_weight: 20
 layout: default
 css_class: sponsor
 title: Sponsor inquiries

@@ -3,7 +3,7 @@
     <a href="/" class="logo">
       <img src="/images/code-conf.png" alt="CoDe-Conf">
     </a>
-    <nav class="event-nav">
+    <nav class="nav-events">
         {% for event_type_hash in site.event_types %}
           {% for event_type in event_type_hash %}
             <a href="{{ site.filter_event.event_page_url }}?tag={{ event_type[0] }}">
@@ -12,18 +12,36 @@
           {% endfor %}
         {% endfor %}
     </nav>
-    <nav class="site-nav">
+    <nav class="nav-extra">
       {% assign site_pages = site.pages | sort:"nav_weight" %}
-        <a href="mailto:{{ site.email_sponsor_inquires }}?subject=Sponsor%20inquiry">Sponsor inquiries</a>
-        {% for m in site_pages %}
-          {% if m.nav_weight %}
-            {% assign menu_item_name = m.title %}
-            {% if m.menu_title %}
-              {% assign menu_item_name = m.menu_title %}
-            {% endif %}
-            <a class="page-link{% if m.url == page.url %} active{% endif %}" href="{{ m.url | prepend: site.baseurl }}">{{ menu_item_name }}</a>
+      {% for m in site_pages %}
+        {% if m.nav_weight %}
+          {% assign menu_item_name = m.title %}
+          {% if m.menu_title %}
+            {% assign menu_item_name = m.menu_title %}
           {% endif %}
-        {% endfor %}
+          <a class="page-link{% if m.url == page.url %} active{% endif %}" href="{{ m.url | prepend: site.baseurl }}">{{ menu_item_name }}</a>
+        {% endif %}
+      {% endfor %}
+      <div class="social">
+        <a href="{{ site.social.twitter }}" target="_blank">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-twitter fa-stack-1x"></i>
+          </span>
+        </a>
+        <a href="{{ site.social.google_plus }}" target="_blank">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-google-plus fa-stack-1x"></i>
+          </span>
+        </a>
+        <a href="{{ site.social.linkedin }}" target="_blank">
+          <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+            <i class="fa fa-linkedin fa-stack-1x"></i>
+          </span>
+        </a>
       </div>
     </nav>
   </div>

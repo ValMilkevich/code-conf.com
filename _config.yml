@@ -32,6 +32,14 @@ filter_speaker:
   page_css_selector: .page-speakers
   all_header: "All events"
 
+social:
+  twitter:
+    https://twitter.com/praqma
+  linkedin:
+    https://www.linkedin.com/company/praqma-a-s
+  google_plus:
+    https://plus.google.com/100636273457335734278/videos
+
 footer:
   - Brought to you by the folks at
   - /images/praqmalogo.png

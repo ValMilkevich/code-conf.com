@@ -2,7 +2,7 @@
 title: Call for Presentations
 menu_title: Call for papers
 permalink: /cfp/
-nav_weight: 20
+nav_weight: 1
 ---
 
 ## Get it off you chest
