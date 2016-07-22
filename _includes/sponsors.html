@@ -12,7 +12,7 @@
             {% assign sponsor_fname = site_sponsor.path | split:"/" | last | split:"." | first %}
             {% if sponsor_fname == page_sponsor %}
               <div class="sponsor">
-                <a href="{{ site_sponsor.url }}" target="_blank">
+                <a href="{{ site_sponsor.url }}">
                   <img src="/images/sponsors/{{ site_sponsor.img }}" alt="{{ site_sponsor.name }}">
                 </a>
               </div>
