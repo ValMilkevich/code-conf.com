@@ -89,6 +89,7 @@ sponsors:
 - milestone
 - itforum
 - nykredit
+- accenture
 ---
 
 {% include event-main.html
