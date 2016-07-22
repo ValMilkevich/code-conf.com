@@ -9,6 +9,30 @@
       clear: none;
     }
   }
+  header.page-header{
+    background: url(../images/layout/event-page-title.png) 0 0 no-repeat;
+    border: none;
+    height: 304px;
+    margin: 0;
+    h1{
+      font-size: 5em;
+      margin: 0;
+      padding: 74px 0 0px 0px; 
+      text-align: center;
+      width: 380px;
+    }
+    @media (max-width: $screen-xs-max) {
+      background: none;
+      height: auto;
+      h1{
+        font-size: 4em;
+        margin-top: 20px;
+        padding: 0;
+        text-align: left;
+        width: auto;
+      }
+    }
+  }
 }
 .page-events.page-events-past{
   .event{
