@@ -6,7 +6,7 @@ nav_weight: 10
 brand-txt: >
     *Co*{: style='color: black; font-style: normal;'}De
     Aca*de*{: style="color: black; font-style: normal;"}my<!--power-icon-->
-dot-txt: Free <br> 5 Day course
+#dot-txt: Free <br> 5 Day course
 dot-txt-size: small
 subtitle: >
   Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
@@ -18,7 +18,7 @@ date_end: 2016-06-17
 time: 9—16:00
 city: Trondheim
 event_header:
-  img: /images/pages/academy2016/graduated_trondheim.jpg
+  img: /images/pages/academy2016/trondheim_graduated.jpeg
   ribbon: Trondheim
 checkout:
   eventbriteid: 24573031599
