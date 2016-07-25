@@ -32,7 +32,7 @@ checkout:
 speakers:
   kelseyhightower:
     keynote: true
-    title: Docker and the Future of Operating Systems
+    title: Containers and the death of the Linux Distribution
     abstract: >
       Kelsey will take a dive into the future of the operating system and how containers have the potential to destroy the Linux distro as we know it.
   mhausenblas:
