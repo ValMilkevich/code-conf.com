@@ -17,7 +17,7 @@ markdown: kramdown
 page_color: black;
 
 event_types:
-  - all: All events
+  - all: Events
   - conferences: Conferences
   - meet-ups: Meet-ups
   - hackathons: Hackathons
@@ -25,12 +25,12 @@ filter_event:
   filter_any_item_tag: all
   event_page_url: /events/
   event_page_css_selector: .page-events
-  event_page_all_events_header: "All events"
+  event_page_all_events_header: "Events"
 filter_speaker:
   filter_any_item_tag: all
   page_url: /speakers/
   page_css_selector: .page-speakers
-  all_header: "All events"
+  all_header: "All speakers"
 
 social:
   twitter:
