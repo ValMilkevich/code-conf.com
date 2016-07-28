@@ -55,8 +55,16 @@ speakers:
       If you are new to docker, this session is for you! In this sessions you will learn all the basics of docker and its main components. We will go through the the concept of containers, writing your own docker files, connecting data volumes, and basic orchestration with compose and swarm. Bring your laptops!
   viktorfarcic:
     title: Self-Healing Systems
-    abstract:
+    abstract: >
       We'll explore practices and tools required to set up fully autonomous self-healing systems capable of both reactive recuperation from failures and proactive predictions of steps that should be taken to prevent failures before they happen.   We'll use tools like Docker, Docker Swarm, Docker Compose, Consul, Consul Template, Registrator and Jenkins to design and develop a system that is continuously deploying services packed as containers and performs actions that will recuperate it from failures and scale or de-scale depending on historical records.
+  jansorensen:
+    title: Buld your own Docker and feel the magic!
+    abstract: >
+      How does Docker do its magic? This session will show you how to implement some essential Docker commands as shell scripts. You will learn how to setup a “containerized environment” using standard Linux features. We will implement core Docker features including image builds, pulling images, and running an image as a container.
+
+      This session will really be hands-on with exercises to get a better understanding of the topic. A Vagrant virtual machine will be provided with all the tools you need, so make sure you have Vagrant on you laptop.
+
+      A good understanding of Docker and Linux is assumed.
 
 sponsors:
   - docker
