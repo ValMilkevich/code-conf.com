@@ -1,5 +1,5 @@
 <footer class="site-footer">
-  <div>
+  <div class="slogan">
     <div class="footer-content">
       <span>
         {{ site.footer[0] }}
@@ -10,7 +10,52 @@
           <img class="logo" src="{{ site.footer[1] }}" />
         </a>
       </span>
-
+    </div>
+  </div>
+  <div class="navigation">
+    <nav>
+      {% for event_type_hash in site.event_types %}
+        {% if forloop.first == false %}
+          {% for event_type in event_type_hash %}
+            <section>
+              <h3>{{ event_type[1] }}</h3>
+              <div class="content">
+                {% for event in site.events %}
+                  {% if event.type == event_type[0] %}
+                    <a href="{{ event.url }}">
+                      {{ event.title }}
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </section>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      <section class="company">
+        <h3>Company info</h3>
+        <div class="content">
+          {% assign site_pages = site.pages | sort:"nav_weight" %}
+          {% for m in site_pages %}
+            {% if m.nav_weight %}
+              {% assign menu_item_name = m.title %}
+              {% if m.menu_title %}
+                {% assign menu_item_name = m.menu_title %}
+              {% endif %}
+              <a class="page-link{% if m.url == page.url %} active{% endif %}" href="{{ m.url | prepend: site.baseurl }}">{{ menu_item_name }}</a>
+            {% endif %}
+          {% endfor %}
+          {% include social.html %}
+        </div>
+      </section>
+    </nav>
+  </div>
+  <div class="copyright">
+    <div>
+      <a href="/" class="logo">
+        <img src="/images/code-conf.png" alt="CoDe-Conf">
+      </a>
+      © Praqma, {{ site.time | date: "%Y" }}
     </div>
   </div>
 </footer>

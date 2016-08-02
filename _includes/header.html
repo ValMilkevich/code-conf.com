@@ -23,26 +23,7 @@
           <a class="page-link{% if m.url == page.url %} active{% endif %}" href="{{ m.url | prepend: site.baseurl }}">{{ menu_item_name }}</a>
         {% endif %}
       {% endfor %}
-      <div class="social">
-        <a href="{{ site.social.twitter }}" target="_blank">
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-twitter fa-stack-1x"></i>
-          </span>
-        </a>
-        <a href="{{ site.social.google_plus }}" target="_blank">
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-google-plus fa-stack-1x"></i>
-          </span>
-        </a>
-        <a href="{{ site.social.linkedin }}" target="_blank">
-          <span class="fa-stack">
-            <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-            <i class="fa fa-linkedin fa-stack-1x"></i>
-          </span>
-        </a>
-      </div>
+      {% include social.html %}
     </nav>
   </div>
 </header>
