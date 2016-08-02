@@ -22,7 +22,7 @@
               <div class="content">
                 {% for event in site.events %}
                   {% if event.type == event_type[0] %}
-                    <a href="{{ event.url }}">
+                    <a class="{% if event.url == page.url %}active{% endif %}" href="{{ event.url }}">
                       {{ event.title }}
                     </a>
                   {% endif %}

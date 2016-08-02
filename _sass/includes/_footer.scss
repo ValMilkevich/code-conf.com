@@ -61,6 +61,10 @@ footer.site-footer{
           display: block;
           line-height: 1.2em;
           margin-bottom: 0.6em;
+          color: black;
+          &.active{
+            color: $orange;
+          }
         }
       }
       .social{
