@@ -105,7 +105,7 @@ no_toprip=true
 content="
 **Day before conference:** Pre-conference meetup for everyone who can't make it for the main event [Pre-Conference Meetup](http://www.meetup.com/Docker-Copenhagen/events/231588987/)!
 {: .whitestrip }
-**Post-Conference Workshop with Kelsey Hightower from Google:** A full day tutorial on Taming microservices with CoreOS and Kubernetes! [Post Conference Workshop](https://doccphworkshop.eventbrite.co.uk)
+**Post-Conference Workshop with Kelsey Hightower from Google:** A full day tutorial on Taming microservices with CoreOS and Kubernetes! [Post-Conference Workshop](https://doccphworkshop.eventbrite.co.uk)
 {: .whitestrip }
 "
 %}
