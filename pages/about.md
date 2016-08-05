@@ -17,7 +17,7 @@ Continuous Delivery and DevOps are probably the biggest and most important parad
 _Everyone_ in our industry should know about this phenomena. That's why!
 
 ## The master minds
-[Praqma](http://www.prtaqma.com){: target="_blank"} is the master mind behind this web site and initiative. We claim ourselves experts in this field and we're constantly exploring as well as exploiting techniques, tools and best practices in this field.
+[Praqma](http://www.praqma.com){: target="_blank"} is the master mind behind this web site and initiative. We claim ourselves experts in this field and we're constantly exploring as well as exploiting techniques, tools and best practices in this field.
 
 We regard this domain as a community, we want to gather everyone who's interested in this - so we can all learn and grow from each other's knowledge share: We put our trust in the _wisdom of the crowd_.
 

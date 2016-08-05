@@ -2,4 +2,10 @@ _site
 .sass-cache
 .jekyll-metadata
 .DS_Store
-*~
+.linkchecker
+**/*.*~
+**/*~
+**/*.log
+linkchecker.report.csv
+linkchecker.report.html
+

@@ -15,8 +15,8 @@
         {{ include.text | markdownify }}
       {% endif %}
       {% include assert.html is_true=include.eventbriteid error="Eventbrite id should be set" %}
-      <iframe  src="//eventbrite.co.uk/tickets-external?eid={{ include.eventbriteid }}&ref=etckt" frameborder="0" height="{{ height }}px" width="100%" vspace="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no"  allowtransparency="true"></iframe>
+      <iframe  src="https://www.eventbrite.co.uk/tickets-external?eid={{ include.eventbriteid }}&ref=etckt" frameborder="0" height="{{ height }}px" width="100%" vspace="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no"  allowtransparency="true"></iframe>
     </div>
-    <a class="eventbrite-mobile" href="http://www.eventbrite.com/e/test-tickets-{{ include.eventbriteid }}?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid={{ include.eventbriteid }}" alt="Eventbrite tickets" /></a>
+    <a class="eventbrite-mobile" href="https://www.eventbrite.com/e/test-tickets-{{ include.eventbriteid }}?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid={{ include.eventbriteid }}" alt="Eventbrite tickets" /></a>
   </div>
 </section>
