@@ -69,6 +69,7 @@ speakers:
 sponsors:
   - docker
   - dockercph
+  - police
 ---
 
 {% include event-main.html
