@@ -16,7 +16,7 @@ color: '#006666'
 date_:    2016-08-15
 date_end: 2016-08-19
 time: 9—16:00
-city: Copenhagen
+city: ITU, Copenhagen
 event_header:
   img: /images/pages/academy2016/copenhagen.jpg
   ribbon: Copenhagen
@@ -71,9 +71,9 @@ caption="Extras"
 no_toprip=true
 color=page.color
 content="
-**MONDAY EVENING:** Teach-the-teacher workshop (Academy staff only)
+**TUESDAY EVENING:** Teach-the-teacher workshop (Academy staff only)
 {:.whitestrip}
-**FRIDAY EVENING:** Barbecue: Participants meets sponsors - get a job!
+**THURSDAY EVENING:** Barbecue: Participants meets sponsors - get a job!
 {:.whitestrip}
 **EACH DAY AT LUNCH TIME:** one of the sponsors will give a 20 minute pitch to the students; why they are interested in hiring.
 {:.whitestrip}
