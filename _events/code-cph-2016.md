@@ -75,6 +75,16 @@ speakers:
     title: Screwing Up For Less
     abstract: >
       Traditionally, a lot of emphasis on building a quality product is focussed on prevention of bad things happening. Some of the mechanisms to create such positive outcomes aren't always easily compatible with continuous deployment. This talk will cover alternative methods for ensuring quality.
+  jpmorgenthal:
+    title: Service Management as an Aspect of DevOps
+    abstract: >
+      CIOs and those charged with running IT Operations are challenged to deliver secure, audited, and reliable compute environments for the applications and data for the business. Behind the scenes these tasks are often accomplished by following onerous time-consuming processes and often the management of these environments and processes will be outsourced to multiple IT service providers. In addition, the division of work is often siloed into traditional "towers" that are not well integrated for cross-functional purposes. So, when traditional IT Service Management (ITSM) meets the cloud, and equally, DevOps, the is invariably going to be conflict.
+
+      IT/ESM needs a reboot. As a factor of IT Transformation and Digital Transformation, IT no longer stands alone—or at least in a modern workplace it should not stand alone—it is the hub through which all other business services will see their efforts delivered. Marketing requires large-scale data analytics and webscale support for customer and partner access. Finance needs 360 degree views of how money is flowing through the business inclusive of unintended consequential impacts.
+
+      The next incarnation of ESM is DevOps. It is all about leveraging a common set of tools and practices to deliver continuous delivery focused on operations management. This includes all aspects of managing, communications, automation, reporting, and monitoring. It's all about operating IT in an era where everything is software and programmable.
+
+      This session will explore the impact of the API economy, Service Integration & Management, and a growing software-defined infrastructure on the next generation of IT operations and how to prepare for the forthcoming changes.
 
 sponsors:
 - praqma
