@@ -51,13 +51,13 @@ caption="Program"
 color=page.color
 no_botrip=true
 content="
-**MONDAY:**    Agile task management and Test Driven Development
+**MONDAY:**    Continuous Delivery and Agile task management
 {:.whitestrip}
-**TUESDAY:**   Git
+**TUESDAY:**   Test Driven Development and Git
 {:.whitestrip}
-**WEDNESDAY:** Jenkins
+**WEDNESDAY:** Git and Docker
 {:.whitestrip}
-**THURSDAY:**  Docker
+**THURSDAY:**  Jenkins
 {:.whitestrip}
 **FRIDAY:**    Synthesis - bring it all together in running code
 {:.whitestrip}
