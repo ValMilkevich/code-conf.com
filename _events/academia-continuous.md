@@ -64,6 +64,8 @@ Then follows a panel discussion among the presenters, taking up questions and in
 
 In order to enable you to prepare yourself as a participant - with clever questions or sharp ammunition - both the research group and the professionals will issue a few blog posts prior to the Meetup, that will enable you to get a sneak-peek into what the themes and discussions will be.
 
+* Lars Bendix' blog is online - [READ IT](https://www.linkedin.com/pulse/academia-embraces-continuous-anything-lars-bendix){: target="_blank"} - and comment.
+
 ### What we hope to gain
 
 The research project will include professors and PhD students and will run for several years. The industrial relevance of the project and its results is somewhat dependent on getting feedback from the industry, and not least, to be able to observe and analyze companies who are either planning or already going through \"continuous\" transformations in their organization. The research project sets out with an ambition to measure the actual effect of these initiatives.
