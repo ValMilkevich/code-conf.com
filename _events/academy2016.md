@@ -12,7 +12,7 @@ caption: >
 color: '#f58532'
 is_container: true
 date_:      2016-06-13
-date_end:   2016-09-02
+date_end:   2016-12-23
 city:       Throughout Scandinavia
 event_header:
   img: ../images/pages/academy2016/event-main.jpg
