@@ -12,8 +12,8 @@ subtitle: >
 caption: >
     A Continuous Delivery Academy in Oslo. Five intense days of workshops - all you need to know about CoDe.
 color: '#8a66a0'
-date_:    2016-08-29
-date_end: 2016-09-02
+date_:    2016-12-19
+date_end: 2016-12-23
 time: 9—16:00
 city: Oslo
 event_header:
