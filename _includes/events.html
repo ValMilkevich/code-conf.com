@@ -41,7 +41,7 @@ class
         <span class="brand-tag" style="background: {{ color }}">
           {% assign txt = e.brand-txt | markdownify %}
           {% if txt contains '<!--power-icon-->' %}
-            {% assign txt = txt | replace:"<p>","<p class='on-btn'>" %}
+            {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
           {% endif %}
           {{ txt }}
         </span>

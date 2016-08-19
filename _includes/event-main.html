@@ -41,7 +41,7 @@
               <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}{% if include.brand-txt-size %}font-size: {{ include.brand-txt-size }}em; {% endif %}">
                 {% assign txt = include.brand-txt | markdownify %}
                 {% if txt contains '<!--power-icon-->' %}
-                  {% assign txt = txt | replace:"<p>","<p class='on-btn'>" %}
+                  {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
                 {% endif %}
                 {{ txt }}
               </h1>

@@ -1,6 +1,6 @@
 p.on-btn{
   .on-btn-black{}
-  :after{
+  &:after{
     display: inline-block;
     margin-left: 0.08em;
     content: "";
