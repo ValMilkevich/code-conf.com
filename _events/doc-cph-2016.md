@@ -68,6 +68,7 @@ speakers:
       A good understanding of Docker and Linux is assumed.
 
 sponsors:
+  - praqma
   - docker
   - dockercph
   - police
