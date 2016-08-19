@@ -39,12 +39,11 @@
           {% if include.brand-txt %}
             <div class="brand-tag" style="background-color: {{ color }}">
               <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}{% if include.brand-txt-size %}font-size: {{ include.brand-txt-size }}em; {% endif %}">
-                {{ include.brand-txt | 
-                    replace: '<!--power-icon-->', '<img class="on-btn" src="/images/icons/on-symbol-cropped.png">' |
-                    markdownify | 
-                    strip | 
-                    remove: '<p>' | 
-                    remove: '</p>' }}
+                {% assign txt = include.brand-txt | markdownify %}
+                {% if txt contains '<!--power-icon-->' %}
+                  {% assign txt = txt | replace:"<p>","<p class='on-btn'>" %}
+                {% endif %}
+                {{ txt }}
               </h1>
             </div>
           {% endif %}

@@ -39,7 +39,11 @@ class
           {% assign color=e.color %}
         {% endif %}
         <span class="brand-tag" style="background: {{ color }}">
-            {{ e.brand-txt | markdownify }}
+          {% assign txt = e.brand-txt | markdownify %}
+          {% if txt contains '<!--power-icon-->' %}
+            {% assign txt = txt | replace:"<p>","<p class='on-btn'>" %}
+          {% endif %}
+          {{ txt }}
         </span>
       </a>
       {% include date-location.html

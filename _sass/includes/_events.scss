@@ -42,26 +42,17 @@
       margin: 0;
       padding-left: 0.25em;
       padding-right: 0.2em;
-      &:after{
-        display: inline-block;
-        margin-left: 0.08em;
-        content: "";
-        background: url(/images/icons/on-symbol-cropped.png) no-repeat 0 0;
-        background-size: 100%;
-        width: 0.265em;
-        height: 0.3em;
-      }
     }
     em{
       color: $orange;
       font-style: normal;
     }
-    & .on-btn{
-      vertical-align: baseline;
-      @media(max-width: $screen-xs-max){
-        width: 3vw;
-      }
-    }
+    /*& img.on-btn{*/
+      /*vertical-align: baseline;*/
+      /*@media(max-width: $screen-xs-max){*/
+        /*width: 3vw;*/
+      /*}*/
+    /*}*/
   }
   .caption{
     font-size: $font-size-base - 1;
