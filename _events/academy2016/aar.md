@@ -15,7 +15,7 @@ color: '#006f00'
 date_:    2016-08-22
 date_end: 2016-08-26
 time: 9—16:00
-city: Aarhus
+city: Building 5794, Aarhus University, &aring;bogade 40
 event_header:
   img: /images/pages/academy2016/aarhus2.jpg
   ribbon: Aarhus
