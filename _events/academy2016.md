@@ -15,7 +15,7 @@ date_:      2016-06-13
 date_end:   2016-12-23
 city:       Throughout Scandinavia
 event_header:
-  img: ../images/pages/academy2016/event-main.jpg
+  img: ../images/pages/academy2016/decorated-picture.jpg
   ribbon: Enroll today
 checkout:
   eventbriteid: 24573031599
@@ -29,7 +29,7 @@ sponsors:
 ---
 
 
-{% include event-main.html
+{% include decorated-picture.html
 no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt

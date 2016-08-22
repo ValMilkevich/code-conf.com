@@ -17,7 +17,7 @@ button_link: "http://www.devopsdays.org/events/2016-oslo/registration/"
 summary_picture: "/images/pages/meetups/event_dropin dev.jpg"
 ---
 
-{% include event-main.html
+{% include decorated-picture.html
 no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt

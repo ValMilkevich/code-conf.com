@@ -8,7 +8,7 @@ brand-txt: >
     De*livery*{: style="color: black; font-style: normal;"}
 ---
 
-{% include event-main.html
+{% include decorated-picture.html
 no_toprip=true
 background-image="/images/doc-cph-2016.png"
 brand-lead="Welcome to the home of..."

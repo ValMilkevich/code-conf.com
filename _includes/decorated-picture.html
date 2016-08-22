@@ -17,9 +17,9 @@
 {% if include.color %}
   {% assign color=include.color %}
 {% endif %}
-<section class="include-event-main{% if include.speaker-icon %} include-speakers{% endif %}">
+<section class="include-decorated-picture{% if include.speaker-icon %} include-speakers{% endif %}">
   <div>
-    <div class="event-main">
+    <div class="decorated-picture">
       <div class="image-canvas {{ classes }}">
         {% include assert.html is_true=include.background-image error="Image should be set" %}
         <img class="the-image" src="{{ include.background-image }}" alt="">

@@ -33,7 +33,7 @@ button_link: http://www.meetup.com/CoDe-U-AROS/events/230864013/
 benefit-text: Having attended this seminar, you’ll have more insight on how your company can
 ---
 
-{% include event-main.html
+{% include decorated-picture.html
 no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt
@@ -65,7 +65,7 @@ city=page.city
 
 <br>
 
-{% include event-main.html
+{% include decorated-picture.html
 agenda-label=page.agenda-label
 background-image=page.agenda-picture
 brand-lead= page.agenda-brand-lead

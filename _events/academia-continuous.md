@@ -17,7 +17,7 @@ event_header:
 button_link: http://www.meetup.com/code-u/events/232917200/
 ---
 
-{% include event-main.html
+{% include decorated-picture.html
 no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt

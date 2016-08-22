@@ -8,7 +8,7 @@ brand-txt: >
   Want to become a sponsor?
 ---
 
-{% include event-main.html
+{% include decorated-picture.html
 no_toprip=true
 background-image="/images/doc-cph-2016.png"
 brand-txt=page.brand-txt
