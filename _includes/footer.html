@@ -17,18 +17,25 @@
       {% for event_type_hash in site.event_types %}
         {% if forloop.first == false %}
           {% for event_type in event_type_hash %}
-            <section>
-              <h3>{{ event_type[1] }}</h3>
-              <div class="content">
-                {% for event in site.events %}
-                  {% if event.type == event_type[0] %}
+            {% assign events_filtered = "" | split:"" %}
+            {% for event in site.events %}
+              {% if event.type == event_type[0] %}
+                {% assign events_filtered = events_filtered | push:event %}
+              {% endif %}
+            {% endfor %}
+            {% assign events_filtered_size = events_filtered | size  %}
+            {% if events_filtered_size > 0 %}
+              <section>
+                <h3>{{ event_type[1] }}</h3>
+                <div class="content">
+                  {% for event in events_filtered %}
                     <a class="{% if event.url == page.url %}active{% endif %}" href="{{ event.url }}">
                       {{ event.title }}
                     </a>
-                  {% endif %}
-                {% endfor %}
-              </div>
-            </section>
+                  {% endfor %}
+                </div>
+              </section>
+            {% endif %}
           {% endfor %}
         {% endif %}
       {% endfor %}

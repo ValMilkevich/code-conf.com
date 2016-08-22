@@ -41,13 +41,15 @@ footer.site-footer{
     section{
       @extend .col-md-2;
       @extend .col-xs-12;
+      padding-top: 20px;
       position: relative;
       z-index: 1;
       @media (min-width: $screen-sm-min) {
-        display: table-cell;
-        width: 16.6%;
-        float: none;
         border-right: 1px solid $orange;
+        display: table-cell;
+        float: none;
+        padding-top: 0;
+        width: 16.6%;
       }
       &.company{
         padding-bottom: 30px;
