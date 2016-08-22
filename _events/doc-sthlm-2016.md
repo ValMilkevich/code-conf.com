@@ -39,10 +39,10 @@ speakers:
     title: Building hybrid microservices with Docker
     abstract: >
       Docker plays an increasingly important role in building and operating modern applications, both on-premises and in the cloud. In this introductory workshop, you will get an end-to-end understanding of Linux containers and how to operate and orchestrate them at scale. The course will teach you about the low-level concepts that make up Linux containers, how to deploy Docker containers, and how to orchestrate them using tools like Kubernetes and Mesos Marathon
-  diptanu:
-    title: Microservices at Scale with Nomad and Consul on elastic infrastructure
+  gergohoranyi:
+    title: Building and observing services on Docker Swarm clusters. The latest and greatest from Docker, inspired by Netflix.
     abstract: >
-      Microservices architecture is becoming more common for writing scalable modern services targeted for public and private clouds. However, the architecture brings in with itself a lot of challenges with respect to availability, reliable inter-process communication across services, deployment orchestration and operations. In this talk, I will go into how to design and run Microservices at scale on Docker and elastic infrastructure.
+      TBA
   fredriknilsson:
     title: Getting your hands dirty with Windows Containers
     abstract: >
