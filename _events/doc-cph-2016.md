@@ -33,14 +33,16 @@ speakers:
     title: Docker and the Future of Operating Systems
     abstract: >
       Kelsey will take a dive into the future of the operating system and how containers have the potential to destroy the Linux distro as we know it.
-  mhausenblas:
-    title: Building hybrid microservices with Docker
+  jankrag:
+    title: Docker 101
     abstract: >
-      Docker plays an increasingly important role in building and operating modern applications, both on-premises and in the cloud. In this introductory workshop, you will get an end-to-end understanding of Linux containers and how to operate and orchestrate them at scale. The course will teach you about the low-level concepts that make up Linux containers, how to deploy Docker containers, and how to orchestrate them using tools like Kubernetes and Mesos Marathon
-  gergohoranyi:
-    title:  Building and observing services on Docker Swarm clusters. The latest and greatest from Docker, inspired by Netflix.
+      If you are new to docker, this session is for you! In this sessions you will learn all the basics of docker and its main components. We will go through the the concept of containers, writing your own docker files, connecting data volumes, and basic orchestration with compose and swarm. Bring your laptops!
+  jansorensen:
+    title: Buld your own Docker and feel the magic!
     abstract: >
-      This workshop will be split into two parts.In the first part, we will go over some of the features of the latest edition of Docker Swarm and we will set up a few services on it. In the second part, we will dive into a new way of visualizing your clusters and how can we use your engineering intuition to understand complex failure scenarios.
+      How does Docker do its magic? This session will show you how to implement some essential Docker commands as shell scripts. You will learn how to setup a “containerized environment” using standard Linux features. We will implement core Docker features including image builds, pulling images, and running an image as a container.
+      This session will really be hands-on with exercises to get a better understanding of the topic. A Vagrant virtual machine will be provided with all the tools you need, so make sure you have Vagrant on you laptop.
+      A good understanding of Docker and Linux is assumed.
   rasmushald:
     title: Getting your hands dirty with Windows Containers
     abstract: >
@@ -49,23 +51,19 @@ speakers:
     title: Stop being lazy and test your software
     abstract: >
       Testing software is necessary, no matter the size or status of your company. Introducing Docker to your development workflow can help you write and run your testing frameworks more efficiently, so that you can always deliver your best product to your customers and there are no excuses for not writing tests anymore.
-  jankrag:
-    title: Docker 101
+  gergohoranyi:
+    title:  Building and observing services on Docker Swarm clusters. The latest and greatest from Docker, inspired by Netflix.
     abstract: >
-      If you are new to docker, this session is for you! In this sessions you will learn all the basics of docker and its main components. We will go through the the concept of containers, writing your own docker files, connecting data volumes, and basic orchestration with compose and swarm. Bring your laptops!
+      This workshop will be split into two parts.In the first part, we will go over some of the features of the latest edition of Docker Swarm and we will set up a few services on it. In the second part, we will dive into a new way of visualizing your clusters and how can we use your engineering intuition to understand complex failure scenarios.
+  mhausenblas:
+    title: Building hybrid microservices with Docker
+    abstract: >
+      Docker plays an increasingly important role in building and operating modern applications, both on-premises and in the cloud. In this introductory workshop, you will get an end-to-end understanding of Linux containers and how to operate and orchestrate them at scale. The course will teach you about the low-level concepts that make up Linux containers, how to deploy Docker containers, and how to orchestrate them using tools like Kubernetes and Mesos Marathon
   viktorfarcic:
     keynote: true
     title: Self-Healing Systems
     abstract: >
       We'll explore practices and tools required to set up fully autonomous self-healing systems capable of both reactive recuperation from failures and proactive predictions of steps that should be taken to prevent failures before they happen.   We'll use tools like Docker, Docker Swarm, Docker Compose, Consul, Consul Template, Registrator and Jenkins to design and develop a system that is continuously deploying services packed as containers and performs actions that will recuperate it from failures and scale or de-scale depending on historical records.
-  jansorensen:
-    title: Buld your own Docker and feel the magic!
-    abstract: >
-      How does Docker do its magic? This session will show you how to implement some essential Docker commands as shell scripts. You will learn how to setup a “containerized environment” using standard Linux features. We will implement core Docker features including image builds, pulling images, and running an image as a container.
-
-      This session will really be hands-on with exercises to get a better understanding of the topic. A Vagrant virtual machine will be provided with all the tools you need, so make sure you have Vagrant on you laptop.
-
-      A good understanding of Docker and Linux is assumed.
 
 sponsors:
   - praqma
