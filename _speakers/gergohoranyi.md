@@ -1,9 +1,8 @@
 ---
 name: Gergo Horanyi
 bio:  >
-  I'm always open for new challenges and I get excited if I can learn something new. I mostly do things related to infrastructure and tooling. I love DevOps.
-  I like to work with engineers, who care.
-position: CTP Pipetop
+  Gergo is a young software engineer who cares about making developers life easier. He has fallen in love with DevOps at CERN, where he made sure bosons are being found and at Prezi, where he made sure everyone can present at all times. Currently, he is bootstrapping a new company around Docker monitoring at Founders.
+position: Entrepreneur in Residence @ Founders AS
 img: /images/speakers/gergo.jpg
 social: >
   GitHub: [@ghoranyi](https://twitter.com/ghoranyi)

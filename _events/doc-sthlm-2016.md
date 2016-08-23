@@ -42,7 +42,7 @@ speakers:
   gergohoranyi:
     title: Building and observing services on Docker Swarm clusters. The latest and greatest from Docker, inspired by Netflix.
     abstract: >
-      TBA
+      This workshop will be split into two parts.In the first part, we will go over some of the features of the latest edition of Docker Swarm and we will set up a few services on it. In the second part, we will dive into a new way of visualizing your clusters and how can we use your engineering intuition to understand complex failure scenarios.
   fredriknilsson:
     title: Getting your hands dirty with Windows Containers
     abstract: >
@@ -54,11 +54,11 @@ speakers:
   viktorfarcic:
     keynote: true
     title: Self-Healing Systems
-    abstract:
+    abstract: >
       We'll explore practices and tools required to set up fully autonomous self-healing systems capable of both reactive recuperation from failures and proactive predictions of steps that should be taken to prevent failures before they happen.   We'll use tools like Docker, Docker Swarm, Docker Compose, Consul, Consul Template, Registrator and Jenkins to design and develop a system that is continuously deploying services packed as containers and performs actions that will recuperate it from failures and scale or de-scale depending on historical records.
   maximguenis:
     title: CI and Dev-Test Environment on Dockers
-    abstract:
+    abstract: >
       Developers and testers struggle every day to have a working local development environment ready when developing, debugging and going through the continuous integration cycle (CI).
       We can test our software either on production or using Virtualisation solutions or solve that by using docker based dev testing environment.
       As well we can test our software without creating tests with Diffy. Diffy finds potential bugs in your service using running instances of your new code and your old code side by side.
