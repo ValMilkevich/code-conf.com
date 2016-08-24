@@ -126,6 +126,40 @@ css_classes="colored toprip botrip"
 event_path=page.path
 caption="The speakers" %}
 
+
+Agenda
+---
+
+8:30
+Registration & Light Breakfast 
+9:00
+Welcome & Announcements	
+9:15
+**Keynote: Self Healing System**, Viktor Farcic, Docker Captain	
+10:00
+Break	
+10:15
+**Docker 101**, Jan Krag, Praqma
+**Buld your own Docker and feel the magic**, Jan Sørensen, Docker Expert
+11:45
+Lunch	
+12:45
+**Getting your hands dirty with Windows Containers**, Rasmus Hald, Microsoft
+**Stop being lazy and test your software**, Laura Frank, Codeship
+14:15
+Break	
+14:30
+**Building and observing services on Docker Swarm clusters. The latest and greatest from Docker, inspired by Netflix.Gergo**, Horanyi, Founders
+**Building hybrid microservices with Docker**, Michael Hausenblas, Mesosphere
+16:00
+Break	
+16:45
+**Keynote: Containers and the death of the Linux Distributio**, Kelsey Hightower, Google
+17:30
+Socialize & Beers
+{:.agenda-formatter}
+
+
 {% include eventbrite-ticket-form.html
 eventbriteid=page.checkout.eventbriteid
 css_classes="black toprip botrip" %}
