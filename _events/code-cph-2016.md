@@ -85,6 +85,11 @@ speakers:
       The next incarnation of ESM is DevOps. It is all about leveraging a common set of tools and practices to deliver continuous delivery focused on operations management. This includes all aspects of managing, communications, automation, reporting, and monitoring. It's all about operating IT in an era where everything is software and programmable.
 
       This session will explore the impact of the API economy, Service Integration & Management, and a growing software-defined infrastructure on the next generation of IT operations and how to prepare for the forthcoming changes.
+  libo:
+    title: First dates can be challenging!
+    abstract:
+      Introducing continuous delivery in an existing organisation might not be easy. The more we have the process is cemented around a weekly release the more friction we might find. Libo will talk about the journey he and his team took to establish and agree a workflow in a global organisation and how they all stopped worrying and fell in love with the delivery bomb.
+      He'll touch on automated testing, code review and deployment rituals, deployment tools, performance monitoring and rollback emergency "gybe" manoeuvre.
 
 sponsors:
 - praqma
