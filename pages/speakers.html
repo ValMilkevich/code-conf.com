@@ -72,3 +72,35 @@ default_tag= site.filter_speaker.filter_any_item_tag
 css_selector=site.filter_speaker.page_css_selector
 all_header=  site.filter_speaker.page_all_header
 %}
+
+<div class="hidden">
+  {% for event in site.events %}
+    {% assign tag = event.path | split:"/" | last | split:"." | first %}
+    {% include decorated-picture.html
+    data=tag
+    no_toprip=true
+    background-image="/images/code-conf.png"
+    brand-txt=event.brand-txt
+    speaker-icon="on"
+    color=event.color %}
+  {% endfor %}
+</div>
+
+<script>
+  // we output decorated pictures of every conference.
+  // this script takes one of them that matches the viewed conf
+  // and replaces page title entirely with it, including formatting
+  jQuery(function() {
+    var decoratedPictures = $('.include-decorated-picture');
+    var currentTag = getParam('tag');
+    var brandTxtElement = decoratedPictures.filter(function() { 
+      return $(this).data('tag') == currentTag 
+    });
+    if(brandTxtElement.length > 0){
+      decoratedPictures
+        .find('.brand-tag')
+        .first()
+        .replaceWith(brandTxtElement.find('.brand-tag'));
+    }
+  });
+</script>
