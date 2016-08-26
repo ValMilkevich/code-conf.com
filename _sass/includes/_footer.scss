@@ -1,13 +1,13 @@
 footer.site-footer{
   @extend .row;
-  margin-top: 50px;
+  position: relative;
   &>div{
     @extend .col-md-12;
   }
   &>.slogan{
-    @extend .wrapper;
     @extend .black;
     @extend .toprip;
+    @extend .wrapper;
     color: white;
     font-family: $headings-font-family;
     text-align: center;

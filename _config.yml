@@ -11,7 +11,7 @@ email_sponsor_inquires: ah@praqma.net
 highlighter: rouge
 exclude: [README.md]
 timezone: Europe/Copenhagen
-url: new.code-conf.com
+url: code-conf.com
 markdown: kramdown
 
 page_color: black;

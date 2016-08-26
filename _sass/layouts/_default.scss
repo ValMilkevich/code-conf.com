@@ -1,0 +1,6 @@
+.layout-default{
+  margin-bottom: 130px;
+  @media(max-width: $screen-xs-max){
+    margin-bottom: 80px;
+  }
+}

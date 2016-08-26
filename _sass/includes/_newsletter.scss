@@ -1,0 +1,69 @@
+.newsletter-wrapper{
+  @extend .row;
+  position: relative;
+}
+.include-newsletter{
+  @extend .hidden-xs;
+  padding: 15px 30px;
+  display: inline-block;
+  position: fixed !important;
+  height: 58px;
+  width: auto !important;
+  margin-left: 15px;
+  bottom: 0;
+  z-index: 1;
+  &.fixed{
+    position: absolute !important;
+    top: -70px;
+  }
+  div{
+    display: inline-block;
+  }
+  label{
+    font-family: $headings-font-family;
+    font-size: 1.3em;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    vertical-align: middle;
+    margin-bottom: 0;
+    color: white;
+    font-weight: normal;
+  }
+  input{
+    height: 22px;
+    border: none;
+    vertical-align: middle;
+  }
+  .email{
+    width: 140px;
+    font-size: 0.8em;
+    padding: 0 10px;
+  }
+  .button{
+    line-height: 19px;
+    background: black;
+    font-family: $headings-font-family;
+    color: white;
+    letter-spacing: 0.01em;
+    &:hover{
+      color: $orange;
+    }
+  }
+  .promise{
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: white;
+  }
+  background: $orange;
+  #mce-responses{
+    display: none;
+  }
+}
+
+footer.site-footer{
+  .include-newsletter{
+    float: none;
+  }
+}
