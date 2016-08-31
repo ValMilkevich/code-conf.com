@@ -3,7 +3,9 @@
   font-family: $headings-font-family;
   color: white;
   overflow: scroll;
-  max-height: 535px;
+  @media (min-width: $screen-sm-min) {
+    max-height: 535px;
+  }
   *{
     letter-spacing: 0.02em;
   }

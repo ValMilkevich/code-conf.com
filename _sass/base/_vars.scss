@@ -17,3 +17,10 @@ $container-desktop:            (990px + $grid-gutter-width) !default;
 $container-md:                 $container-desktop !default;
 $container-large-desktop:      (990px + $grid-gutter-width) !default;
 $container-lg:                 $container-large-desktop !default;
+
+// Navbar
+$navbar-default-bg:                        black;
+$navbar-margin-bottom:                     0;
+$navbar-default-link-color:                white;
+$navbar-default-link-hover-color:          white;
+$navbar-default-link-active-color:         $orange;

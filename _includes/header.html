@@ -1,29 +1,72 @@
-<header class="site-header">
-  <div>
-    <a href="/" class="logo">
-      <img src="/images/code-conf.png" alt="CoDe-Conf">
-    </a>
-    <nav class="nav-events">
-        {% for event_type_hash in site.event_types %}
-          {% for event_type in event_type_hash %}
-            <a href="{{ site.filter_event.event_page_url }}?tag={{ event_type[0] }}">
-              {{ event_type[1] }}
-            </a>
-          {% endfor %}
-        {% endfor %}
+<!--<header class="site-header">-->
+  <!--<div>-->
+    <nav class="navbar navbar-default include-site-header">
+      <div>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="logo">
+            <img src="/images/code-conf.png" alt="CoDe-Conf">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="nav-events">
+            <ul class="nav navbar-nav">
+              {% for event_type_hash in site.event_types %}
+                {% for event_type in event_type_hash %}
+                  <li><a href="{{ site.filter_event.event_page_url }}?tag={{ event_type[0] }}">{{ event_type[1] }}</a></li>
+                {% endfor %}
+              {% endfor %}
+            </ul>
+          </div>
+          <div class="nav-extra">
+            <ul class="nav navbar-nav navbar-right">
+              <li role="separator" class="divider"></li>
+              {% assign site_pages = site.pages | sort:"nav_weight" %}
+              {% for m in site_pages %}
+                {% if m.nav_weight %}
+                  {% assign menu_item_name = m.title %}
+                  {% if m.menu_title %}
+                    {% assign menu_item_name = m.menu_title %}
+                  {% endif %}
+                  <li{% if m.url == page.url %} class="active"{% endif %}><a class="page-link" href="{{ m.url | prepend: site.baseurl }}">{{ menu_item_name }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+            {% include social.html %}
+          </div>
+        </div>
+      </div>
     </nav>
-    <nav class="nav-extra">
-      {% assign site_pages = site.pages | sort:"nav_weight" %}
-      {% for m in site_pages %}
-        {% if m.nav_weight %}
-          {% assign menu_item_name = m.title %}
-          {% if m.menu_title %}
-            {% assign menu_item_name = m.menu_title %}
-          {% endif %}
-          <a class="page-link{% if m.url == page.url %} active{% endif %}" href="{{ m.url | prepend: site.baseurl }}">{{ menu_item_name }}</a>
-        {% endif %}
-      {% endfor %}
-      {% include social.html %}
-    </nav>
-  </div>
-</header>
+    <!--<nav class="nav-events">-->
+        <!--{% for event_type_hash in site.event_types %}-->
+          <!--{% for event_type in event_type_hash %}-->
+            <!--<a href="{{ site.filter_event.event_page_url }}?tag={{ event_type[0] }}">-->
+              <!--{{ event_type[1] }}-->
+            <!--</a>-->
+          <!--{% endfor %}-->
+        <!--{% endfor %}-->
+    <!--</nav>-->
+    <!--<nav class="nav-extra">-->
+      <!--{% assign site_pages = site.pages | sort:"nav_weight" %}-->
+      <!--{% for m in site_pages %}-->
+        <!--{% if m.nav_weight %}-->
+          <!--{% assign menu_item_name = m.title %}-->
+          <!--{% if m.menu_title %}-->
+            <!--{% assign menu_item_name = m.menu_title %}-->
+          <!--{% endif %}-->
+          <!--<a class="page-link{% if m.url == page.url %} active{% endif %}" href="{{ m.url | prepend: site.baseurl }}">{{ menu_item_name }}</a>-->
+        <!--{% endif %}-->
+      <!--{% endfor %}-->
+      <!--{% include social.html %}-->
+    <!--</nav>-->
+
+  <!--</div>-->
+<!--</header>-->
