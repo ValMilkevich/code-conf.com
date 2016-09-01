@@ -4,6 +4,7 @@
   border: none;
   &>div{
     @extend .col-md-12;
+    @extend .mobile-margin-fix;
     background: black;
     overflow: hidden;
     background-clip: content-box;

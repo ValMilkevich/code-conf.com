@@ -1,9 +1,8 @@
 body{
   @extend .container;
   @media(max-width: $screen-xs-max){
-    padding: 0;
     .post{
-      padding: 0 15px;
+      padding: 0 $grid-gutter-width/2;
     }
   }
 }
@@ -12,3 +11,10 @@ body{
   background-clip: content-box;
 }
 
+.mobile-margin-fix{
+  padding: 0;
+  @media (min-width: $screen-sm-min) {
+    padding-left: $grid-gutter-width/2;
+    padding-right: $grid-gutter-width/2;
+  }
+}

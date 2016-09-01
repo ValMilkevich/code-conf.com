@@ -1,4 +1,9 @@
 .include-decorated-picture{
+  margin-right: -$grid-gutter-width/2;
+  margin-left:  -$grid-gutter-width/2;
+  @media (min-width: $screen-sm-min) {
+    margin: 0;
+  }
   .image-canvas{
     @extend .wrapper;
     @extend .colored;
@@ -71,7 +76,7 @@
       color: white;
       margin-left: 10px;
       padding-right: 10px;
-      font-size: 15vw; // need to override inline styles made by liquid
+      font-size: 14vw; // need to override inline styles made by liquid
       overflow: hidden;
       @media (min-width: $screen-sm-min) {
         font-size: 1em;

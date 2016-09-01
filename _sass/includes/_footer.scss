@@ -3,6 +3,7 @@ footer.site-footer{
   position: relative;
   &>div{
     @extend .col-md-12;
+    @extend .mobile-margin-fix;
   }
   &>.slogan{
     @extend .black;
