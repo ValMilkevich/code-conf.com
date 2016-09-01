@@ -5,17 +5,21 @@
       @extend .col-md-12;
     }
   }
-  .include-decorated-picture .image-canvas .ribbons .brand-tag h1{
-    font-size: 9.2em;
-  }
   &.past{
     .include-eventbrite, .date-location-button .button, .button-join{
       display: none;
     }
-    .brand-tag h1:after{
-      content: " (past)";
-      opacity: 0.5;
-      font-size: 72px;
+    .brand-tag h1{
+      @media (min-width: $screen-sm-min) {
+        font-size: 0.9em;
+      }
+      &:after{
+        content: "(past)";
+        margin-left: 0.4em;
+        opacity: 0.5;
+        font-size: 0.6em;
+        display: inline-block;
+      }
     }
   }
 }

@@ -21,7 +21,6 @@ summary_picture: "/images/pages/meetups/event_dropin dev.jpg"
 no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt
-brand-txt-size=4.0
 subtitle=page.subtitle
 dot-text=page.dot-txt
 dot-txt-size=page.dot-txt-size

@@ -1,12 +1,4 @@
 .page-index{
-  .include-decorated-picture{
-    .ribbons .brand-tag h1{
-      font-size: 7.2em;
-      @media(max-width: $screen-xs-max){
-        font-size: 11.2vw;
-      }
-    }
-  }
   .include-events.small{
     @extend .row;
     font-size: 0.33em;

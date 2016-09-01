@@ -9,15 +9,17 @@
     &.toprip:before{
       position: absolute;
       top: 0px;
-      @media(max-width: $screen-xs-max){
-        display: none;
+      display: none;
+      @media (min-width: $screen-sm-min) {
+        display: block;
       }
     }
     &.botrip:after{
       position: absolute;
       bottom: 0px;
-      @media(max-width: $screen-xs-max){
-        display: none;
+      display: none;
+      @media (min-width: $screen-sm-min) {
+        display: block;
       }
     }
     .the-image{
@@ -29,28 +31,27 @@
       border-radius: 1000px;
       font-family: Permanent Marker;
       font-size: 4.8em;
-      height: 240px;
       position: absolute;
-      right: 47px;
       text-align: center;
-      top: 30px;
       transform: rotate(-18deg);
-      width: 240px;
       line-height: 0.8;
-      padding-top: 49px;
       z-index: 2;
+      width: 20vw;
+      height: 20vw;
+      padding-top: 5vw;
+      top: 2vw;
+      right: 5vw;
       &.small {
-        font-size: 3.3em;
+        font-size: 4.2vw;
       }
-      @media(max-width: $screen-xs-max){
-        width: 20vw;
-        height: 20vw;
-        /*font-size: 3.2vw;*/
-        padding-top: 5vw;
-        top: 2vw;
-        right: 5vw;
+      @media (min-width: $screen-sm-min) {
+        height: 240px;
+        padding-top: 49px;
+        right: 47px;
+        top: 30px;
+        width: 240px;
         &.small {
-          font-size: 4.2vw;
+          font-size: 3.3em;
         }
       }
     }
@@ -59,60 +60,67 @@
       position: absolute;
       bottom: 0;
 
-      .brand-tag{
-        display: block;
-        position: relative;
-        z-index: 3;
-        h1{
-          font-size: 6.0em;
-          padding-right: 40px;
-          color: white;
-          @media(max-width: $screen-xs-max){
-            font-size: 15vw;
-            padding-right: 10px;
-            margin-left: 10px;
-            /*good idea to refactor left margins across all wrappers etc.*/
-          }
-          em{
-            color: $orange;
-            font-style: normal;
-          }
-        }
-      }
+    }
+  }
 
-      .brand-lead{
-        background: black;
-        color: white;
-        display: inline-block;
-        font-family: $headings-font-family;
-        font-size: 2.7em;
-        margin: 0;
-        padding: 0 40px 0 45px;
-        z-index: 4;
-        position: relative;
-        @media(max-width: $screen-xs-max){
-          font-size: 8vw;
-          padding: 0 10px 0 10px;
-        }
+  .brand-tag{
+    display: block;
+    position: relative;
+    z-index: 3;
+    h1{
+      color: white;
+      margin-left: 10px;
+      padding-right: 10px;
+      font-size: 15vw; // need to override inline styles made by liquid
+      overflow: hidden;
+      @media (min-width: $screen-sm-min) {
+        font-size: 1em;
+        margin-left: 45px;
+        padding-right: 40px;
+      }
+      em{
+        color: $orange;
+        font-style: normal;
+      }
+      p{
+        /*display: inline-block;*/
+        float: left;
+        margin-bottom: 0;
+        /*line-height: 1em;*/
       }
     }
   }
 
+  .brand-lead{
+    background: black;
+    color: white;
+    display: inline-block;
+    font-family: $headings-font-family;
+    font-size: 8vw;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    position: relative;
+    z-index: 4;
+    @media (min-width: $screen-sm-min) {
+      font-size: 2.7em;
+      padding: 0 40px 0 45px;
+    }
+  }
 
   .caption{
     position: relative;
     font-family: $marker-font-family;
-    font-size: 1.6em;
     margin: 0.2em 0 0.8em;
-    padding: 0 30px 0 45px;
     z-index: 1;
+    font-size: 6vw;
+    padding: 0 10px 0 10px;
+    @media (min-width: $screen-sm-min) {
+      font-size: 1.6em;
+      padding: 0 30px 0 45px;
+    }
     em{
       color: $orange;
       font-style: normal;
-    }
-    @media(max-width: $screen-xs-max){
-      font-size: 6vw;
-      padding: 0 10px 0 10px;
     }
   }
 }

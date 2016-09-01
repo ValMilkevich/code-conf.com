@@ -38,7 +38,6 @@ button_link: http://www.meetup.com/Docker-Aarhus/events/231441979/
 no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt
-brand-txt-size=4.0
 subtitle=page.subtitle
 dot-text=page.dot-txt
 dot-txt-size=page.dot-txt-size

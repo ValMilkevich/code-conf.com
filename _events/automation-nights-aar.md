@@ -37,7 +37,6 @@ benefit-text: Having attended this seminar, you’ll have more insight on how yo
 no_toprip=true
 background-image=page.event_header.img
 brand-txt=page.brand-txt
-brand-txt-size=4.0
 subtitle=page.subtitle
 dot-text=page.dot-txt
 dot-txt-size=page.dot-txt-size
