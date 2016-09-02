@@ -22,4 +22,11 @@
       }
     }
   }
+  &.past.subevent{
+    .include-decorated-picture{
+      .image-canvas-inner{
+        @extend .subevent-class-graduated;
+      }
+    }
+  }
 }

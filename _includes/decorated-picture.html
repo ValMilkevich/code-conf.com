@@ -21,40 +21,42 @@
   <div>
     <div class="decorated-picture">
       <div class="image-canvas {{ classes }}">
-        {% include assert.html is_true=include.background-image error="Image should be set" %}
-        <img class="the-image" src="{{ include.background-image }}" alt="">
-
-        {% if include.dot-text %}
-        <div class="dot {{ include.dot-txt-size }}">{{ include.dot-text }}</div>
-        {% endif %}
-
-        <div class="ribbons">
-          {% if include.brand-lead %}
-          <div class="brand-lead {{ marker }} {{ agenda-label }}" >
-            {{ include.brand-lead }}
-          </div>
+        <div class="image-canvas-inner">
+          {% include assert.html is_true=include.background-image error="Image should be set" %}
+          <img class="the-image" src="{{ include.background-image }}" alt="">
+          
+          {% if include.dot-text %}
+          <div class="dot {{ include.dot-txt-size }}">{{ include.dot-text }}</div>
           {% endif %}
-
-          {% if include.brand-txt %}
-            {% assign length = include.brand-txt | markdownify | strip_html | strip | size %}
-            {% assign font_size = 150.0 | divided_by:length %}
-            {% if font_size > 8.0 %}
-              {% assign font_size = 8.0 %}
-            {% endif %}
-            {% if font_size < 4.0 %}
-              {% assign font_size = 4.0 %}
-            {% endif %}
-            <div class="brand-tag" style="background-color: {{ color }}; font-size:{{ font_size }}em;">
-              <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}">
-                {% assign txt = include.brand-txt | markdownify %}
-                {% if txt contains '<!--power-icon-->' %}
-                  {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
-                {% endif %}
-                {{ txt }}
-              </h1>
+          
+          <div class="ribbons">
+            {% if include.brand-lead %}
+            <div class="brand-lead {{ marker }} {{ agenda-label }}" >
+              {{ include.brand-lead }}
             </div>
             {% endif %}
-          </div>
+          
+            {% if include.brand-txt %}
+              {% assign length = include.brand-txt | markdownify | strip_html | strip | size %}
+              {% assign font_size = 150.0 | divided_by:length %}
+              {% if font_size > 8.0 %}
+                {% assign font_size = 8.0 %}
+              {% endif %}
+              {% if font_size < 4.0 %}
+                {% assign font_size = 4.0 %}
+              {% endif %}
+              <div class="brand-tag" style="background-color: {{ color }}; font-size:{{ font_size }}em;">
+                <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}">
+                  {% assign txt = include.brand-txt | markdownify %}
+                  {% if txt contains '<!--power-icon-->' %}
+                    {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
+                  {% endif %}
+                  {{ txt }}
+                </h1>
+              </div>
+              {% endif %}
+            </div>
+        </div>
         </div>
 
       {% if include.subtitle %}

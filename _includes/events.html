@@ -31,7 +31,15 @@ class
   {% endfor %}
 
   {% for e in site_events_filtered limit:include.limit offset:include.offset %}
-  <div class="event filter-item" data-tags='["{{ site.filter_event.filter_any_item_tag }}","{{ e.type }}"]'>
+    {% capture is_subevent %}
+    {% include func/is_subevent.html page=e %}
+    {% endcapture %}
+    {% assign is_subevent = is_subevent | strip %}
+    {% capture is_live %}
+    {% include func/is_live.html event=e %}
+    {% endcapture %}
+    {% assign is_live = is_live | strip %}
+    <div class="event filter-item{% if is_live == site.false %} past{% endif %}{% if is_subevent == site.true %} subevent{% endif %}" data-tags='["{{ site.filter_event.filter_any_item_tag }}","{{ e.type }}"]'>
       <a class="event-link" href="{{ e.url }}">
         <img src="{{ e.event_header.img }}" alt="{{ e.title }}">
         {% assign color=site.page_color %}

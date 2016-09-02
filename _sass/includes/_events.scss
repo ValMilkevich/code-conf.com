@@ -20,6 +20,9 @@
         width: 100%;
       }
     }
+    &.past.subevent a.event-link{
+      @extend .subevent-class-graduated;
+    }
   }
   a, a:hover{
     color: white !important;

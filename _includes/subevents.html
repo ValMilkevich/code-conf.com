@@ -5,7 +5,15 @@
     {% include assert.html is_true=include.this_page.path error="this_page is not set" %}
     {% assign this_page_basename = include.this_page.path | split:"/" | last | split:"." | first %}
     {% if e_parent_dir == this_page_basename %}
-      <div class="subevent">
+      {% capture is_subevent %}
+      {% include func/is_subevent.html page=e %}
+      {% endcapture %}
+      {% assign is_subevent = is_subevent | strip %}
+      {% capture is_live %}
+      {% include func/is_live.html event=e %}
+      {% endcapture %}
+      {% assign is_live = is_live | strip %}
+      <div class="subevent{% if is_live == site.false %} past{% endif %}{% if is_subevent == site.true %} subevent{% endif %}">
         <a href="{{ e.url }}">
           <div class="city">
             {{ e.city }}

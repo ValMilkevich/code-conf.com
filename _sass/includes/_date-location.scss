@@ -7,11 +7,12 @@
   .date-location{
     font-family: $headings-font-family;
     font-size:   1.7em;
-    padding-left: 45px;
     line-height: 1.2em;
-    @media(max-width: $screen-xs-max){
-      margin-top: 7vw;
-      padding: 0 10px 0 10px;
+    margin-top: 7vw;
+    padding: 0 10px 0 10px;
+    @media (min-width: $screen-sm-min) {
+      margin-top: 0;
+      padding: 0 0 0 45px;
     }
 
     .image-canvas{
@@ -29,33 +30,25 @@
 
     .date, .date-span, .location, .time{
       float: left;
-      @media(max-width: $screen-sm-max){
-        margin-bottom: 20px;
-        /*@extend .clearfix;*/
+      margin-bottom: 20px;
+      width: 100%;
+      @media (min-width: $screen-sm-min) {
+        margin-bottom: 0;
+        /*float: none;*/
       }
     }
 
     .date, .location{
-      /*@extend .col-md-4;*/
-      /*width: 270px;*/
       width: 10em;
     }
 
     .date-span{
-      /*@extend .col-md-6;*/
-      /*width: 200px;*/
       width: 11em;
     }
 
     .time{
-      /*@extend .col-md-3;*/
-      /*width: 200px;*/
       width: 9em;
     }
-
-    /*.label, .value{*/
-      /*margin-right: -15px;*/
-    /*}*/
 
     .value{
       font-size: 1.37em;

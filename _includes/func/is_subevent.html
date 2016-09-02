@@ -1,0 +1,6 @@
+{% assign path_length = include.page.path | split:"/" | size %}
+{% if path_length > 2 and include.page.type == "conferences" %}    
+  {{ site.true }}
+{% else %}
+  {{ site.false }}
+{% endif %}

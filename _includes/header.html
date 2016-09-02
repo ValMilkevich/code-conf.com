@@ -17,10 +17,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="nav-events">
         <ul class="nav navbar-nav">
-          {% for event_type_hash in site.event_types %}
-            {% for event_type in event_type_hash %}
-              <li><a href="{{ site.filter_event.event_page_url }}?tag={{ event_type[0] }}">{{ event_type[1] }}</a></li>
-            {% endfor %}
+          {% for event_type in site.event_types %}
+            <li><a href="{{ site.filter_event.event_page_url }}?tag={{ event_type[0] }}">{{ event_type[1] }}</a></li>
           {% endfor %}
         </ul>
       </div>

@@ -15,6 +15,10 @@
       width: 100%;
     }
     &>a{
+      @extend .subevent-class-graduated;
+      &:after{
+        background-position: 50% 40% !important;
+      }
       position: relative;
       display: inline-block;
     }
@@ -26,6 +30,7 @@
       padding: 0 0.3em;
       position: absolute;
       top: 0;
+      z-index: 5;
     }
     .details{
       font-size: 2em;

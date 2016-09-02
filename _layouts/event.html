@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
+{% capture is_subevent %}
+{% include func/is_subevent.html page=page %}
+{% endcapture %}
+{% assign is_subevent = is_subevent | strip %}
 {% capture is_live %}
 {% include func/is_live.html event=page %}
 {% endcapture %}
 {% assign is_live = is_live | strip %}
-<div class="layout-event{% if is_live == "false" %} past{% endif %}">
+<div class="layout-event{% if is_live == site.false %} past{% endif %}{% if is_subevent == site.true %} subevent{% endif %}">
   {{ content }}
 </div>

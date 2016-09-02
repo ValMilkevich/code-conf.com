@@ -15,12 +15,14 @@ url: code-conf.com
 markdown: kramdown
 
 page_color: black;
+true: "true"
+false: "false"
 
 event_types:
-  - all: Events
-  - conferences: Conferences
-  - meet-ups: Meet-ups
-  - hackathons: Hackathons
+  all: Events
+  conferences: Conferences
+  meet-ups: Meet-ups
+  hackathons: Hackathons
 filter_event:
   filter_any_item_tag: all
   event_page_url: /events/
