@@ -99,6 +99,7 @@ sponsors:
 - chef
 - t2data
 - github
+- csc
 - dotw
 - simcorp
 - milestone
