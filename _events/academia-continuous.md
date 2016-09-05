@@ -1,7 +1,7 @@
 ---
 type: meet-ups
 title: Academia Embracing Continuous
-weight: 100
+weight: 30
 brand-txt: >
     Academia
 #subtitle: >
