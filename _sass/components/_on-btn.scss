@@ -1,12 +1,16 @@
 p.on-btn{
-  .on-btn-black{}
   &:after{
     display: inline-block;
     margin-left: 0.08em;
     content: "";
-    background: url(/images/icons/on-symbol-cropped.png) no-repeat 0 0;
+    background-image: url(/images/icons/on-symbol.png);
     background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
     width: 0.265em;
     height: 0.3em;
+  }
+  &.on-btn-black:after{
+    background-image: url(/images/icons/on-symbol-black.png);
   }
 }

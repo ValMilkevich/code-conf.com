@@ -39,6 +39,11 @@ class
     {% include func/is_live.html event=e %}
     {% endcapture %}
     {% assign is_live = is_live | strip %}
+
+    {% capture is_orange %}
+      {% include func/is_orange.html color=e.color %}
+    {% endcapture %}
+    {% assign is_orange = is_orange | strip %}
     <div class="event filter-item{% if is_live == site.false %} past{% endif %}{% if is_subevent == site.true %} subevent{% endif %}" data-tags='["{{ site.filter_event.filter_any_item_tag }}","{{ e.type }}"]'>
       <a class="event-link" href="{{ e.url }}">
         <img src="{{ e.event_header.img }}" alt="{{ e.title }}">
@@ -48,9 +53,13 @@ class
         {% endif %}
         <span class="brand-tag" style="background: {{ color }}">
           {% assign txt = e.brand-txt | markdownify %}
-          {% if txt contains '<!--power-icon-->' %}
-            {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
-          {% endif %}
+            {% if txt contains '<!--power-icon-->' %}
+              {% if is_orange == site.true %}
+                {% assign txt = txt | replace_first:"<p>","<p class='on-btn on-btn-black'>" %}
+                {% else %}
+                {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
+              {% endif %}
+            {% endif %}
           {{ txt }}
         </span>
       </a>

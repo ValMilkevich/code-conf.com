@@ -1,0 +1,21 @@
+{% comment %}
+detects if given color is orange.
+samples of orange:
+"f58532"
+"orange"
+{% endcomment %}
+{% assign color_split = include.color | split:"" %}
+{% assign red   = color_split[1] | upcase %}
+{% assign green = color_split[3] | upcase %}
+{% assign blue  = color_split[5] | upcase %}
+{% if color == "orange" %}
+  {{ site.true }}
+  {% else %}
+  {% if red == "F" or red == "E" %}
+    {% if green == "8" or green == "9" %}
+      {% if blue == "3" or blue == "4" %}
+      {{ site.true }}
+      {% endif %}
+    {% endif %}
+  {% endif %}
+{% endif %}
