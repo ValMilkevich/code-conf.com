@@ -10,6 +10,9 @@ class
 {% if include.past %}
   {% assign desirable_live_state = "false" %}
 {% endif %}
+<script>
+  console.log('site.true = {{ site.true | jsonify }}');
+</script>
 
 <div class="include-events{% if include.class %} {{ include.class }}{% endif %}">
   {% case include.sort %}
@@ -35,9 +38,6 @@ class
     {% include func/is_subevent.html page=e %}
     {% endcapture %}
     {% assign is_subevent = is_subevent | strip %}
-    <script>
-      console.log('{{ is_subevent | jsonify }}');
-    </script>
     {% capture is_live %}
     {% include func/is_live.html event=e %}
     {% endcapture %}
