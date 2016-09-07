@@ -35,6 +35,9 @@ class
     {% include func/is_subevent.html page=e %}
     {% endcapture %}
     {% assign is_subevent = is_subevent | strip %}
+    <script>
+      console.log('{{ is_subevent | jsonify }}');
+    </script>
     {% capture is_live %}
     {% include func/is_live.html event=e %}
     {% endcapture %}
