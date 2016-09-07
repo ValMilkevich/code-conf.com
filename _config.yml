@@ -15,6 +15,8 @@ url: code-conf.com
 markdown: kramdown
 
 page_color: black;
+true_: "true"
+false_: "false"
 true: "true"
 false: "false"
 

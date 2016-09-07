@@ -13,7 +13,7 @@
       {% include func/is_live.html event=e %}
       {% endcapture %}
       {% assign is_live = is_live | strip %}
-      <div class="subevent{% if is_live == site.false %} past{% endif %}{% if is_subevent == site.true %} subevent{% endif %}">
+      <div class="subevent{% if is_live == site.false_ %} past{% endif %}{% if is_subevent == site.true_ %} subevent{% endif %}">
         <a href="{{ e.url }}">
           <div class="city">
             {{ e.city }}

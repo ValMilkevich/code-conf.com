@@ -11,7 +11,7 @@ class
   {% assign desirable_live_state = "false" %}
 {% endif %}
 <script>
-  console.log('site.true = {{ site.true | jsonify }}');
+  console.log('site.true_ = {{ site.true_ | jsonify }}');
 </script>
 
 <div class="include-events{% if include.class %} {{ include.class }}{% endif %}">
@@ -47,7 +47,7 @@ class
       {% include func/is_orange.html color=e.color %}
     {% endcapture %}
     {% assign is_orange = is_orange | strip %}
-    <div class="event filter-item{% if is_live == site.false %} past{% endif %}{% if is_subevent == site.true %} subevent{% endif %}" data-tags='["{{ site.filter_event.filter_any_item_tag }}","{{ e.type }}"]'>
+    <div class="event filter-item{% if is_live == site.false_ %} past{% endif %}{% if is_subevent == site.true_ %} subevent{% endif %}" data-tags='["{{ site.filter_event.filter_any_item_tag }}","{{ e.type }}"]'>
       <a class="event-link" href="{{ e.url }}">
         <img src="{{ e.event_header.img }}" alt="{{ e.title }}">
         {% assign color=site.page_color %}
@@ -57,7 +57,7 @@ class
         <span class="brand-tag" style="background: {{ color }}">
           {% assign txt = e.brand-txt | markdownify %}
             {% if txt contains '<!--power-icon-->' %}
-              {% if is_orange == site.true %}
+              {% if is_orange == site.true_ %}
                 {% assign txt = txt | replace_first:"<p>","<p class='on-btn on-btn-black'>" %}
                 {% else %}
                 {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
