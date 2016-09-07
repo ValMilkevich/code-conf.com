@@ -1,11 +1,7 @@
-{% assign true  = "true"  %}
-{% assign false = "false" %}
+{% assign is_container = include.event.is_container | strip %}
 
-{% assign is_container = include.event.is_container | lstrip | rstrip %}
-
-
-{% if is_container == "true" and include.container == "exclude" %}
-  {{false}}
+{% if is_container == site.true_ and include.container == "exclude" %}
+  {{site.false_}}
 {% else %}
 
   {% assign e_date     = include.event.date_    | date: "%Y-%m-%d" %}
@@ -13,12 +9,12 @@
   {% assign now        = site.time              | date: "%Y-%m-%d" %}
 
   {% if e_date  >= now  %}
-    {{true}}
+    {{site.true_}}
   {% else %}
     {% if e_date_end >= now %}
-      {{true}}
+      {{site.true_}}
     {% else %}
-      {{false}}
+      {{site.false_}}
     {% endif%}
   {% endif %}
 

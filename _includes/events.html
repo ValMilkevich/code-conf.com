@@ -6,13 +6,10 @@ sort
 class
 {% endcomment %}
 
-{% assign desirable_live_state = "true" %}
+{% assign desirable_live_state = site.true_ %}
 {% if include.past %}
-  {% assign desirable_live_state = "false" %}
+  {% assign desirable_live_state = site.false_ %}
 {% endif %}
-<script>
-  console.log('site.true_ = {{ site.true_ | jsonify }}');
-</script>
 
 <div class="include-events{% if include.class %} {{ include.class }}{% endif %}">
   {% case include.sort %}
@@ -27,7 +24,7 @@ class
     {% capture is_live %}
       {% include func/is_live.html event=e %}
     {% endcapture %}
-    {% assign is_live = is_live | lstrip | rstrip %}
+    {% assign is_live = is_live | strip %}
     {% if is_live == desirable_live_state %}
       {% assign site_events_filtered = site_events_filtered | push: e %}
     {% endif %}

@@ -9,7 +9,7 @@
       {% include func/is_live.html event=e container="exclude"  %}
     {% endcapture %}
     {% assign is_live = is_live | lstrip | rstrip %}
-    {% if is_live == "true" %}
+    {% if is_live == site.true_ %}
 
       {% assign event_date = e.date_ %}
       {% assign event_month = event_date | date: "%b" %}

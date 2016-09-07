@@ -17,8 +17,6 @@ markdown: kramdown
 page_color: black;
 true_: "true"
 false_: "false"
-true: "true"
-false: "false"
 
 event_types:
   all: Events
