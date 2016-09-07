@@ -1,20 +1,22 @@
 {% assign is_container = include.event.is_container | strip %}
 
 {% if is_container == site.true_ and include.container == "exclude" %}
-  {{site.false_}}
-{% else %}
+
+  {{ site.false_ }}
+  
+  {% else %}
 
   {% assign e_date     = include.event.date_    | date: "%Y-%m-%d" %}
   {% assign e_date_end = include.event.date_end | date: "%Y-%m-%d" %}
   {% assign now        = site.time              | date: "%Y-%m-%d" %}
 
   {% if e_date  >= now  %}
-    {{site.true_}}
+    {{ site.true_ }}
   {% else %}
     {% if e_date_end >= now %}
-      {{site.true_}}
+      {{ site.true_ }}
     {% else %}
-      {{site.false_}}
+      {{ site.false_ }}
     {% endif%}
   {% endif %}
 

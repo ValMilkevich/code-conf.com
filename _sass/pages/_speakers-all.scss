@@ -1,0 +1,8 @@
+.page-speakers-all{
+  .speaker{
+    display: none;
+    &.live{
+      display: block;
+    }
+  }
+}

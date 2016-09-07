@@ -25,6 +25,8 @@ required fields from speaker's events, separated with `|`:
       {{ event.title }} 
       {{ include.separator }}
       {{ event.url }} 
+      {{ include.separator }}
+      {% include func/is_live.html event=event %}
       {{ include.separator }}{{ include.separator }}
     {% endif %}
   {% endfor %}
