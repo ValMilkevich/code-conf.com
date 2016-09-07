@@ -2,10 +2,6 @@
   $font-size-multiplier: 10px;
   font-family: $headings-font-family;
   color: white;
-  overflow: scroll;
-  @media (min-width: $screen-sm-min) {
-    max-height: 535px;
-  }
   *{
     letter-spacing: 0.02em;
   }
@@ -15,12 +11,29 @@
   h2.title{
     font-size: 6 * $font-size-multiplier;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   h3.month{
     color: $orange;
     font-size: 3 * $font-size-multiplier;
     margin-bottom: 0.7 * $font-size-multiplier;
     margin-top: 2.5 * $font-size-multiplier;
+  }
+  .upnext-events{
+    overflow: hidden;
+  }
+  .upnext-events-inner{
+    @media (min-width: $screen-sm-min) {
+      height: 400px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      width: 100%;
+      padding-right: 17px;
+      box-sizing: content-box;
+    }
+    &>*:first-child{
+      margin-top: 0;
+    }
   }
   .event{
     color: white;

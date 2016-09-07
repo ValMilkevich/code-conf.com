@@ -4,28 +4,32 @@
   <h2 class="title">UP NEXT…</h2>
   {% assign events_sorted = site.events | sort: "date_" %}
   {% assign site_events_filtered = "" | split:"" %}
-  {% for e in events_sorted  %}
-    {% capture is_live %}
-      {% include func/is_live.html event=e container="exclude"  %}
-    {% endcapture %}
-    {% assign is_live = is_live | lstrip | rstrip %}
-    {% if is_live == site.true_ %}
-
-      {% assign event_date = e.date_ %}
-      {% assign event_month = event_date | date: "%b" %}
-
-      {% if event_month != month %}
-        <h3 class="month" id="{{e.date_ | date: "%b"}}">{{ event_month }}.</h3>
-        {% assign month = event_month %}
-      {% endif %}
-
-      <a class="event" href="{{ e.url }}">{{ e.title }}
-        <span class="date">
-          {{ e.date_ | date: "%D" }}
-        </span>
-      </a>
-
-    {% endif %}
-  {% endfor %}
+  <div class="upnext-events">
+    <div class="upnext-events-inner">
+      {% for e in events_sorted  %}
+        {% capture is_live %}
+          {% include func/is_live.html event=e container="exclude"  %}
+        {% endcapture %}
+        {% assign is_live = is_live | lstrip | rstrip %}
+        {% if is_live == site.true_ %}
+      
+          {% assign event_date = e.date_ %}
+          {% assign event_month = event_date | date: "%b" %}
+      
+          {% if event_month != month %}
+            <h3 class="month" id="{{e.date_ | date: "%b"}}">{{ event_month }}.</h3>
+            {% assign month = event_month %}
+          {% endif %}
+      
+          <a class="event" href="{{ e.url }}">{{ e.title }}
+            <span class="date">
+              {{ e.date_ | date: "%D" }}
+            </span>
+          </a>
+      
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 
 </div>
