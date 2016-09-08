@@ -57,7 +57,7 @@ console.log("{{ is_orange }}");
                 <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}">
                   {% assign txt = include.brand-txt | markdownify %}
                   {% if txt contains '<!--power-icon-->' %}
-                    {% if is_orange %}
+                    {% if is_orange == site.true_ %}
                       {% assign txt = txt | replace_first:"<p>","<p class='on-btn on-btn-black'>" %}
                       {% else %}
                       {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}

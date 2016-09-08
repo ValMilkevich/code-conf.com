@@ -102,7 +102,7 @@
         max-height: 200px;
         overflow: hidden;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 60px;
         transition: max-height 1s;
       }
       .abstract, .title{
@@ -117,7 +117,7 @@
           padding-right: 15px;
         }
       }
-      a.read-more{
+      a.read-more, a.read-less{
         bottom: 0;
         content: "Show more";
         cursor: pointer;
@@ -135,6 +135,9 @@
         background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 29%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
       }
+      a.read-less{
+        display: none;
+      }
       // pressing a.read-more toggles .expanded class
       .speaker.expanded{
         .details{
@@ -142,6 +145,9 @@
         }
         a.read-more{
           display: none;
+        }
+        a.read-less{
+          display: block;
         }
       }
     }

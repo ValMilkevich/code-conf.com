@@ -91,6 +91,7 @@
                         </div>
                       {% endif %}
                       <a class="read-more">Read more</a>
+                      <a class="read-less">Read less</a>
                     </div>
                   </div>
                 </div>
@@ -103,7 +104,7 @@
   </div>
 </section>
 <script>
-$( "a.read-more" ).click(function() {
+$( "a.read-more, a.read-less" ).click(function() {
   $(this).closest('.speaker').toggleClass("expanded");
 });
 </script>
