@@ -178,11 +178,11 @@ Break
 **Test automation is dead. Long live test automation!**, Seb Rose, Claysnow
 15:30
 Break
-15:45
+15:50
 **KeyNote: Automation’s Awesome! Everything is Cool on an Agile Team!**, Jørn Erik Jensen, LEGO
-16:30
+16:35
 **Panel Discussion**
-16:45
+17:00
 **Wrap-Up & Socialize**
 {:.agenda-formatter}
 
