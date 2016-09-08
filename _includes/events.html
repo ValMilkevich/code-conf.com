@@ -30,6 +30,10 @@ class
     {% endif %}
   {% endfor %}
 
+  {% if include.past %}
+    {% assign site_events_filtered = site_events_filtered | reverse %}
+  {% endif %}
+
   {% for e in site_events_filtered limit:include.limit offset:include.offset %}
     {% capture is_subevent %}
     {% include func/is_subevent.html page=e %}
