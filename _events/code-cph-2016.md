@@ -161,17 +161,17 @@ Break
 11:20
 **The proverbs we live by**, M. Long & L. Kruse, Praqma
 **Successful Practices for Continuous Delivery** Mandi Walls, CHEF.io
-11:55
+11:50
 Lunch
-12:55
+12:50
 **Elephant jiu jitsu - Throwing big things gracefully through the air**, Kristoffer Lippert, e2y
 **Stop Breaking Things - Continuous Delivery at GitHub**, Edward Thomson, Github
-13:25
+13:20
 Exhibition
-14:25
+14:20
 **Service Management as an Aspect of DevOps**, JP Morgenthal, CSC
 **Always Be Releasing! A Journey Towards Continuous Deployment of Microservices**, Jeppe Andersen, Momondo
-14:55
+14:50
 Break
 15:00
 **The first date isn't the easiest one**, Libo Francesco Cannici, Zendesk
