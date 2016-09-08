@@ -88,8 +88,7 @@ speakers:
   libo:
     title: First dates can be challenging!
     abstract:
-      Introducing continuous delivery in an existing organisation might not be easy. The more we have the process is cemented around a weekly release the more friction we might find. Libo will talk about the journey he and his team took to establish and agree a workflow in a global organisation and how they all stopped worrying and fell in love with the delivery bomb.
-      He'll touch on automated testing, code review and deployment rituals, deployment tools, performance monitoring and rollback emergency "gybe" manoeuvre.
+      Introducing continuous delivery in an existing organisation might not be easy. The more we have the process is cemented around a weekly release the more friction we might find. Libo will talk about the journey he and his team took to establish and agree a workflow in a global organisation and how they all stopped worrying and fell in love with the delivery bomb. He'll touch on automated testing, code review and deployment rituals, deployment tools, performance monitoring and rollback emergency "gybe" manoeuvre.
 
 sponsors:
 - praqma
@@ -149,40 +148,42 @@ Registration & Light Breakfast
 9:00
 Welcome & Announcements
 9:15
+Sponsor Line-Up
+9:30
 **Key Note: Continuous Delivery: Lessons from the Aviation Industry**, Professor Jan U. Hagen
-10:00
+10:15
 Break
-10:20
+10:35
 **Screwing Up For Less**, Stephen Hardisty, Rocket Internet
 **Coding Culture**, Sven Peters, Atlassian
-10:50
+11:05
 Break
-11:10
+11:20
 **The proverbs we live by**, M. Long & L. Kruse, Praqma
 **Successful Practices for Continuous Delivery** Mandi Walls, CHEF.io
-11:40
+11:55
 Lunch
-12:40
+12:55
 **Elephant jiu jitsu - Throwing big things gracefully through the air**, Kristoffer Lippert, e2y
-**Automation & Continuous Delivery – Lessons from the Front Line**, Andrew J. Turner
-13:10
-Exhibition
-14:10
-**Service Management as an Aspect of DevOps**, JP Morgenthal, CSC
 **Stop Breaking Things - Continuous Delivery at GitHub**, Edward Thomson, Github
-14:40
+13:25
+Exhibition
+14:25
+**Service Management as an Aspect of DevOps**, JP Morgenthal, CSC
+**Always Be Releasing! A Journey Towards Continuous Deployment of Microservices**, Jeppe Andersen, Momondo
+14:55
 Break
-14:45
+15:00
 **The first date isn't the easiest one**, Libo Francesco Cannici, Zendesk
 **Test automation is dead. Long live test automation!**, Seb Rose, Claysnow
-15:15
-Break
 15:30
+Break
+15:45
 **KeyNote: Automation’s Awesome! Everything is Cool on an Agile Team!**, Jørn Erik Jensen, LEGO
-16:15
+16:30
 **Panel Discussion**
-16:35
-**Wrap-Up**
+16:45
+**Wrap-Up & Socialize**
 {:.agenda-formatter}
 
 {% include eventbrite-ticket-form.html
