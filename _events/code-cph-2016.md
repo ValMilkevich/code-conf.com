@@ -43,10 +43,10 @@ speakers:
     title: CoDe - The Metaphors We Live By
     abstract: >
       Having our hands buried deep into DevOps and Continuous Delivery - "CoDe" every single day, we tend to expand our vocabulary and lingo with metaphors, proverbs and anecdotes that enables us to understand and explain our domain. Mike and Lars will cover tales in the range from Tarantino's Pulp Fiction to Indonesia's stone age population.
-  andrewjturner:
-    title: Automation & Continuous Delivery – Lessons from the Front Line
+  jeppelund:
+    title: Always Be Releasing! A Journey Towards Continuous Deployment of Microservices
     abstract: >
-       Continuous Delivery is on the C-Level agenda and so it should be – it’s a game changer for IT change. But how do you prioritize what to do and align your stakeholders to get the most from the opportunity? Automation provides the foundation for continuous delivery, and learning from real life customer experiences across regulated industries is an excellent way to accelerate your adoption.
+       With products that reach millions of users, the goal at Momondo is to get things done and released faster without breaking things. Moving from weekly or monthly releases to Continuous Deployment of software is challenging for any company - over the last year we took this challenge at Momondo. This talk will cover examples of why we decided to invest in adopting Continuous Deployment, and learnings from our journey that is still ongoing! These learnings are things you should consider in your adoption of Continuous Delivery or Deployment.
   ethomson:
     title: Stop Breaking Things - Continuous Delivery at GitHub
     abstract: >
