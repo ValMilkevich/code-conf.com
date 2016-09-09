@@ -4,9 +4,11 @@
     font-size: 0.33em;
     .event{
       @extend .col-md-4;
-      height: 400px;
       overflow: hidden;
       clear: none;
+      @media (min-width: $screen-md-min) {
+        height: 400px;
+      }
     }
   }
   header.page-header{
