@@ -22,6 +22,9 @@
   {% include func/is_orange.html color=color %}
 {% endcapture %}
 {% assign is_orange = is_orange | strip %}
+  <script>
+console.log('{{ color | jsonify }}');
+  </script>
 <script>
 console.log("{{ is_orange }}");
 </script>
@@ -53,18 +56,20 @@ console.log("{{ is_orange }}");
               {% if font_size < 4.0 %}
                 {% assign font_size = 4.0 %}
               {% endif %}
-              <div class="brand-tag" style="background-color: {{ color }}; font-size:{{ font_size }}em;">
-                <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}">
-                  {% assign txt = include.brand-txt | markdownify %}
-                  {% if txt contains '<!--power-icon-->' %}
-                    {% if is_orange == site.true_ %}
-                      {% assign txt = txt | replace_first:"<p>","<p class='on-btn on-btn-black'>" %}
-                      {% else %}
-                      {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
+              <div>
+                <div class="brand-tag" style="background-color: {{ color }}; font-size:{{ font_size }}em;">
+                  <h1 style="{% if include.speaker-icon %}margin-left: 20px; {% endif %}">
+                    {% assign txt = include.brand-txt | markdownify %}
+                    {% if txt contains '<!--power-icon-->' %}
+                      {% if is_orange == site.true_ %}
+                        {% assign txt = txt | replace_first:"<p>","<p class='on-btn on-btn-black'>" %}
+                        {% else %}
+                        {% assign txt = txt | replace_first:"<p>","<p class='on-btn'>" %}
+                      {% endif %}
                     {% endif %}
-                  {% endif %}
-                  {{ txt }}
-                </h1>
+                    {{ txt }}
+                  </h1>
+                </div>
               </div>
               {% endif %}
             </div>

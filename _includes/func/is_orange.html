@@ -6,7 +6,7 @@ samples of orange:
 {% endcomment %}
 {% assign is_orange = site.false_ %}
 {% if color == "orange" %}
-  {% assign is_orange == site.true_ %}
+  {% assign is_orange = site.true_ %}
   {% else %}
   {% assign color_split = include.color | split:"" %}
   {% assign red   = color_split[1] | upcase %}
@@ -15,7 +15,7 @@ samples of orange:
   {% if red == "F" or red == "E" %}
     {% if green == "8" or green == "9" %}
       {% if blue == "3" or blue == "4" %}
-        {% assign is_orange == site.true_ %}
+        {% assign is_orange = site.true_ %}
       {% endif %}
     {% endif %}
   {% endif %}

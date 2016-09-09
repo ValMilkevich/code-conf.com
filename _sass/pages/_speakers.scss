@@ -1,4 +1,8 @@
 .page-speakers{
+
+  h1{
+    background-position-y: 28px;
+  }
   .speaker{
     @extend .row;
     margin-top: 30px;
