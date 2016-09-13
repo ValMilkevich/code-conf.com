@@ -1,14 +1,14 @@
 .include-speakers{
   &>div{
     @extend .wrapper;
-  }
-  h1{
-    background: url(../images/icon-speaker.png) -7px -14px no-repeat;
-    padding-left: 128px;
-    margin-left: 63px;
-    @media(max-width: $screen-xs-max){
-      background: none;
+    h1{
       padding-left: 0;
+      margin-left: $grid-gutter-width / 2;
+      @media (min-width: $screen-sm-min) {
+        margin-left: 63px;
+        padding-left: 128px;
+        background: url(../images/icon-speaker.png) -7px -14px no-repeat;
+      }
     }
   }
 
@@ -99,55 +99,21 @@
         }
       }
       .details{
-        max-height: 200px;
-        overflow: hidden;
         padding-top: 10px;
-        padding-bottom: 60px;
-        transition: max-height 1s;
+        p{
+          margin-bottom: 0.5em;
+        }
       }
       .abstract, .title{
         font-size: 0.8em;
       }
       .speaker:nth-child(2n+1){
         clear: both;
-        padding-left: 0;
-        padding-right: 30px;
-        @media(max-width: $screen-xs-max){
-          padding-left: 15px;
-          padding-right: 15px;
-        }
-      }
-      a.read-more, a.read-less{
-        bottom: 0;
-        content: "Show more";
-        cursor: pointer;
-        font-size: 0.7em;
-        font-weight: bold;
-        padding: 30px 0 10px;
-        position: absolute;
-        width: 100%;
-        background: rgba(255,255,255,0);
-        background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 29%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
-        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(29%, rgba(255,255,255,0.8)), color-stop(60%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
-        background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 29%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
-        background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 29%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
-        background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 29%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
-        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 29%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
-      }
-      a.read-less{
-        display: none;
-      }
-      // pressing a.read-more toggles .expanded class
-      .speaker.expanded{
-        .details{
-          max-height: 1000px;
-        }
-        a.read-more{
-          display: none;
-        }
-        a.read-less{
-          display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+        @media (min-width: $screen-sm-min) {
+          padding-left: 0;
+          padding-right: 30px;
         }
       }
     }

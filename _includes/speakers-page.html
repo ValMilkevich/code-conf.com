@@ -31,7 +31,7 @@
       <div class="image">
         <img src="{{ speaker.img }}" alt="{{ speaker.name }}">
       </div>
-      <div class="details">
+      <div class="details collapsible">
         <div class="name" id={{ speaker_basename }}>
           {{ speaker.name }}
         </div>
@@ -53,6 +53,9 @@
             {% endfor %}
           </div>
         {% endif %}
+        <a class="read-more">Read more</a>
+        <a class="read-less">Read less</a>
       </div>
   </div>
 {% endfor %}
+<script src="/javascripts/readmore.js"></script>

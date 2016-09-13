@@ -1,5 +1,4 @@
 .page-speakers{
-
   h1{
     background-position-y: 28px;
   }
@@ -26,11 +25,13 @@
       font-size: 1.3em;
     }
     .bio{
-      
     }
     .social, .events{
       font-family: $headings-font-family;
       font-size: 1.1em;
+      p{
+        margin: 0;
+      }
     }
   }
 }

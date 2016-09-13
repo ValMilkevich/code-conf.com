@@ -22,12 +22,6 @@
   {% include func/is_orange.html color=color %}
 {% endcapture %}
 {% assign is_orange = is_orange | strip %}
-  <script>
-console.log('{{ color | jsonify }}');
-  </script>
-<script>
-console.log("{{ is_orange }}");
-</script>
 <section class="include-decorated-picture{% if include.speaker-icon %} include-speakers{% endif %}"{% if include.data %} data-tag="{{ include.data }}"{% endif %}>
   <div>
     <div class="decorated-picture">

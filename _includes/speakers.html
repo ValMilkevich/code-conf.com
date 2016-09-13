@@ -66,7 +66,7 @@
                     <div class="image">
                       <img src="{{ speaker.img }}" alt="{{ speaker.name }}">
                     </div>
-                    <div class="details">
+                    <div class="details collapsible">
                       <div class="name">
                         {% assign tag = include.event_path | split:"/" | last | split:"." | first %}
                         {% include assert.html is_true=tag error="Can't calculate the tag for speaker's page url" %}
@@ -103,8 +103,4 @@
     <div class="clearfix"></div>
   </div>
 </section>
-<script>
-$( "a.read-more, a.read-less" ).click(function() {
-  $(this).closest('.speaker').toggleClass("expanded");
-});
-</script>
+<script src="/javascripts/readmore.js"></script>
