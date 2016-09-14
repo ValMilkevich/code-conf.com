@@ -1,22 +1,46 @@
 #agenda{
-  margin-left: 36px;
+  @media (min-width: $screen-sm-min) {
+    margin-left: 36px;
+  }
 }
 .agenda-formatter{
   $agenda-padding: 3px 0;
-  margin-left: 40px;
+  margin-bottom: 50px;
   margin-top: 20px;
   font-size: 1.2em;
+  @media (min-width: $screen-sm-min) {
+    margin-left: 40px;
+  }
   table{
     border-collapse: separate;
     border-spacing: 20px 0;
-    margin: 5px -10px;
+    margin-bottom: 5px;
+    margin-left:  -20px; // border-spacing compensation
+    margin-right: -20px; // border-spacing compensation
+    margin-top:    5px;
+    min-width: 400px;
     table-layout: fixed;
-    width: 80%;
+    width: 100%;
+    @media (min-width: $screen-sm-min) {
+      margin-bottom: 5px;
+      margin-left:  -10px; // border-spacing compensation
+      margin-right: -10px; // border-spacing compensation
+      margin-top:    5px;
+      width: 80%;
+    }
     td{
-      padding: $agenda-padding;
+      padding: $agenda-padding 0;
+      @media (min-width: $screen-sm-min) {
+        padding: $agenda-padding;
+      }
     }
     &.col-2, &.col-3, &.col-4 {
-      margin: 10px -10px;
+      margin-top:    10px;
+      margin-bottom: 10px;
+      @media (min-width: $screen-sm-min) {
+        margin-top:    10px;
+        margin-bottom: 10px;
+      }
       td {
         background: #d8dbdc;
         padding: 10px;
@@ -30,12 +54,19 @@
     }
   }
   .time{
+    /*margin: 5px 0;*/
+    clear: both;
     float: left;
     font-weight: bold;
+    margin-top: 20px;
     padding: $agenda-padding;
-    text-align: right;
     width: 70px;
+    @media (min-width: $screen-sm-min) {
+      margin-top: 0;
+      text-align: right;
+    }
     &.col-2, &.col-3, &.col-4 {
+      margin-top: 5px;
       padding-top: 10px;
     }
   }
