@@ -144,46 +144,46 @@ event_path=page.path
 Agenda
 ---
 8:30
-Registration & Light Breakfast
+***Registration & Light Breakfast***
 9:00
-Welcome & Announcements
+***Welcome & Announcements***
 9:15
 Sponsor Line-Up
 9:30
-**Key Note: Continuous Delivery: Lessons from the Aviation Industry**, Professor Jan U. Hagen
+***Key Note:* Continuous Delivery: Lessons from the Aviation Industry**, Professor Jan U. Hagen
 10:15
-Break
+***Break***
 10:35
 **Screwing Up For Less**, Stephen Hardisty, Rocket Internet
 **Coding Culture**, Sven Peters, Atlassian
 11:05
-Break
+***Break***
 11:20
 **The proverbs we live by**, M. Long & L. Kruse, Praqma
 **Successful Practices for Continuous Delivery** Mandi Walls, CHEF.io
 11:50
-Lunch
+***Lunch***
 12:50
 **Elephant jiu jitsu - Throwing big things gracefully through the air**, Kristoffer Lippert, e2y
 **Stop Breaking Things - Continuous Delivery at GitHub**, Edward Thomson, Github
 13:20
-Exhibition
+***Exhibition***
 14:20
 **Service Management as an Aspect of DevOps**, JP Morgenthal, CSC
 **Always Be Releasing! A Journey Towards Continuous Deployment of Microservices**, Jeppe Andersen, Momondo
 14:50
-Break
+***Break***
 15:00
 **The first date isn't the easiest one**, Libo Francesco Cannici, Zendesk
 **Test automation is dead. Long live test automation!**, Seb Rose, Claysnow
 15:30
-Break
+***Break***
 15:50
 **KeyNote: Automation’s Awesome! Everything is Cool on an Agile Team!**, Jørn Erik Jensen, LEGO
 16:35
-**Panel Discussion**
+***Panel Discussion***
 17:00
-**Wrap-Up & Socialize**
+***Wrap-Up & Socialize***
 {:.agenda-formatter}
 
 {% include eventbrite-ticket-form.html

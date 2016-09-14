@@ -1,29 +1,43 @@
+#agenda{
+  margin-left: 36px;
+}
 .agenda-formatter{
+  $agenda-padding: 3px 0;
+  margin-left: 40px;
   margin-top: 20px;
+  font-size: 1.2em;
   table{
-    border-spacing: 20px 0;
     border-collapse: separate;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: 20px;
-    width: 80%;
+    border-spacing: 20px 0;
+    margin: 5px -10px;
     table-layout: fixed;
-    /*margin-left: 80px;*/
-    /*float: right;*/
-  }
-  td{
-    background: silver;
-    width: 99px;
-    vertical-align: top;
-    padding: 10px;
+    width: 80%;
+    td{
+      padding: $agenda-padding;
+    }
+    &.col-2, &.col-3, &.col-4 {
+      margin: 10px -10px;
+      td {
+        background: #d8dbdc;
+        padding: 10px;
+        vertical-align: top;
+        width: 99px;
+      }
+    }
+    em{
+      font-style: normal;
+      color: #9d9ea1;
+    }
   }
   .time{
-    width: 50px;
-    /*width: 20%;*/
-    /*margin-left: -80px;*/
-    padding-top: 10px;
-    text-align: right;
     float: left;
+    font-weight: bold;
+    padding: $agenda-padding;
+    text-align: right;
+    width: 70px;
+    &.col-2, &.col-3, &.col-4 {
+      padding-top: 10px;
+    }
   }
   strong{
     font-weight: bold;
