@@ -58,9 +58,9 @@ speakers:
       OPNFV is a carrier-grade, integrated, open source platform to accelerate the introduction of new NFV products and services. It aims to build the platform by integrating components from different upstream projects such as OpenStack, OpenDaylight, OpenVswitch, KVM and so on. Apart from integrating different components, OPNFV aims to identify gaps in these components and fixes them directly in upstream. OPNFV sees CI/CD to be a solution to its challenges by providing a foundation for developing, integrating and testing OPNFV faster and more efficient through the release cycles. It is crucial for OPNFV and the ecosystem we are building the underlying upstream projects to find the best way to realize the principles and best practices of CI/CD methodologies to reduce the impacts caused by the integration work and be able to provide fast feedback to its own developers and other communities and a stable platform to our users release by release. During this session we will talk about the evolution of OPNFV CI/CD from the project's early days up till now and share our experiences.
 
   danielstahl:
-    title:
+    title: The Continuity of Continuous Integration - Correlations and Consequences
     abstract: >
-      TBA
+      The practice of continuous integration has firmly established itself in the mainstream of the software engineering industry, yet many questions surrounding it remain unanswered. Prominent among these is the issue of scalability: continuous integration has been reported to be possible to scale, but with difficulties. Understanding of the underlying mechanisms causing these difficulties is shallow, however: what is it about size that is problematic, which kind of size, and what aspect of continuous integration does it impede? In a recent multiple-case study (Daniel Ståhl, Torvald Mårtensson and Jan Bosch, 2016) we find that there is indeed a correlation organizational size and composition and the tendency to integrate continuously, and we ask ourselves what this means for software architecture and the manufacturability of software.
 
 sponsors:
 - praqma
