@@ -48,7 +48,7 @@ speakers:
       Wouldn’t it be great if your automated test framework did intelligent test selections for you? If it tested what’s most important to test every single time without manual effort? Continuous Integration places high demands on automatic regression testing. You need to continuously ensure that your products are of high quality. While doing that, how do you know that you are spending your testing resources on the most important areas when it is not possible to test everything every time? At Westermo we have solved this. We let the automated test framework dynamically select the most important test cases to be executed based on a set of risk factors - every single time we execute a new test round.
 
   andreyd:
-    title: Buffer or suffer? Growth pain and what to do about it.
+    title: Buffer or suffer? Growth pain of Continuous Delivery pipelines and what to do about it.
     abstract: >
       You were a team of 5 and delivering incremental changes wasn't a problem - if something breaks you just fix it all together. But now you are ten teams. While you fix your colleagues wait. What can you do to avoid pressure and keep delivery pipeline green? I would like to share few ways that I used in different projects to overcome growth issues. Which one would work for you?
 
