@@ -21,7 +21,7 @@ event_header:
 date_: 2016-11-29
 time: 09—18:00
 city: Stockholm
-adress: Guldgränd 8, 104 65 Stockholm, Hilton Slussen
+adress: Alströmergatan 20, 112 47 Stockholm, Meeting Room
 
 checkout:
   eventbriteid: 24850613855
