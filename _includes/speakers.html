@@ -72,9 +72,9 @@
                         {% include assert.html is_true=tag error="Can't calculate the tag for speaker's page url" %}
                         <a href="/speakers/?tag={{ tag }}&scrollto={{ id }}">{{ speaker.name }}</a>
                       </div>
-                      <!--div class="position">
+                      <div class="position">
                         {{ speaker.position }}
-                      </div-->
+                      </div>
                       {% if event_speaker[1].title %}
                         <div class="title">
                           {{ event_speaker[1].title | markdownify }}
