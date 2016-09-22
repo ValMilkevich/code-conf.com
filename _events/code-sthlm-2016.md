@@ -62,6 +62,11 @@ speakers:
     abstract: >
       The practice of continuous integration has firmly established itself in the mainstream of the software engineering industry, yet many questions surrounding it remain unanswered. Prominent among these is the issue of scalability: continuous integration has been reported to be possible to scale, but with difficulties. Understanding of the underlying mechanisms causing these difficulties is shallow, however: what is it about size that is problematic, which kind of size, and what aspect of continuous integration does it impede? In a recent multiple-case study (Daniel Ståhl, Torvald Mårtensson and Jan Bosch, 2016) we find that there is indeed a correlation organizational size and composition and the tendency to integrate continuously, and we ask ourselves what this means for software architecture and the manufacturability of software.
 
+  olegnenashev:
+    title: The Butler is still young – applying modern Jenkins features to the Embedded area
+    abstract: >
+      Jenkins is one of the most popular automation servers. It’s being widely used for continuous integration in Embedded projects thanks to its public availability, flexibility and numerous plugins. Actually I consider Jenkins as a generic framework, which can be used for building automation systems after some configuration and integration. In my talk I would like to address common Jenkins use-cases in Embedded projects like integration with development tools, running tests on hardware peripherals and reporting of build results. During the presentation I will focus on new Jenkins features like Pipeline ecosystem and its application in the area: parallelization, failover management, virtualization and build definition libraries.
+
 sponsors:
 - praqma
 - automic
