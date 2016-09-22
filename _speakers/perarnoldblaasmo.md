@@ -5,5 +5,5 @@ bio:  >
 position: Senior Software Craftsman, Microchip
 img: /images/speakers/perarnoldblaasmo.jpg
 social: >
-  Twitter: [@pablaasmo](https://twitter.com/pablaasmo)
+  Twitter: [pablaasmo](https://twitter.com/pablaasmo)
 ---
