@@ -70,6 +70,7 @@ speakers:
 sponsors:
 - praqma
 - automic
+- atlassian
 - t2data
 - dotw
 - trifork
