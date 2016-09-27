@@ -52,6 +52,11 @@ speakers:
     abstract: >
       You were a team of 5 and delivering incremental changes wasn't a problem - if something breaks you just fix it all together. But now you are ten teams. While you fix your colleagues wait. What can you do to avoid pressure and keep delivery pipeline green? I would like to share few ways that I used in different projects to overcome growth issues. Which one would work for you?
 
+  toremartinhagen:
+    title: Story from the trenches. How we used DevOps for a 10 year embedded SW project
+    abstract: >
+      Are you still developing embedded SW like we did in the 90's? Want to jump on the DevOps train, but now sure how to do it? Learn how our SW team started off 10 years ago at the bottom of the DevOps ladder, and how we have climbed it. See how unit tests changed our work. How we introduced automatic HW testing. Automating the build. Taking on Jenkins, and increasingly using more and more of its functions.
+
   fatihdegirmenci:
     title: OPNFV CI and Challenges - How we solved them - if we solved them at all!
     abstract: >
