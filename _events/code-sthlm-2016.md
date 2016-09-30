@@ -4,7 +4,7 @@ type: conferences
 title: CODE-STHLM
 brand-txt: >
     *Co*{: style="color: black; font-style: normal;"}De-STHLM<!--power-icon-->
-color: '#e89043'
+color: '660066'
 subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference. *Embedded* edition
 caption: >
