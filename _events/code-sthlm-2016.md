@@ -19,8 +19,8 @@ event_header:
 # date & location
 
 date_: 2016-11-29
-time: 09—18:00
-city: Stockholm
+time: 09—17:00
+city: <a href="http://meetingroom.se/">Meeting Room</a>
 adress: Alströmergatan 20, 112 47 Stockholm, Meeting Room
 
 checkout:
