@@ -26,7 +26,15 @@ adress: Alströmergatan 20, 112 47 Stockholm, Meeting Room
 checkout:
   eventbriteid: 24850613855
 
+keynote-speakers:
+
 speakers:
+  kbuytaert:
+    keynote: true
+    title: No we can't do Continuous Deployment
+    abstract: >
+      Plenty of people think the can't do Continuous Delivery, they see limitations in why they can't. They are afraid of making continuous change. I've heard all the excuses, plenty of them are based on wrong understandings of how things really work. So Let's debunk some myths...
+
   adamtornhill:
     title: Seven Secrets of Maintainable Codebases
     abstract: >
