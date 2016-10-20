@@ -139,6 +139,24 @@ date=page.date_
 time=page.time
 city=page.city %}
 
+{% include address.html 
+map = '
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8142.976510967848!2d18.069441!3d59.3205295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a5f35b695fa47f1!2sHilton+Stockholm+Slussen!5e0!3m2!1sen!2sru!4v1476967984486" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+'
+text = "
+ADDRESS
+---
+Hilton Stockholm Slussen  
+Guldgrand 8  
+Box 15270  
+Stockholm  
+10465  
+Sweden
+
+[**www3.hilton.com**](http://www3.hilton.com/en/hotels/sweden/hilton-stockholm-slussen-STOSLHI/)
+"
+%}
+
 {% include speakers.html
 speakers=page.speakers
 color=page.color

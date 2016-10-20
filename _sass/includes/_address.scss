@@ -1,0 +1,42 @@
+.include-address{
+  @extend .clearfix;
+  border: black 20px solid;
+  margin: 40px 0 20px;
+  position: relative;
+  .map{
+    $h: 300px;
+    @extend .col-md-7;
+    height: $h;
+    padding: 0;
+    iframe{
+      height: $h !important;
+      width: 100% !important;
+    }
+    @media (min-width: $screen-sm-min) {
+      border-right: black 20px solid;
+    }
+  }
+  .text{
+    @extend .col-md-5;
+    strong>a, a>strong{
+      font-family: $headings-font-family;
+    }
+  }
+  &:before {
+    border-bottom: 40px solid black;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    bottom: 100%;
+    content:"";
+    height: 0;
+    left: -5px;
+    position: absolute;
+    width: 0;
+  }
+  @media (min-width: $screen-sm-min) {
+    &:before {
+      left: auto;
+      right: 29.4%;
+    }
+  }
+}
