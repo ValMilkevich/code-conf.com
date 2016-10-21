@@ -1,6 +1,15 @@
 .layout-default{
-  margin-bottom: 130px;
-  @media(max-width: $screen-xs-max){
-    margin-bottom: 80px;
+  margin-bottom: 80px;
+  @media (min-width: $screen-sm-min) {
+    margin-bottom: 130px;
+  }
+}
+.page-lrmargins .layout-default{
+  &>*{
+    margin-left:  45px;
+    margin-right: 45px;
+  }
+  .include-decorated-picture{
+    margin: 0;
   }
 }
