@@ -13,7 +13,7 @@ caption: >
 # events header
 
 event_header:
-  img: /images/Codestockholm.jpg
+  img: /images/meetingroom_2016.jpg
   ribbon: Join us again for...
 
 # date & location
@@ -139,16 +139,16 @@ date=page.date_
 time=page.time
 city=page.city %}
 
-{% include address.html 
+{% include address.html
 map = '
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4069.5583472721796!2d18.02226990686512!3d59.33664054655218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d7ee698cc69%3A0x6c8abb473af6ec6!2sMeeting+Room!5e0!3m2!1sen!2sus!4v1477041748837" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 '
 text = "
 ADDRESS
 ---
-Meeting room  
-Alströmergatan 20 
-Stockholm  
+Meeting room
+Alströmergatan 20
+Stockholm
 11247
 Sweden
 
