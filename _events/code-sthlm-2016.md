@@ -35,6 +35,12 @@ speakers:
     abstract: >
       Plenty of people think the can't do Continuous Delivery, they see limitations in why they can't. They are afraid of making continuous change. I've heard all the excuses, plenty of them are based on wrong understandings of how things really work. So Let's debunk some myths...
 
+  hannessjoblad:
+    keynote: true
+    title: The greater context - The impact of exponential technologies on business, society, and our human bodies
+    abstract: >
+      TBA
+
   adamtornhill:
     title: Seven Secrets of Maintainable Codebases
     abstract: >
