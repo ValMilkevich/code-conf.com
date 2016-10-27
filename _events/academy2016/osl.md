@@ -5,7 +5,7 @@ nav_weight: 10
 brand-txt: >
     *Co*{: style='color: black; font-style: normal;'}De
     Aca*de*{: style="color: black; font-style: normal;"}my<!--power-icon-->
-dot-txt: Free <br> 5 Day course
+dot-txt: Free <br> 4 Day course
 dot-txt-size: small
 subtitle: >
   ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
@@ -68,7 +68,7 @@ color=page.color
 content="
 **MONDAY EVENING:** Teach-the-teacher workshop (Academy staff only)
 {:.whitestrip}
-**FRIDAY EVENING:** Barbecue: Participants meets sponsors - get a job!
+**THURSDAY EVENING:** Barbecue: Participants meets sponsors - get a job!
 {:.whitestrip}
 **EACH DAY AT LUNCH TIME:** one of the sponsors will give a 20 minute pitch to the students; why they are interested in hiring.
 {:.whitestrip}
