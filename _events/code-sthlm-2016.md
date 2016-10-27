@@ -80,6 +80,10 @@ speakers:
     title: The Butler is still young – applying modern Jenkins features to the Embedded area
     abstract: >
       Jenkins is one of the most popular automation servers. It’s being widely used for continuous integration in Embedded projects thanks to its public availability, flexibility and numerous plugins. Actually I consider Jenkins as a generic framework, which can be used for building automation systems after some configuration and integration. In my talk I would like to address common Jenkins use-cases in Embedded projects like integration with development tools, running tests on hardware peripherals and reporting of build results. During the presentation I will focus on new Jenkins features like Pipeline ecosystem and its application in the area: parallelization, failover management, virtualization and build definition libraries.
+  ebache:
+    title: Catch Dancing Ponies - try Approval Testing
+    abstract: >
+      I heard about one Continuous Delivery team where someone had put dancing ponies on their front page as a joke. Unfortunately the customers weren't too impressed when they saw them! Perhaps unsurprisingly, none of the acceptance tests checked for dancing ponies... The best approach for a unit test — assert only specific things — may not work as well for testing whole features. Approval testing takes the opposite standpoint — everything is interesting, and will be checked. In this talk I’ll explain how it works in practice, and how it could help you catch those unexpected defects that would otherwise slip through your pipeline unnoticed.
 
 sponsors:
 - praqma
