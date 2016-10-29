@@ -3,15 +3,15 @@ type: conferences
 title: CoDe Academy - Aarhus
 nav_weight: 10
 brand-txt: >
-    *Co*{: style='color: black; font-style: normal;'}De
-    Aca*de*{: style="color: black; font-style: normal;"}my<!--power-icon-->
+    *Co*{: style='color: #e87e04; font-style: normal;'}De
+    Aca*de*{: style="color: #e87e04; font-style: normal;"}my<!--power-icon-->
 dot-txt: Free <br> 5 Day course
 dot-txt-size: small
 subtitle: >
   ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
 caption: >
   A Continuous Delivery Academy at the University in Aarhus. Five intense days of workshops teaching all you need to know about CoDe.
-color: '#006f00'
+color: '#cf005f'
 date_:    2016-08-22
 date_end: 2016-08-26
 time: 9—16:00

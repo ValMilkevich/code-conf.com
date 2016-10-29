@@ -4,15 +4,15 @@ title: CoDe Academy - Trondheim
 weight: 10
 nav_weight: 10
 brand-txt: >
-    *Co*{: style='color: black; font-style: normal;'}De
-    Aca*de*{: style="color: black; font-style: normal;"}my<!--power-icon-->
+    *Co*{: style='color: #e87e04; font-style: normal;'}De
+    Aca*de*{: style="color: #e87e04; font-style: normal;"}my<!--power-icon-->
 #dot-txt: Free <br> 5 Day course
 dot-txt-size: small
 subtitle: >
   Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
 caption: >
   A Continuous Delivery Academy in Norway's No. 1 tech city; Trondheim. Five intense days of workshops - all you need to know about CoDe.
-color: '#f58532'
+color: '#008fd2'
 date_:    2016-06-13
 date_end: 2016-06-17
 time: 9—16:00

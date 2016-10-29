@@ -14,7 +14,7 @@ background-image="/images/doc-cph-2016.png"
 brand-lead="Welcome to the home of..."
 brand-txt=page.brand-txt
 subtitle="...We're building the community of CoDe'ers and DevOps"
-color='#F58126' %}
+color='#e87e04' %}
 
 {% include event-and-upnext.html %}
 {% include events.html limit=3 offset=1 class="small" %}
