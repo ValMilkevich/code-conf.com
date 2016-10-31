@@ -3,7 +3,7 @@ type: conferences
 #permalink: /code-sthlm-2016.html
 title: CODE-STHLM
 brand-txt: >
-    *Co*{: style="color: black; font-style: normal;"}De-STHLM<!--power-icon-->
+    *Co*{: style="color: #e87e04; font-style: normal;"}De-STHLM<!--power-icon-->
 color: '#660066'
 subtitle: >
   *Co*ntinuous *De*livery and *DevOps* Conference. *Embedded* edition
@@ -112,8 +112,8 @@ color=page.color %}
 <br>
 
 {% include pullout.html
-img="../images/icons/icon-list.png"
-caption="Embedded edition"
+img="../images/icons/icon-list-white.png"
+caption="*Embedded edition*{:.orange}"
 color=page.color
 no_botrip=true
 content="
@@ -123,8 +123,8 @@ This year we want to pivot conference focus and look more into the most challeng
 %}
 
 {% include pullout.html
-img="/images/icons/icon-place-big.png"
-caption="Extras"
+img="/images/icons/icon-place-big-white.png"
+caption="*Extras*{:.orange}"
 no_toprip=true
 color=page.color
 no_toprip=true
