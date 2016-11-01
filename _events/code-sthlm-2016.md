@@ -13,7 +13,7 @@ caption: >
 # events header
 
 event_header:
-  img: /images/Codestockholm.jpg
+  img: /images/meetingroom_2016.jpg
   ribbon: Join us again for...
 
 # date & location
@@ -35,15 +35,16 @@ speakers:
     abstract: >
       Plenty of people think the can't do Continuous Delivery, they see limitations in why they can't. They are afraid of making continuous change. I've heard all the excuses, plenty of them are based on wrong understandings of how things really work. So Let's debunk some myths...
 
+  hannessjoblad:
+    keynote: true
+    title: The greater context - The impact of exponential technologies on business, society, and our human bodies
+    abstract: >
+      TBA
+
   adamtornhill:
     title: Seven Secrets of Maintainable Codebases
     abstract: >
       In this session you'll learn novel techniques that help you make sense of large codebases. You'll learn to identify the code that really matters for your ability to maintain a system, how to prioritize improvements and even evaluate your architecture based on how you actually work with the code. We'll also cover the people side of programming as you learn to mine social information such as communication paths, developer knowledge and hotspots. All techniques are based on software evolution. They use data from the most underused informational source that we have in our industry: our version-control system. Each point is illustrated with a case study from a real-world project.
-
-  perarnoldblaasmo:
-    title: Doing development of HW/SW tools using Continuous Development
-    abstract: >
-      In Microchip we try to use Continuous Development to develop HW/SW tools and applications when inventing new microchips. Looking at challenges, solutions and experiences in a global development environment.
 
   dmitrybuzdin:
     title: Continuous Testing at Scale
@@ -79,6 +80,10 @@ speakers:
     title: The Butler is still young – applying modern Jenkins features to the Embedded area
     abstract: >
       Jenkins is one of the most popular automation servers. It’s being widely used for continuous integration in Embedded projects thanks to its public availability, flexibility and numerous plugins. Actually I consider Jenkins as a generic framework, which can be used for building automation systems after some configuration and integration. In my talk I would like to address common Jenkins use-cases in Embedded projects like integration with development tools, running tests on hardware peripherals and reporting of build results. During the presentation I will focus on new Jenkins features like Pipeline ecosystem and its application in the area: parallelization, failover management, virtualization and build definition libraries.
+  ebache:
+    title: Catch Dancing Ponies - try Approval Testing
+    abstract: >
+      I heard about one Continuous Delivery team where someone had put dancing ponies on their front page as a joke. Unfortunately the customers weren't too impressed when they saw them! Perhaps unsurprisingly, none of the acceptance tests checked for dancing ponies... The best approach for a unit test — assert only specific things — may not work as well for testing whole features. Approval testing takes the opposite standpoint — everything is interesting, and will be checked. In this talk I’ll explain how it works in practice, and how it could help you catch those unexpected defects that would otherwise slip through your pipeline unnoticed.
 
 sponsors:
 - praqma
@@ -139,16 +144,16 @@ date=page.date_
 time=page.time
 city=page.city %}
 
-{% include address.html 
+{% include address.html
 map = '
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4069.5583472721796!2d18.02226990686512!3d59.33664054655218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d7ee698cc69%3A0x6c8abb473af6ec6!2sMeeting+Room!5e0!3m2!1sen!2sus!4v1477041748837" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 '
 text = "
 ADDRESS
 ---
-Meeting room  
-Alströmergatan 20 
-Stockholm  
+Meeting room
+Alströmergatan 20
+Stockholm
 11247
 Sweden
 

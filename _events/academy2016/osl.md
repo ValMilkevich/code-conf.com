@@ -3,17 +3,17 @@ type: conferences
 title: CoDe Academy - Oslo
 nav_weight: 10
 brand-txt: >
-    *Co*{: style='color: black; font-style: normal;'}De
-    Aca*de*{: style="color: black; font-style: normal;"}my<!--power-icon-->
-dot-txt: Free <br> 5 Day course
+    *Co*{: style='color: #e87e04; font-style: normal;'}De
+    Aca*de*{: style="color: #e87e04; font-style: normal;"}my<!--power-icon-->
+dot-txt: Free <br> 4 Day course
 dot-txt-size: small
 subtitle: >
   ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
 caption: >
     A Continuous Delivery Academy in Oslo. Five intense days of workshops - all you need to know about CoDe.
-color: '#8a66a0'
-date_:    2016-12-12
-date_end: 2016-12-16
+color: '#007089'
+date_:    2016-12-19
+date_end: 2016-12-22
 time: 9—16:00
 city: Oslo
 event_header:
@@ -49,15 +49,13 @@ caption="Program"
 color=page.color
 no_botrip=true
 content="
-**MONDAY:**    Agile task management and Test Driven Development
+**MONDAY:**    Agile task management and Version Control with Git
 {:.whitestrip}
-**TUESDAY:**   Git
+**TUESDAY:**   Jenkins
 {:.whitestrip}
-**WEDNESDAY:** Jenkins
+**WEDNESDAY:** Docker
 {:.whitestrip}
-**THURSDAY:**  Docker
-{:.whitestrip}
-**FRIDAY:**    Synthesis - bring it all together in running code
+**THURSDAY:**  Synthesis - bring it all together in running code
 {:.whitestrip}
 "
 %}
@@ -70,7 +68,7 @@ color=page.color
 content="
 **MONDAY EVENING:** Teach-the-teacher workshop (Academy staff only)
 {:.whitestrip}
-**FRIDAY EVENING:** Barbecue: Participants meets sponsors - get a job!
+**THURSDAY EVENING:** Barbecue: Participants meets sponsors - get a job!
 {:.whitestrip}
 **EACH DAY AT LUNCH TIME:** one of the sponsors will give a 20 minute pitch to the students; why they are interested in hiring.
 {:.whitestrip}

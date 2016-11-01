@@ -4,8 +4,8 @@ title: CoDe Academy - Copenhagen
 weight: 11
 nav_weight: 10
 brand-txt: >
-    *Co*{: style='color: black; font-style: normal;'}De
-    Aca*de*{: style="color: black; font-style: normal;"}my<!--power-icon-->
+    *Co*{: style='color: #e87e04; font-style: normal;'}De
+    Aca*de*{: style="color: #e87e04; font-style: normal;"}my<!--power-icon-->
 dot-txt: Free <br> 5 Day course
 dot-txt-size: small
 subtitle: >

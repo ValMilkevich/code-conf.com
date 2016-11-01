@@ -17,6 +17,12 @@
     h1,h2,h3{
       color: black;
     }
+    &>h2.marker{
+      color: white;
+      font-size: 3em;
+      margin-bottom: 20px;
+      margin-left: 40px;
+    }
   }
   .text-with-image{
     @extend .col-md-10;
@@ -25,11 +31,19 @@
   .text-no-image{
     @extend .col-md-12;
   }
-
   // n-column include can be used inside the pullout
   .include-columns{
+    width: 95%;
+    margin: auto;
     .image img{
-      width: 80%;
+      width: 90%;
+      margin-bottom: 10px;
+    }
+    h1,h2,h3{
+      margin-bottom: 10px;
+    }
+    p{
+      text-align: center;
     }
   }
 }

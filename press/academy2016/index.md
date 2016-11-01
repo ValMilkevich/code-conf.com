@@ -1,45 +1,53 @@
 ---
 title: CoDe Academy 2016 - press material
+color: black
+layout: default
+css_class: lrmargins
 ---
 
-<br/>
+{% include decorated-picture.html
+no_toprip=true
+background-image="/images/press.jpg"
+brand-txt="CoDe Academy 2016"
+no_toprip=true
+color=page.color %}
 
 
 ## Factsheet
-* [CoDe Academy 2016: Who. What. Where](code_academy_16_factsheet.pdf)
+[CoDe Academy 2016: Who. What. Where](code_academy_16_factsheet.pdf)  
 
 
 ## Press releases
 
-* [CoDe Academy 2016: Press release 1](press_release-1/)
+[CoDe Academy 2016: Press release 1](press_release-1/)  
 
 
 ## Photos
 
-* [CoDe Academy 2016: Headmaster Lars Kruse](lars_kruse.jpg)
-* [CoDe Academy 2016: Auditorium 1](docker_classroom.jpg)
-* [CoDe Academy 2016: Auditorium 2](taking_notes_auditorium.jpg)
-* [CoDe Academy 2016: Auditorium 3](auditorium_audience.jpg)
+[CoDe Academy 2016: Headmaster Lars Kruse](lars_kruse.jpg)  
+[CoDe Academy 2016: Auditorium 1](docker_classroom.jpg)  
+[CoDe Academy 2016: Auditorium 2](taking_notes_auditorium.jpg)  
+[CoDe Academy 2016: Auditorium 3](auditorium_audience.jpg)  
 
 ## Posters and flyers
 
-* [CoDe Academy 2016: Handout flyer - A6, print on both sides](code-academy-2016-flyer.pdf)
-* [CoDe Academy 2016: Poster - A1](code-academy-2016-poster.pdf)
-* [CoDe Academy 2016: Twitter sized graphics](code-academy-2016-twitter.jpg)
-* [CoDe Academy 2016: Front page graphics](code-academy-2016-front.jpg)
-* [CoDe Academy 2016: Sponsor - shout out - PDF](code-academy-sponsor-2016.pdf)
+[CoDe Academy 2016: Handout flyer - A6, print on both sides](code-academy-2016-flyer.pdf)  
+[CoDe Academy 2016: Poster - A1](code-academy-2016-poster.pdf)  
+[CoDe Academy 2016: Twitter sized graphics](code-academy-2016-twitter.jpg)  
+[CoDe Academy 2016: Front page graphics](code-academy-2016-front.jpg)  
+[CoDe Academy 2016: Sponsor - shout out - PDF](code-academy-sponsor-2016.pdf)  
 
 ## Sponsor logos
 
-* [Praqma](/images/sponsors/praqma.png)
-* [GitHub](/images/sponsors/octocat.png)
-* [Napatech](/images/sponsors/napatech.png)
-* [Danfoss](/images/sponsors/danfoss.png)
-* [Danske Commodities](/images/sponsors/dc.png)
+[Praqma](/images/sponsors/praqma.png)  
+[GitHub](/images/sponsors/octocat.png)  
+[Napatech](/images/sponsors/napatech.png)  
+[Danfoss](/images/sponsors/danfoss.png)  
+[Danske Commodities](/images/sponsors/dc.png)  
 
 ## Trondheim
 
-* [CoDe Academy 2016: Poster - A6](code-academy-2016-poster-trd.pdf)
+[CoDe Academy 2016: Poster - A6](code-academy-2016-poster-trd.pdf)  
 
 
 <br/>

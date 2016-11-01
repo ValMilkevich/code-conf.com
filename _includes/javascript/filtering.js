@@ -43,7 +43,6 @@
       //Output `nothing found` html here
       //We show every at once, hide unnecessary with styles.
       {% capture no_events_html %}
-        {% assign event_type_id = event_type[0] %}
         {% include no_events.html %}
       {% endcapture %}
       {% assign no_events_html = no_events_html | strip | strip_newlines | replace: '"':'\"' %}
