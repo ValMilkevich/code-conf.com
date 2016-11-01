@@ -22,6 +22,11 @@ h1{
   &:after { content:"\A"; white-space:pre; }
 }
 
+.orange{
+  color: $orange;
+  font-style: normal;
+}
+
 /*.monospace{*/
   /*font-family: "Roboto Mono", $font-family-base;*/
 /*}*/

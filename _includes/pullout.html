@@ -17,7 +17,7 @@
   {% endif %}
   <div class="text text-{% if include.img %}with{% else %}no{% endif %}-image">
     {% if include.caption %}
-    <h2 class="{{ include.css_classes }}{% unless include.img %} marker{% endunless %}" >{{ include.caption }}</h2>
+    <h2 class="{{ include.css_classes }}{% unless include.img %} marker{% endunless %}" >{{ include.caption | markdownify }}</h2>
     {% endif %}
     {% include assert.html is_true=include.content error="Pullout content can't be empty" %}
     {{ include.content | markdownify }}

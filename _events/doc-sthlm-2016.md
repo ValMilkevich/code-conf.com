@@ -131,35 +131,38 @@ event_path=page.path
 caption="The speakers" %}
 
 
-Agenda
----
-8:30
-Registration & Light Breakfast
-9:00
-Welcome & Announcements
-9:15
+{% include decorated-picture.html
+background-image="/images/agenda.jpg"
+brand-txt="What's on"
+color="black" %}
+
+08:30
+**Registration & Light Breakfast**
+09:00
+**Welcome & Announcements**
+09:15
 **Keynote: Self Healing Systems**, Viktor Farcic, Docker Captain	
 10:00
-Break
+**Break**
 10:15
 **Docker 101**, Andrey Devyatkin, Praqma
 **CI and Dev-Test Environment on Dockers**, Maxim Guenis, IronSource
 11:45
-Lunch
+**Lunch**
 12:45
 **Getting your hands dirty with Windows Containers**, Fredrik Nilsson, Crayon
 **Building and observing services on Docker Swarm clusters. The latest and greatest from Docker, inspired by Netflix.** Gergo Horanyi, Founders
 14:15
-Break
+**Break**
 14:30
 **Building hybrid microservices with Docker**, Michael Hausenblas, Mesosphere
 **Build your own private CaaS**, Joakim Öhman, Elasxt
 16:00
-Break
+**Break**
 16:45
 **Keynote: Containers and the death of the Linux Distribution**, Kelsey Hightower, Google
 17:30
-Socialize & Beers
+**Socialize & Beers**
 {:.agenda-formatter}
 
 
