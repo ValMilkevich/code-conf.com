@@ -19,7 +19,6 @@ color='#e87e04' %}
 {% include event-and-upnext.html %}
 {% include events.html limit=3 offset=1 class="small" %}
 
-
 {% capture event_types %}
 {% include columns.html
 column_number=4
@@ -57,3 +56,6 @@ caption="Get involved!"
 color="#ef6719"
 content=event_types
 %}
+
+
+{% include contact-banners.html %}
