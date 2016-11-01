@@ -21,7 +21,7 @@
     }
     &.botrip:after{
       position: absolute;
-      bottom: 0px;
+      bottom: -1px;
       display: none;
       @media (min-width: $screen-sm-min) {
         display: block;
