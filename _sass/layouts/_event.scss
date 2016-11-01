@@ -13,13 +13,6 @@
       @media (min-width: $screen-sm-min) {
         font-size: 0.9em;
       }
-      &:after{
-        content: "(past)";
-        margin-left: 0.4em;
-        opacity: 0.5;
-        font-size: 0.6em;
-        display: inline-block;
-      }
     }
   }
   &.past.subevent{
@@ -28,5 +21,13 @@
         @extend .subevent-class-graduated;
       }
     }
+  }
+  // We show `(PAST)` mark only on first decorated picture of past events
+  &.past .include-decorated-picture:first-child .brand-tag h1:after{
+        content: "(past)";
+        margin-left: 0.4em;
+        opacity: 0.5;
+        font-size: 0.6em;
+        display: inline-block;
   }
 }
