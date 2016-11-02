@@ -87,8 +87,8 @@ subtitle=page.subtitle
 color=page.color %}
 
 {% include pullout.html
-img="../images/icons/icon-list.png"
-caption="DAY OF CONTAINERS"
+img="/images/icons/icon-list-white.png"
+caption="*DAY OF CONTAINERS*{:.white}"
 color=page.color
 no_botrip=true
 content="
@@ -102,8 +102,8 @@ A full day festival focused on hands-on workshops and demos of the Docker ecosys
 %}
 
 {% include pullout.html
-img="/images/icons/icon-place-big.png"
-caption="Extra"
+img="/images/icons/icon-go-white.png"
+caption="*Extras*{:.white}"
 no_toprip=true
 color=page.color
 no_toprip=true

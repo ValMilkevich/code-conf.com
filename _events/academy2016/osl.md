@@ -44,8 +44,8 @@ time=page.time
 city=page.city %}
 
 {% include pullout.html
-img="/images/icons/icon-list.png"
-caption="Program"
+img="/images/icons/icon-list-white.png"
+caption="*Program*{:.white}"
 color=page.color
 no_botrip=true
 content="
@@ -61,8 +61,8 @@ content="
 %}
 
 {% include pullout.html
-img="/images/icons/icon-place-big.png"
-caption="Extras"
+img="/images/icons/icon-go-white.png"
+caption="*Extras*{:.white}"
 no_toprip=true
 color=page.color
 content="

@@ -8,7 +8,7 @@ brand-txt: >
 dot-txt: Free <br> 5 Day course
 dot-txt-size: small
 subtitle: >
-  ## Learn the essentials of *Co*{: style='color: orange; font-style: normal;'}ntinuous *De*{: style='color: orange; font-style: normal;'}livery<br>
+  ## Learn the essentials of *Co*{:.orange}ntinuous *De*{:.orange}livery<br>
 caption: >
   A Continuous Delivery Academy at the University in Aarhus. Five intense days of workshops teaching all you need to know about CoDe.
 color: '#cf005f'
@@ -46,8 +46,8 @@ time=page.time
 city=page.city %}
 
 {% include pullout.html
-img="/images/icons/icon-list.png"
-caption="Program"
+img="/images/icons/icon-list-white.png"
+caption="*Program*{:.white}"
 color=page.color
 no_botrip=true
 content="
@@ -65,8 +65,8 @@ content="
 %}
 
 {% include pullout.html
-img="/images/icons/icon-place-big.png"
-caption="Extras"
+img="/images/icons/icon-go-white.png"
+caption="*Extras*{:.white}"
 no_toprip=true
 color=page.color
 content="

@@ -123,7 +123,7 @@ This year we want to pivot conference focus and look more into the most challeng
 %}
 
 {% include pullout.html
-img="/images/icons/icon-place-big-white.png"
+img="/images/icons/icon-go-white.png"
 caption="*Extras*{:.orange}"
 no_toprip=true
 color=page.color
