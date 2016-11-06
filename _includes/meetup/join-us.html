@@ -2,9 +2,20 @@
 {% if include.color %}
   {% assign color=include.color %}
 {% endif %}
+
+{% assign header="What are you waiting for?" %}
+{% if include.header %}
+  {% assign header=include.header %}
+{% endif %}
+
+{% assign button-txt="Join us now!" %}
+{% if include.button-txt %}
+  {% assign button-txt=include.button-txt %}
+{% endif %}
+
 <span class="marker" style="font-size:2.7em;">
-	What are you waiting for?
+  {{ header }}
 </span>
 <span>
-[Join us now!]({{ include.link }}){: .button-join .btn-primary style="background: {{ color }}; border-color: {{ color }};" target="_blank"}
+[{{ button-txt }}]({{ include.link }}){: .button-join .btn-primary style="background: {{ color }}; border-color: {{ color }};" target="_blank"}
 </span>
