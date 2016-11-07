@@ -34,7 +34,7 @@ color=page.color %}
 content="
 The members of CoDe Alliance (formerly known as JOSRA) are meeting for the 5th time to be inspired and develop our joint Continuous Delivery roadmaps.
 
-This time Grundfos will be hosting the event, at their facilities in Bjerringbro. Grundfos will demo their Continuous Delivery setup, inspired be the _Software Product Line_ approach and in the afternoon we will run code cafés in parallel breakout sessions where we will conspire about the different projects we have going,
+This time Grundfos will be hosting the event, at their facilities in Bjerringbro. Grundfos will demo their Continuous Delivery setup, inspired by the _Software Product Line_ approach and in the afternoon we will run code cafés in parallel breakout sessions where we will conspire about the different projects we have going.
 
 When we're done in the afternoon, we will transport all of you to Aarhus for a nice meal and cold beers. Please don't rush home, plan to stay over to join the evening program too.
 "
@@ -61,7 +61,7 @@ color="black" %}
 09:30
 **Welcome** Jump start Program for the day with brief introductions from all member participants.
 10:00
-**State Of The Union** A welcome to CoDe Alliance, whats new, what has changed. Status on backlog, pipeline and roadmaps.
+**State Of The Union** A welcome to CoDe Alliance, what's new, what has changed. Status on backlog, pipeline and roadmaps.
 10:45
 **Brain storm topics for afternoon café discussions**
 11:00
@@ -77,7 +77,7 @@ color="black" %}
 17:30
 **End of program @ Grundfos** We go together to Aarhus (we'll arrange joint transportation).
 19:00
-**Meal, drinks and leisure time**  Somewhere in Aarhus - so book you hotel there. It ends when it ends!
+**Meal, drinks and leisure time**  Somewhere in Aarhus - so book your hotel there. It ends when it ends!
 {:.agenda-formatter}
 
 {% include meetup/join-us.html header="Reserve your seat today" button-txt="Register" link=page.button_link color=page.color %}
