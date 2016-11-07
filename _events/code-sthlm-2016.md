@@ -137,8 +137,6 @@ no_toprip=true
 content="
 **Day before conference:** Pre-conference meetup for everyone who can't make it for the main event!
 {: .whitestrip }
-**Day after the conference:** Continuous Delivery mastermind group! Engage with the speakers and your peers into facilitated open space discussion. More details are coming soon - stay tuned!
-{: .whitestrip }
 "
 %}
 
