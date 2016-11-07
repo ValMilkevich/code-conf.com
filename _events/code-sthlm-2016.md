@@ -39,7 +39,7 @@ speakers:
     keynote: true
     title: The greater context - The impact of exponential technologies on business, society, and our human bodies
     abstract: >
-      TBA
+      What does it mean when computer systems get increasingly smarter and technology gets cheaper and accessible to all? What are the broader effects of technological advancement and where is our society heading? And what is technology doing to ourselves?
 
   adamtornhill:
     title: Seven Secrets of Maintainable Codebases
