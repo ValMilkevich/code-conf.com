@@ -1,6 +1,16 @@
 # code-conf.com
 www.code-conf.com
 
+### Testing local changes
+
+Use instruction below to test changes before you push
+
+```
+git clone https://github.com/Praqma/code-conf.com.git
+cd code-conf
+docker run --rm --name gh-pages -v $PWD:/home/jenkins -p 4444:4000 praqma/gh-pages jekyll serve --watch --host=0.0.0.0
+```
+
 Conventions
 ---
 Events are built up from partials. Let's say we have a dir `_events/1/2/3`. We start with a file named `_events/1/2/3/index.*` and then output all the files living in `_events/**/3/*`: only the last folder `3` has impact for filtering.
