@@ -5,8 +5,6 @@ title: CODE-STHLM
 brand-txt: >
     *Co*{: style="color: #e87e04; font-style: normal;"}De-STHLM<!--power-icon-->
 color: '#660066'
-subtitle: >
-  *Co*ntinuous *De*livery and *DevOps* Conference. *Embedded* edition
 caption: >
   CoDe - is the leading, conference in Scandinavia. Now in Stockholm for the second time.
 
@@ -80,6 +78,7 @@ speakers:
     title: The Butler is still young – applying modern Jenkins features to the Embedded area
     abstract: >
       Jenkins is one of the most popular automation servers. It’s being widely used for continuous integration in Embedded projects thanks to its public availability, flexibility and numerous plugins. Actually I consider Jenkins as a generic framework, which can be used for building automation systems after some configuration and integration. In my talk I would like to address common Jenkins use-cases in Embedded projects like integration with development tools, running tests on hardware peripherals and reporting of build results. During the presentation I will focus on new Jenkins features like Pipeline ecosystem and its application in the area: parallelization, failover management, virtualization and build definition libraries.
+
   ebache:
     title: Catch Dancing Ponies - try Approval Testing
     abstract: >
@@ -113,12 +112,19 @@ color=page.color %}
 
 {% include pullout.html
 img="../images/icons/icon-list-white.png"
-caption="*Embedded edition*{:.orange}"
+caption="*Continuous Delivery and DevOps conference. Embedded edition*{:.orange}"
 color=page.color
 no_botrip=true
 content="
 {: .whitestrip }
-This year we want to pivot conference focus and look more into the most challenging area when it comes to Continuous Delivery - embedded software. Join us and be inspired by the industry leaders who already advanced in their journey towards Continuous Delivery! Do you have a story to tell?
+Implementing Continuous Delivery is a journey and might be a quite challenging one. How do you automate your deployments and tests? How do you scale build-test-release pipelines? What are the hurdles on the way to fully automated process of producing release candidates? How DevOps fits in the culture of your organization?<br>
+
+{: .whitestrip }
+We worked hard to gather people from the industry and asked them to tell about difficulties they faced and solutions they applied. As a result, this year program is just great and touches upon test automation, pipelines orchestration, stories from trenches and the latest research in the area of Continuous Delivery and DevOps.<br>
+
+{: .whitestrip }
+Do not let conference focus on implementing Continuous Delivery for embedded software scare you away. We believe that DevOps culture and Continous Delivery principles are not that different from other areas of software development and insights from our speakers as well as networking with attendees and sponsors will give a good hint how to do the next step in your journey towards Continuous Delivery and DevOps.
+Join us and see for yourself!
 "
 %}
 
